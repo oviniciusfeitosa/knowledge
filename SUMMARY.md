@@ -1,5 +1,8 @@
 # Table of contents
 
 * [Initial page](README.md)
-* [Install and configure](install-and-configure.md)
+
+## Linux
+
+* [Gnome Initial Setup](linux/gnome-initial-setup.md)
 
