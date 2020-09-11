@@ -9,7 +9,8 @@ sudo apt install git vim dconf-cli uuid-runtime zsh
 ### ZSH
 
 ```text
-sudo apt install zsh chsh -s $(which zsh)
+sudo apt install zsh 
+chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 source source ~/.zshrc
@@ -32,7 +33,6 @@ sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent softwa
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 sudo apt-get install docker-ce docker-ce-cli containerd.io
-sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker 
 sudo systemctl enable docker
