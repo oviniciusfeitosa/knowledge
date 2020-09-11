@@ -4,6 +4,8 @@
 
 ## Linux
 
+* [Solutions](linux/solutions/README.md)
+  * [Copy local to remote](linux/solutions/copy-local-to-remote.md)
 * [Network](linux/network/README.md)
   * [Custom DNS](linux/network/custom-dns.md)
 * [Gnome](linux/gnome/README.md)
