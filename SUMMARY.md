@@ -17,6 +17,7 @@
 ## Git
 
 * [Solutions](git/solutions-1/README.md)
+  * [Reset Permissions](git/solutions-1/reset-persmissions.md)
   * [Push to remote specific branch](git/solutions-1/push-to-remote-specific-branch.md)
   * [Ignore all files but keep folder](git/solutions-1/ignore-all-files-but-keep-folder.md)
 
