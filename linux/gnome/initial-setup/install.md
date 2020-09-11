@@ -59,6 +59,6 @@ sudo apt install code
 ### PHP
 
 ```text
-sudo apt install -y php7.4 php7.4-xml composer
+sudo apt install -y php7.4 php7.4-xml composer php7.4-mbstring
 ```
 

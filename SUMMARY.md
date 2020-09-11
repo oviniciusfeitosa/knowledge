@@ -7,6 +7,7 @@
 * [Network](linux/network/README.md)
   * [Custom DNS](linux/network/custom-dns.md)
 * [Gnome](linux/gnome/README.md)
+  * [Restart Gnome Shell](linux/gnome/restart-gnome-shell.md)
   * [Initial Setup](linux/gnome/initial-setup/README.md)
     * [Install](linux/gnome/initial-setup/install.md)
     * [Theming](linux/gnome/initial-setup/theming.md)
@@ -19,6 +20,8 @@
 
 ## PHP
 
+* [Install](php/install/README.md)
+  * [Version 7.4](php/install/version-7.4.md)
 * [Wordpress](php/wordpress/README.md)
   * [Docker](php/wordpress/docker.md)
 
