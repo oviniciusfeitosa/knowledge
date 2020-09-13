@@ -26,3 +26,11 @@
 
 ![](../../.gitbook/assets/image%20%286%29.png)
 
+### [Volume Mixer](https://extensions.gnome.org/extension/858/volume-mixer/)
+
+![](../../.gitbook/assets/image%20%287%29.png)
+
+### [BackSlide](https://extensions.gnome.org/extension/543/backslide/)
+
+![](../../.gitbook/assets/image%20%288%29.png)
+
