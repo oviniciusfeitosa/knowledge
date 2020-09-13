@@ -5,14 +5,14 @@
 ## Linux
 
 * [Solutions](linux/solutions/README.md)
+  * [Restart Gnome Shell](linux/solutions/restart-gnome-shell.md)
   * [Files from cloud](linux/solutions/files-from-cloud.md)
   * [Copy local to remote](linux/solutions/copy-local-to-remote.md)
 * [Network](linux/network/README.md)
   * [Custom DNS](linux/network/custom-dns.md)
 * [Gnome](linux/gnome/README.md)
-  * [Restart Gnome Shell](linux/gnome/restart-gnome-shell.md)
   * [Initial Setup](linux/gnome/initial-setup.md)
-  * [Theming](linux/gnome/theming.md)
+  * [Extensions](linux/gnome/theming.md)
 
 ## Git
 
