@@ -23,10 +23,8 @@
 
 ## PHP
 
-* [Install](php/install/README.md)
-  * [Version 7.4](php/install/version-7.4.md)
-* [Wordpress](php/wordpress/README.md)
-  * [Docker](php/wordpress/docker.md)
+* [Version 7.4](php/version-7.4.md)
+* [Wordpress](php/wordpress.md)
 
 ## Media
 
