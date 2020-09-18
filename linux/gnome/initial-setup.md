@@ -3,7 +3,7 @@
 ## Basic Stuff
 
 ```text
-sudo apt install git vim dconf-cli uuid-runtime pulseaudio
+sudo apt install git vim dconf-cli uuid-runtime pulseaudio blueman
 ```
 
 ### ZSH
