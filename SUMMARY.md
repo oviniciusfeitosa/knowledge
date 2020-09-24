@@ -6,7 +6,7 @@
 
 * [Solutions](linux/solutions/README.md)
   * [Restart Gnome Shell](linux/solutions/restart-gnome-shell.md)
-  * [Files from cloud](linux/solutions/files-from-cloud.md)
+  * [Download from cloud](linux/solutions/download-from-cloud.md)
   * [Copy local to remote](linux/solutions/copy-local-to-remote.md)
   * [Custom DNS](linux/solutions/custom-dns.md)
 * [Gnome](linux/gnome/README.md)

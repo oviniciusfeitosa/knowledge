@@ -1,4 +1,4 @@
-# Files from cloud
+# Download from cloud
 
 ## How to download files from cloud?
 
