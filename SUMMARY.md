@@ -17,10 +17,6 @@
 
 * [Solutions](git/solutions.md)
 
-## Media
-
-* [Wallpaper](media/wallpaper.md)
-
 ## CI / CD
 
 * [Cloud Platforms](ci-cd/cloud-platforms.md)
@@ -38,4 +34,9 @@
 ## Tools
 
 * [VSCode](tools/vscode.md)
+
+## Utilities
+
+* [Freelancer](utilities/freelancer.md)
+* [Wallpaper](utilities/wallpaper.md)
 
