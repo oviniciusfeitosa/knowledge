@@ -7,7 +7,7 @@
 * [Solutions](linux/solutions/README.md)
   * [Restart Gnome Shell](linux/solutions/restart-gnome-shell.md)
   * [Download from cloud](linux/solutions/download-from-cloud.md)
-  * [Copy local to remote](linux/solutions/copy-local-to-remote.md)
+  * [Upload to Cloud](linux/solutions/upload-to-cloud.md)
   * [Custom DNS](linux/solutions/custom-dns.md)
 * [Gnome](linux/gnome/README.md)
   * [Initial Setup](linux/gnome/initial-setup.md)
@@ -17,19 +17,16 @@
 
 * [Solutions](git/solutions.md)
 
-## CI / CD
+## Programming / CI / CD <a id="programming-language-ci-cd"></a>
 
-* [Cloud Platforms](ci-cd/cloud-platforms.md)
-* [Docker](ci-cd/docker.md)
-
-## Programming Language
-
-* [Javascript](programming-language/javascript/README.md)
-  * [Vue](programming-language/javascript/vue.md)
-* [Python](programming-language/python.md)
-* [PHP](programming-language/php/README.md)
-  * [Wordpress](programming-language/php/wordpress.md)
-  * [Laravel](programming-language/php/laravel.md)
+* [Docker](programming-language-ci-cd/docker/README.md)
+  * [Cloud Platforms](programming-language-ci-cd/docker/cloud-platforms.md)
+* [Javascript](programming-language-ci-cd/javascript/README.md)
+  * [Vue](programming-language-ci-cd/javascript/vue.md)
+* [Python](programming-language-ci-cd/python.md)
+* [PHP](programming-language-ci-cd/php/README.md)
+  * [Wordpress](programming-language-ci-cd/php/wordpress.md)
+  * [Laravel](programming-language-ci-cd/php/laravel.md)
 
 ## Tools
 
