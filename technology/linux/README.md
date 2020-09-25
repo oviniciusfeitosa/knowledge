@@ -85,3 +85,10 @@ sudo vim /etc/resolvconf/resolv.conf.d/head
 sudo service resolvconf restart
 ```
 
+## Get current ip from shell
+
+```bash
+remoteHost=$(dig +short myip.opendns.com @resolver1.opendns.com)
+echo $remoteHost
+```
+
