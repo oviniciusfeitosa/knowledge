@@ -1,4 +1,6 @@
 # Cloud Platforms
 
-### [Vercel](https://vercel.com/docs)
+### Recommended List
+
+* \*\*\*\*[**Vercel**](https://vercel.com/docs)\*\*\*\*
 

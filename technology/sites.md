@@ -1,6 +1,6 @@
-# Freelancer
+# Sites
 
-## Sites
+## Freelancer
 
 List of sites with opportunities to work as a freelancer
 
@@ -20,4 +20,8 @@ List of sites with opportunities to work as a freelancer
 * [https://www.odesk.com/o/home](https://www.odesk.com/o/home)
 * [https://www.workana.com](https://www.workana.com/)
 * [http://www.freelance.com/en/](http://www.freelance.com/en/)
+
+## Wallpapers
+
+* [Wallhaven](https://wallhaven.cc/)
 
