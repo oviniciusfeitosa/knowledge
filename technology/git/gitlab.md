@@ -23,6 +23,12 @@ sudo gitlab-runner verify
 
 ```
 
+### Add to Docker Group
+
+```text
+sudo gpasswd -a gitlab-runner docker
+```
+
 ### Registrar Runner
 
 ```text
