@@ -15,6 +15,7 @@
 * [PHP](technology/php/README.md)
   * [Wordpress](technology/php/wordpress.md)
   * [Laravel](technology/php/laravel.md)
+* [Shell](technology/shell.md)
 * [Git](technology/git/README.md)
   * [Gitlab](technology/git/gitlab.md)
 * [VSCode](technology/vscode.md)
