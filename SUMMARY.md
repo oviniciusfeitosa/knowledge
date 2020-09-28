@@ -23,5 +23,3 @@
 * [VSCode](technology/vscode.md)
 * [Sites](technology/sites.md)
 
-## Utilities
-

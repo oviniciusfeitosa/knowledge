@@ -15,7 +15,7 @@ sudo apt install zsh
 chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-source source ~/.zshrc
+source ~/.zshrc
 ```
 
 ### Nodejs 14.x + Yarn
