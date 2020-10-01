@@ -92,3 +92,13 @@ remoteHost=$(dig +short myip.opendns.com @resolver1.opendns.com)
 echo $remoteHost
 ```
 
+## Stream audio
+
+```bash
+sudo apt install -y pulseaudio pavucontrol
+```
+
+* `Alt + F2`  and type `pavucontrol`
+* Select `Recording` tab
+* Change to `Internal audio monitor`
+
