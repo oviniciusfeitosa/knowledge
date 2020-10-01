@@ -5,8 +5,7 @@
 ## Technology
 
 * [Linux](technology/linux/README.md)
-  * [Gnome](technology/linux/gnome/README.md)
-    * [Shell Extensions](technology/linux/gnome/shell-extensions.md)
+  * [Gnome](technology/linux/gnome.md)
 * [Docker](technology/docker/README.md)
   * [Cloud Platforms](technology/docker/cloud-platforms.md)
 * [Javascript](technology/javascript/README.md)
