@@ -6,9 +6,21 @@ When you install laravel with this command `composer global require laravel/inst
 
 ### Solution
 
-* Add `PATH="$HOME/.config/composer/vendor/bin:$PATH"` at end of `~/.zshrc`
-* `source ~/.zshrc`
-* type `laravel` 
+* Add the code below at the end of `~/.zshrc`
+
+```text
+PATH="$HOME/.config/composer/vendor/bin:$PATH"
+```
+
+* Restart your ZSH
+
+```text
+source ~/.zshrc
+
+# Then type Laravel
+
+laravel
+```
 
 Be happy 👌
 
