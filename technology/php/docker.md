@@ -22,7 +22,69 @@ RUN docker-php-ext-configure memcached && docker-php-ext-install memcached \
 RUN a2enmod rewrite
 ```
 
+## Docker Compose + Memcached
 
+{% code title="docker-compose.yml" %}
+```bash
+version: '2'
+volumes:
+  wordpress-db:
+  wordpress-data:
+
+services:
+  mariadb:
+    image: amd64/mariadb:10.2
+    environment:
+      MYSQL_DATABASE: wordpress
+      MYSQL_PASSWORD: Chang3M3
+      MYSQL_ROOT_PASSWORD: Change3M34ls0
+      MYSQL_USER: wordpress
+    volumes:
+    - wordpress-db:/var/lib/mysql
+
+  memcached:
+    image: amd64/memcached:1.5
+
+  nginx:
+    build: nginx/
+    image: fjudith/wordpress:nginx
+    ports:
+    - 32716:443/tcp
+    - 32715:80/tcp
+    links:
+    - memcached:memcached
+    - wordpress:wordpress
+    volumes:
+    - wordpress-data:/var/www/html:rw
+
+  wordpress:
+    build: php7-fpm/
+    image: fjudith/wordpress:php7-fpm
+    environment:
+      WORDPRESS_DB_HOST: mysql
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: Chang3M3
+    links:
+    - memcached:memcached
+    - mariadb:mysql
+    volumes:
+    - wordpress-data:/var/www/html
+
+  cli:
+    build: cli/
+    image: fjudith/wordpress:cli
+    stdin_open: true
+    tty: true
+    depends_on:
+      - mariadb
+      - wordpress
+    links:
+    - mariadb:mysql
+    volumes:
+    - wordpress-data:/var/www/html
+```
+{% endcode %}
 
 
 

@@ -44,3 +44,24 @@ When you want to ignore files but want to keep a directory you can add a **`.git
 git branch --show-current
 ```
 
+## Clear Entire Git Cache
+
+{% hint style="info" %}
+To clear your entire Git cache, use the “git rm” command with the “-r” option for recursive
+{% endhint %}
+
+```bash
+ git rm -r --cached .
+```
+
+{% hint style="info" %}
+When all files are removed from the index, you can add the regular files back \(the one you did not want to ignore\)
+{% endhint %}
+
+```bash
+git add .
+$ git commit -am 'Removed files from the index (now ignored)'
+```
+
+
+
