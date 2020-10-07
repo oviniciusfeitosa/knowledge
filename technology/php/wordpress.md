@@ -19,11 +19,35 @@ bashcompinit
 source /home/$USER/wp-completion.bash
 ```
 
+**Or execute the commands below:**
+
+```bash
+echo "autoload bashcompinit" >> ~/.zshrc 
+echo "bashcompinit" >> ~/.zshrc 
+echo "source /home/$USER/wp-completion.bash" >> ~/.zshrc 
+```
+
 Then reload your ZSH
 
 ```bash
 source ~/.zshrc
 ```
+
+#### Docker Container + Bash auto-**completion**
+
+{% code title="Dockerfile" %}
+```bash
+...
+
+RUN wget https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+RUN chmod +x wp-cli.phar
+RUN mv wp-cli.phar /usr/local/bin/wp
+RUN echo "source /home/$USER/wp-completion.bash" >> ~/.bashrc 
+RUN source ~/.bashrc
+
+...
+```
+{% endcode %}
 
 ### Commands
 
@@ -40,9 +64,9 @@ source ~/.zshrc
   set          Sets a value to the object cache, regardless of whether it already exists.
   type         Attempts to determine which object cache is being used.
   
-  # Example
+# Example
   
-  wp cache flush
+wp cache flush
 ```
 
 #### User
