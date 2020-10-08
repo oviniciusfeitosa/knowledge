@@ -43,3 +43,9 @@ else
 fi
 ```
 
+## Show ports in use
+
+```text
+sudo lsof -i -P -n | grep LISTEN
+```
+
