@@ -70,3 +70,9 @@ git config credential.helper store
 git config --global credential.helper 'cache --timeout 7200'
 ```
 
+## Stash including untracked files
+
+```bash
+git stash --include-untracked
+```
+
