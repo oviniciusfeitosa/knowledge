@@ -1,6 +1,6 @@
 # PHP
 
-### Install PHP 7.4 - Ubuntu below 20.04
+## Install PHP 7.4 - Ubuntu below 20.04
 
 ```text
 sudo apt-get update
