@@ -1,6 +1,6 @@
 # Docker
 
-### Remove all non-used docker containers
+## Remove all non-used docker containers
 
 ```text
 docker system prune
@@ -53,5 +53,9 @@ volumes:
   dhparam:
 ```
 
+## Show real-time logs from initialized container
 
+```text
+docker logs -f container-name
+```
 
