@@ -26,7 +26,7 @@ if [ "$(ls -A /tmp)" ]; then
   echo "Exists and is not Empty"
 fi
 
-#or
+# Or using `-d`
 
 if ! [ -d "/var/www/html" ] || ! [ -d "/var/www/x-html" ]; then
     echo "Folder not found here - ;("
