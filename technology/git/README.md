@@ -63,5 +63,10 @@ git add .
 $ git commit -am 'Removed files from the index (now ignored)'
 ```
 
+## Cache user and password
 
+```bash
+git config credential.helper store
+git config --global credential.helper 'cache --timeout 7200'
+```
 
