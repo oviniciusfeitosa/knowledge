@@ -17,7 +17,7 @@
   * [Docker](technology/php/docker.md)
 * [Java](technology/java/README.md)
   * [Spring Boot](technology/java/spring-boot.md)
-* [Shell](technology/shell.md)
+* [Shell Script](technology/shell-script.md)
 * [Git](technology/git/README.md)
   * [Gitlab](technology/git/gitlab.md)
 * [VSCode](technology/vscode.md)

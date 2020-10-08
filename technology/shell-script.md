@@ -1,6 +1,6 @@
-# Shell
+# Shell Script
 
-## Check if file exists
+## File exists
 
 ### With "if" statement
 
@@ -19,5 +19,21 @@ fi
 [ -f /etc/resolv.conf ] && echo "File exists!"
 ```
 
+## Folder exists
 
+```text
+if [ "$(ls -A /tmp)" ]; then
+  echo "Exists and is not Empty"
+fi
+```
+
+### Or not exists
+
+```text
+if ! [ "$(ls -A /tmp322)" ]; then
+  echo "Empty"
+else
+  echo "Not Empty"
+fi
+```
 
