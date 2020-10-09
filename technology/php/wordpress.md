@@ -78,7 +78,7 @@ wp user create bob bob@example.com --role=author
 ### Password: b58moeu@9&Nzg!#FKn1pROU%
 
 # Create User With password
-wp user create bob bob@example.com --role=administrator --user_pass=marypass
+wp user create admin admin@admin.admin --role=administrator --user_pass=Abcd123456
 
 # Delete User
 wp user delete 123
