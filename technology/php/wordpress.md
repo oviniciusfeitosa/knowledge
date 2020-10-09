@@ -89,6 +89,24 @@ wp user delete 123
 wp user update 123 --display_name=Mary --user_pass=marypass
 ```
 
+#### Search and Replace
+
+```bash
+# Turn your production multisite database into a local dev database
+$ wp search-replace --url=example.com example.com example.test 'wp_*options' wp_blogs
+
+# Search/replace to a SQL file without transforming the database
+$ wp search-replace foo bar --export=database.sql
+
+# Bash script: Search/replace production to development url (multisite compatible)
+#!/bin/bash
+if $(wp --url=http://example.com core is-installed --network); then
+    wp search-replace --url=http://example.com 'http://example.com' 'http://example.test' --recurse-objects --network --skip-columns=guid --skip-tables=wp_users
+else
+    wp search-replace 'http://example.com' 'http://example.test' --recurse-objects --skip-columns=guid --skip-tables=wp_users
+fi
+```
+
 ## Docker
 
 Using the repo [vinnyfs89/docker-wordpress](https://github.com/vinnyfs89/docker-wordpress) as reference. Execute the command below to get your wordpress application working.
