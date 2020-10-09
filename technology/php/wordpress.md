@@ -47,9 +47,7 @@ RUN mv wp-cli.phar /usr/local/bin/wp
 ```
 {% endcode %}
 
-### Commands
-
-#### Cache
+### Cache
 
 ```bash
   add          Adds a value to the object cache.
@@ -67,7 +65,7 @@ RUN mv wp-cli.phar /usr/local/bin/wp
 wp cache flush
 ```
 
-#### User
+### User
 
 ```text
 # List users
@@ -89,14 +87,13 @@ wp user delete 123
 wp user update 123 --display_name=Mary --user_pass=marypass
 ```
 
-#### Search and Replace
+### Search and Replace
 
 ```bash
 # Turn your production multisite database into a local dev database
-$ wp search-replace --url=example.com example.com example.test 'wp_*options' wp_blogs
+$ wp search-replace example.com example.test 'wp_*options' wp_blogs
 
-# Search/replace to a SQL file without transforming the database
-$ wp search-replace foo bar --export=database.sql
+$ wp --allow-root search-replace https://local http://local 'wp_*options'
 
 # Bash script: Search/replace production to development url (multisite compatible)
 #!/bin/bash
