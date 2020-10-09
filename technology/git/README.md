@@ -76,3 +76,9 @@ git config --global credential.helper 'cache --timeout 7200'
 git stash --include-untracked
 ```
 
+## Revert files from specific hash commit
+
+```bash
+git checkout 3df73866bef5d560ef2e5s59b6deaa18001 -- wp-content/uploads/2011 wp-content/uploads/2012 
+```
+
