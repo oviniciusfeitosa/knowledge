@@ -123,3 +123,9 @@ sudo systemctl restart ssh
 # or sudo /etc/init.d/ssh restart
 ```
 
+## Search inside files recursively 
+
+```text
+grep -rli "my-name"
+```
+
