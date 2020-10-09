@@ -74,6 +74,9 @@ wp user list --field=ID
 # Create User
 wp user create bob bob@example.com --role=author
 
+# With root privileges
+root@3aa3b756b002:/var/www/html# wp --alow-root user create admin admin@admin.admin --role=administrator --user_pass=Abcd123456
+
 ### Success: Created user 12.
 ### Password: b58moeu@9&Nzg!#FKn1pROU%
 
