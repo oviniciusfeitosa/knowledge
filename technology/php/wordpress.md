@@ -74,11 +74,11 @@ wp user list --field=ID
 # Create User
 wp user create bob bob@example.com --role=author
 
-# With root privileges
-root@3aa3b756b002:/var/www/html# wp --alow-root user create admin admin@admin.admin --role=administrator --user_pass=Abcd123456
-
 ### Success: Created user 12.
 ### Password: b58moeu@9&Nzg!#FKn1pROU%
+
+# With root privileges
+wp user --allow-root create admin admin@admin.admin --role=administrator --user_pass=Abcd123456
 
 # Create User With password
 wp user create admin admin@admin.admin --role=administrator --user_pass=Abcd123456
@@ -90,7 +90,7 @@ wp user delete 123
 wp user update 123 --display_name=Mary --user_pass=marypass
 ```
 
-### Search and Replace
+### Search and replace
 
 ```bash
 # Turn your production multisite database into a local dev database
@@ -107,9 +107,21 @@ else
 fi
 ```
 
+### Restore database
+
+```bash
+wp db import my_wordpress_db.sql
+```
+
+### Deactivate plugin
+
+```bash
+wp plugin deactivate better-wp-security --allow-root
+```
+
 ## Docker
 
-Using the repo [vinnyfs89/docker-wordpress](https://github.com/vinnyfs89/docker-wordpress) as reference. Execute the command below to get your wordpress application working.
+Using the repo [vinnyfs89/docker-wordpress](https://github.com/vinnyfs89/docker-wordpress) as reference. Execute the command below to get your Wordpress application working.
 
 ```bash
 docker-compose up
@@ -119,7 +131,7 @@ docker-compose up
 The application will use 2 services to handle containers. The first to turn on database and second to application.
 {% endhint %}
 
-### WordPress: Too Many Redirects Issue when NGINX reverse proxy to Apache
+## WordPress: Too many redirects issue when NGINX reverse proxy to apache
 
 Add this in your _wp-config.php:_
 
