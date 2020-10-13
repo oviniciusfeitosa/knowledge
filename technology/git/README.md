@@ -76,6 +76,12 @@ git config --global credential.helper 'cache --timeout 7200'
 git stash --include-untracked
 ```
 
+## Stash only file or folder
+
+```bash
+git stash push path/to/file
+```
+
 ## Revert files from specific hash commit
 
 ```bash

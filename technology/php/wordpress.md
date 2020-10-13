@@ -113,6 +113,12 @@ fi
 wp db import my_wordpress_db.sql
 ```
 
+### Backu database
+
+```bash
+wp db export my_wordpress_db.sql
+```
+
 ### Deactivate plugin
 
 ```bash
