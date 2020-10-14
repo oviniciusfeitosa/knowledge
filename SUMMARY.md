@@ -5,6 +5,7 @@
 ## Technology
 
 * [Linux](technology/linux/README.md)
+  * [Shell Script](technology/linux/shell-script.md)
   * [Gnome](technology/linux/gnome.md)
 * [Docker](technology/docker/README.md)
   * [Cloud Platforms](technology/docker/cloud-platforms.md)
@@ -17,7 +18,6 @@
   * [Docker](technology/php/docker.md)
 * [Java](technology/java/README.md)
   * [Spring Boot](technology/java/spring-boot.md)
-* [Shell Script](technology/shell-script.md)
 * [Git](technology/git/README.md)
   * [Gitlab](technology/git/gitlab.md)
 * [VSCode](technology/vscode.md)

@@ -43,6 +43,12 @@ else
 fi
 ```
 
+## Find differences between foldes
+
+```text
+diff -q directory-1/ directory-2/
+```
+
 ## Show ports in use
 
 ```text
