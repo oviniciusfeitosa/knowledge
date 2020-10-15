@@ -113,7 +113,7 @@ fi
 wp db import my_wordpress_db.sql
 ```
 
-### Backu database
+### Backup database
 
 ```bash
 wp db export my_wordpress_db.sql
