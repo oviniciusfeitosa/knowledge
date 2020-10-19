@@ -8,6 +8,7 @@
   * [Shell Script](technology/linux/shell-script.md)
   * [Gnome](technology/linux/gnome.md)
 * [Docker](technology/docker/README.md)
+  * [Docker Compose](technology/docker/docker-compose.md)
   * [Cloud Platforms](technology/docker/cloud-platforms.md)
 * [Javascript](technology/javascript/README.md)
   * [Vue](technology/javascript/vue.md)
