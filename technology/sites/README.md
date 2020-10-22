@@ -24,4 +24,5 @@ List of sites with opportunities to work as a freelancer
 ## Wallpapers
 
 * [Wallhaven](https://wallhaven.cc/)
+* [Dracula Wallpaper](https://raw.githubusercontent.com/dracula/wallpaper/master/base.png)
 

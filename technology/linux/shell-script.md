@@ -57,7 +57,7 @@ sudo lsof -i -P -n | grep LISTEN
 
 ### Create alias
 
-Insert the line below to your `~/.zsh.rc`
+Insert the line below to your `~/.zsh.rc`  or  `~/.profile`
 
 ```text
 alias ports="sudo lsof -i -P -n | grep LISTEN"

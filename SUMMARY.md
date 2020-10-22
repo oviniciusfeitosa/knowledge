@@ -6,7 +6,10 @@
 
 * [Linux](technology/linux/README.md)
   * [Shell Script](technology/linux/shell-script.md)
-  * [Gnome](technology/linux/gnome.md)
+  * [Gnome](technology/linux/gnome/README.md)
+    * [Terminal](technology/linux/gnome/terminal.md)
+    * [GTK](technology/linux/gnome/gtk.md)
+  * [ZSH](technology/linux/zsh.md)
 * [Docker](technology/docker/README.md)
   * [Docker Compose](technology/docker/docker-compose.md)
   * [Cloud Platforms](technology/docker/cloud-platforms.md)
@@ -27,4 +30,5 @@
 * [Database](technology/database/README.md)
   * [SQLServer](technology/database/sqlserver.md)
   * [Postgres](technology/database/postgres.md)
+* [NodeJS](technology/nodejs.md)
 
