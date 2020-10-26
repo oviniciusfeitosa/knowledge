@@ -13,11 +13,17 @@ source ~/.zshrc
 ## Dracula theme
 
 ```text
-git clone https://github.com/dracula/zsh ~/.oh-my-zsh/themes/dracula.zsh-theme
+git clone https://github.com/dracula/zsh ~/.oh-my-zsh/themes/dracula
+ln -s $ZSH/themes/dracula ~/.oh-my-zsh/themes/dracula.zsh-theme
 vim ~/.zshrc
+```
+
+## Plugins
 
 
-    ...
+
+```text
+...
     
     plugins=(
       git
@@ -25,6 +31,6 @@ vim ~/.zshrc
       zsh-autosuggestions
     )
     
-    ...
+...
 ```
 

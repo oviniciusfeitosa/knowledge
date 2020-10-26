@@ -20,7 +20,7 @@ gnome-tweaks
 
 ### [Docker Compose](../../docker/docker-compose.md#install-docker-compose)
 
-### [VSCode](../../vscode.md#install-vscode)
+### [VSCode](../../tools/vscode.md#install-vscode)
 
 ### [PHP](../../php/#install-php-7-4-ubuntu-below-20-04)
 
