@@ -32,4 +32,5 @@
   * [Postgres](technology/database/postgres.md)
 * [Tools](technology/tools/README.md)
   * [VSCode](technology/tools/vscode.md)
+  * [Chrome](technology/tools/chrome.md)
 
