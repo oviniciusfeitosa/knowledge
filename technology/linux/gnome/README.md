@@ -14,7 +14,7 @@ gnome-tweaks
 
 ### [ZSH](../zsh.md#install-zsh)
 
-### [Nodejs 14.x + Yarn](../../nodejs.md#install-nodejs-14-x-yarn)
+### [Nodejs 14.x + Yarn](../../programming-languages/javascript/nodejs.md#install-nodejs-14-x-yarn)
 
 ### [Docker](../../docker/#install-docker-community-edition-docker-ce)
 
@@ -22,7 +22,7 @@ gnome-tweaks
 
 ### [VSCode](../../tools/vscode.md#install-vscode)
 
-### [PHP](../../php/#install-php-7-4-ubuntu-below-20-04)
+### [PHP](../../programming-languages/php/#install-php-7-4-ubuntu-below-20-04)
 
 ## Theming
 
