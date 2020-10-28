@@ -14,6 +14,7 @@
       * [Docker](technology/programming-languages/php/wordpress/docker.md)
       * [WP CLI](technology/programming-languages/php/wordpress/wp-cli.md)
       * [Known Issues](technology/programming-languages/php/wordpress/known-issues.md)
+      * [WooComerce](technology/programming-languages/php/wordpress/woocomerce.md)
     * [Laravel](technology/programming-languages/php/laravel.md)
     * [Docker](technology/programming-languages/php/docker.md)
   * [Python](technology/programming-languages/python.md)
