@@ -5,6 +5,7 @@
 * \*\*\*\*[**PagSeguro integration**](https://www.youtube.com/watch?v=jjm-XMYSAmY&ab_channel=aEscoladeSites&t=0s)\*\*\*\*
 * \*\*\*\*[**Best 10 Plugins**](https://www.hostinger.com.br/tutoriais/melhores-plugins-para-woocommerce/)\*\*\*\*
 * \*\*\*\*[**Free themes**](https://athemes.com/collections/free-woocommerce-wordpress-themes/)\*\*\*\*
+* \*\*\*\*[**App maker**](https://br.wordpress.org/plugins/appmaker-woocommerce-mobile-app-manager/)\*\*\*\*
 
 
 
