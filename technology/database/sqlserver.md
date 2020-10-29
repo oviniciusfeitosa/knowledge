@@ -41,7 +41,7 @@ sqlcmd -S 127.0.0.1 -U SA -Q "BACKUP DATABASE demodatabase TO DISK = N'/home/vin
 ### DBeaver
 
 ```text
-USE master RESTORE DATABASE api_intercoop FROM 
+USE master RESTORE DATABASE database_demo FROM 
 DISK = N'/home/vinicius/Downloads/database_bkp.bak' WITH  FILE = 1, NOUNLOAD, REPLACE, STATS = 10
 ```
 
