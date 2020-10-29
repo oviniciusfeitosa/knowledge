@@ -6,6 +6,8 @@
 * \*\*\*\*[**Best 10 Plugins**](https://www.hostinger.com.br/tutoriais/melhores-plugins-para-woocommerce/)\*\*\*\*
 * \*\*\*\*[**Free themes**](https://athemes.com/collections/free-woocommerce-wordpress-themes/)\*\*\*\*
 * \*\*\*\*[**App maker**](https://br.wordpress.org/plugins/appmaker-woocommerce-mobile-app-manager/)\*\*\*\*
+* \*\*\*\*[**Favorites**](https://wordpress.org/plugins/favorites/)\*\*\*\*
+* \*\*\*\*[**Wish list**](https://wordpress.org/plugins/yith-woocommerce-wishlist/#description)\*\*\*\*
 
 
 
