@@ -139,3 +139,9 @@ df -h
 df –h /dev/sda2
 ```
 
+## Show size of folders
+
+```text
+sudo du -shc /var/*
+```
+
