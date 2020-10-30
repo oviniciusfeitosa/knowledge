@@ -127,5 +127,15 @@ sudo systemctl restart ssh
 grep -rli "my-name"
 ```
 
+## Display Usage in Megabytes and Gigabytes
 
+```text
+df -h
+```
+
+### Display a Specific File System
+
+```text
+df –h /dev/sda2
+```
 
