@@ -145,3 +145,15 @@ df –h /dev/sda2
 sudo du -shc /var/*
 ```
 
+## Empty trash
+
+```text
+rm -rf ~/.local/share/Trash/*
+```
+
+## Search and replace inside the file
+
+```text
+sed -i 's/SEARCH_REGEX/REPLACEMENT/g' INPUTFILE
+```
+

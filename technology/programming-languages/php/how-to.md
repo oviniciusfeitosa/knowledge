@@ -20,5 +20,10 @@ define('DB_HOST', getenv('MY_DB_HOST') ?: 'my-default-database-name' );
 $host = getenv('MY_DB_HOST') ?: 'my-default-database-name';
 ```
 
+## PHP Built-in Server
 
+```text
+# Against current folder
+php -S localhost:8888 -t .
+```
 
