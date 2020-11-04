@@ -11,6 +11,7 @@
     * [Terminal](technology/linux/gnome/terminal.md)
     * [GTK](technology/linux/gnome/gtk.md)
   * [ZSH](technology/linux/zsh.md)
+  * [Vim](technology/linux/vim.md)
 * [Programming Languages](technology/programming-languages/README.md)
   * [Java](technology/programming-languages/java/README.md)
     * [Spring Boot](technology/programming-languages/java/spring-boot.md)

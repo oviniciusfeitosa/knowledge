@@ -157,3 +157,15 @@ rm -rf ~/.local/share/Trash/*
 sed -i 's/SEARCH_REGEX/REPLACEMENT/g' INPUTFILE
 ```
 
+## Increase SSH connection
+
+```text
+$ vim ~/.ssh/config
+
+# Content below
+Host *
+  ServerAliveInterval 240
+```
+
+## 
+
