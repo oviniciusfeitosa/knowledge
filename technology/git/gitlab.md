@@ -40,10 +40,31 @@ sudo gitlab-runner register
 ```text
 # Check your service
 systemctl list-units | grep gitlab
-
 systemctl enable gitlab-runner.service
 systemctl start gitlab-runner.service
 ```
 
+## GitlabCI
 
+### Multiline script
+
+```text
+script:
+  - |
+    echo \
+        a \
+        b \
+        c
+```
+
+**or**
+
+```text
+script:
+  - >
+    echo
+        a
+        b
+        c
+```
 
