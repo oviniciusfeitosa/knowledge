@@ -32,3 +32,9 @@ docker logs -f container-name
 docker-compose logs -f service-name
 ```
 
+## Size of container
+
+```text
+docker ps --size
+```
+

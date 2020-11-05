@@ -43,6 +43,7 @@
   * [VSCode](technology/tools/vscode.md)
   * [Chrome](technology/tools/chrome.md)
 * [Sites](technology/sites/README.md)
+  * [Icons](technology/sites/icons.md)
   * [Wallpapers](technology/sites/wallpapers.md)
   * [Freelancer](technology/sites/freelancer.md)
   * [Converters](technology/sites/converters.md)

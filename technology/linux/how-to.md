@@ -71,15 +71,24 @@ scp -r * remoteuser@remoteserver:/remote/folder/
 
 #### References: [Simplified Guide](https://www.simplified.guide/ssh/copy-file)
 
-## Custom DNS
+## Custom DNS servers for /etc/resolv.conf
 
 To define a custom DNS follow this commands bellow
 
 ```bash
 sudo apt-get install resolvconf
-sudo vim /etc/resolvconf/resolv.conf.d/head
-  nameserver 8.8.8.8
-  nameserver 8.8.4.4
+```
+
+Put the content below inside the file**`/etc/resolvconf/resolv.conf.d/head`**
+
+{% code title="/etc/resolvconf/resolv.conf.d/head" %}
+```bash
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+```
+{% endcode %}
+
+```bash
 sudo service resolvconf restart
 ```
 
