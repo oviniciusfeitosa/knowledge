@@ -63,3 +63,21 @@ Insert the line below to your `~/.zsh.rc`  or  `~/.profile`
 alias ports="sudo lsof -i -P -n | grep LISTEN"
 ```
 
+## Cheatsheet of multiple commands
+
+```text
+A; B    # Run A and then B, regardless of success of A
+A && B  # Run B if and only if A succeeded
+A || B  # Run B if and only if A failed
+A &     # Run A in background.
+```
+
+Example
+
+```text
+mv tmp.file tmp.file2 ; echo 'aa'
+mv tmp.file tmp.file2 && echo 'aa'
+mv tmp.file tmp.file2 || echo 'aa'
+mv tmp.file tmp.file2 &
+```
+
