@@ -71,3 +71,61 @@ volumes:
 docker-compose logs -f service-name
 ```
 
+## Build an image using an external network
+
+```text
+version: '3.4'
+
+  service-database:
+    user: root
+    container_name: vinnyfs89.api-database
+    image: 'postgis/postgis:12-3.0'
+    ports:
+      - '5432:5432'
+    volumes:
+      - /data/vinnyfs89/api/postgres:/data/postgres:z
+      - ./.docker/database:/docker-entrypoint-initdb.d:ro
+    env_file:
+      - database.env
+    networks:
+      - vinnyfs89api
+
+  service-server:
+    links:
+      - 'service-database'
+    depends_on:
+      - 'service-database'
+    container_name: vinnyfs89.api-server
+    user: root
+    build:
+      context: .
+      dockerfile: Dockerfile
+      network: api_vinnyfs89api
+    image: vinnyfs89-api:0.0.1
+    volumes:
+    #   - .:/usr/src/app
+    #   #anonymous volume to prevent the `node_modules` existing in container to be overridden.
+    #   - /usr/src/app/node_modules
+    command: >
+      sh -c "
+            npm run migration:run && 
+            npm run seed:run &&
+            node dist/src/main"
+    env_file:
+      - .env
+    ports:
+      - '3000:3000'
+    networks:
+      - vinnyfs89api
+
+networks:
+  vinnyfs89api:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.16.57.0/24
+
+```
+
+> **Note**: In order for the "**vinnyfs89api**" network to be visible when building a docker image, the "api\_vinnyfs89api" value needs to be defined using the "**build** &gt; **network**" parameter.
+
