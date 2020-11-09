@@ -32,3 +32,15 @@ docker logs -f container-name
 docker ps --size
 ```
 
+## Get running containers name
+
+```text
+docker ps -f status=running --format "{{.Names}}"
+```
+
+## Get running containers JSON
+
+```text
+docker ps -f status=running --format "{{json .}}"
+```
+
