@@ -3,7 +3,7 @@
 ## Topics
 
 * \*\*\*\*[**How to**](how-to.md)\*\*\*\*
-* \*\*\*\*[**Proxy**](../linux/proxy.md#proxy-for-docker)\*\*\*\*
+* \*\*\*\*[**Proxy**](proxy.md)\*\*\*\*
 * \*\*\*\*[**Docker Compose**](docker-compose.md)\*\*\*\*
 * \*\*\*\*[**Cloud Platforms**](cloud-platforms.md)\*\*\*\*
 
