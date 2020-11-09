@@ -1,5 +1,5 @@
 # Tools
 
 * \*\*\*\*[**VSCode**](vscode.md)\*\*\*\*
-* \*\*\*\*[**Chrome**](chrome.md)\*\*\*\*
+* \*\*\*\*[**Chrome**](chrome-or-brave.md)\*\*\*\*
 

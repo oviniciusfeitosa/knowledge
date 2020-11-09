@@ -1,19 +1,11 @@
 # How to
 
-## Restart Gnome 3 without closing the programs running
-
-You can use the Gnome Command Box by:
-
-* Press **`Alt+F2`** 
-* Type **`r`** 
-* Press **`↵`**
-
-👌
-
 ## Download files from the cloud
 
+{% hint style="info" %}
 * Send content to WeTransfer cloud-like 
-* download using **wget**
+* Download using **wget**
+{% endhint %}
 
 ### Installing Wget
 
@@ -109,26 +101,7 @@ sudo apt install -y pulseaudio pavucontrol
 * Select `Recording` tab
 * Change to `Internal audio monitor`
 
-## Disable SSH timeout
-
-```text
-sudo vim /etc/ssh/sshd_config
-```
-
-Set these options as the followings:
-
-```text
-TCPKeepAlive no 
-ClientAliveInterval 3200
-ClientAliveCountMax 30
-```
-
-Restart SSH system service
-
-```text
-sudo systemctl restart ssh 
-# or sudo /etc/init.d/ssh restart
-```
+## 
 
 ## Search inside files recursively 
 
@@ -164,16 +137,6 @@ rm -rf ~/.local/share/Trash/*
 
 ```text
 sed -i 's/SEARCH_REGEX/REPLACEMENT/g' INPUTFILE
-```
-
-## Increase SSH connection
-
-```text
-$ vim ~/.ssh/config
-
-# Content below
-Host *
-  ServerAliveInterval 240
 ```
 
 ## 

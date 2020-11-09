@@ -26,12 +26,6 @@ docker system prune
 docker logs -f container-name
 ```
 
-### Using Docker Compose
-
-```text
-docker-compose logs -f service-name
-```
-
 ## Size of container
 
 ```text

@@ -27,11 +27,11 @@ gnome-tweaks
 
 ## Theming
 
-### [GTK Dracula Theme](gtk.md#dracula-gtk-theme)
+### [GTK Dracula Theme]()
 
 ### [ZSH Dracula Theme](../zsh.md#dracula-theme)
 
-### [Gnome Terminal Dracula Theme](terminal.md#gnome-terminal-dracula-theme)
+### [Gnome Terminal Dracula Theme]()
 
 ## Recommended Shell Extensions
 

@@ -65,5 +65,9 @@ volumes:
 ```
 {% endcode %}
 
-## 
+## Show real-time logs from service
+
+```text
+docker-compose logs -f service-name
+```
 
