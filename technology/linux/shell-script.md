@@ -2,7 +2,7 @@
 
 ## File exists
 
-### With "if" statement
+### With the if statement
 
 ```text
 FILE=/etc/resolv.conf
@@ -13,7 +13,7 @@ else
 fi
 ```
 
-### With "&&" operator
+### With the "&&" operator
 
 ```text
 [ -f /etc/resolv.conf ] && echo "File exists!"
@@ -65,19 +65,33 @@ alias ports="sudo lsof -i -P -n | grep LISTEN"
 
 ## Cheatsheet of multiple commands
 
+{% hint style="info" %}
 ```text
 A; B    # Run A and then B, regardless of success of A
 A && B  # Run B if and only if A succeeded
 A || B  # Run B if and only if A failed
 A &     # Run A in background.
 ```
+{% endhint %}
 
-Example
+**Example**
 
 ```text
 mv tmp.file tmp.file2 ; echo 'aa'
 mv tmp.file tmp.file2 && echo 'aa'
 mv tmp.file tmp.file2 || echo 'aa'
 mv tmp.file tmp.file2 &
+```
+
+## Read every line from a file
+
+In the example below read every line from a file and do something.
+
+```text
+while read line; do
+  if [ ! -z $line ]; then
+   echo "export $line" >> /etc/apache2/envvars
+  fi
+done <app.env
 ```
 

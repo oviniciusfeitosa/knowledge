@@ -101,8 +101,6 @@ sudo apt install -y pulseaudio pavucontrol
 * Select `Recording` tab
 * Change to `Internal audio monitor`
 
-## 
-
 ## Search inside files recursively 
 
 ```text
@@ -139,5 +137,14 @@ rm -rf ~/.local/share/Trash/*
 sed -i 's/SEARCH_REGEX/REPLACEMENT/g' INPUTFILE
 ```
 
-## 
+## Check open ports of server
+
+```text
+nmap HOST
+
+## Example
+
+nmap google.com
+nmap 55.1.22.5.68
+```
 
