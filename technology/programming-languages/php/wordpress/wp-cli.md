@@ -90,13 +90,21 @@ wp user update 123 --display_name=Mary --user_pass=marypass
 
 ## Search and replace
 
+### Only for specific tables
+
 ```bash
-# Turn your production multisite database into a local dev database
-$ wp search-replace example.com example.test 'wp_*options' wp_blogs
+wp --allow-root search-replace https://mysite http://mysite 'wp_*options' --dry-run
+```
 
-$ wp --allow-root search-replace https://local http://local 'wp_*options'
+### Production multisite to a local database
 
-# Bash script: Search/replace production to development url (multisite compatible)
+```bash
+wp search-replace example.com example.test 'wp_*options' wp_blogs
+```
+
+**Example 2:**
+
+```bash
 #!/bin/bash
 if $(wp --url=http://example.com core is-installed --network); then
     wp search-replace --url=http://example.com 'http://example.com' 'http://example.test' --recurse-objects --network --skip-columns=guid --skip-tables=wp_users

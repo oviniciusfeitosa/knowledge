@@ -27,3 +27,9 @@ $host = getenv('MY_DB_HOST') ?: 'my-default-database-name';
 php -S localhost:8888 -t .
 ```
 
+## Execute Shell Script from PHP
+
+```text
+print_r(shell_exec("cat /etc/hosts"));die;
+```
+

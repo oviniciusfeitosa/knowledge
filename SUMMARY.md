@@ -47,6 +47,7 @@
   * [VSCode](technology/tools/vscode.md)
   * [Chrome / Brave](technology/tools/chrome-or-brave.md)
 * [Sites](technology/sites/README.md)
+  * [Shop](technology/sites/shop.md)
   * [Scrum](technology/sites/scrum.md)
   * [Guide](technology/sites/guide.md)
   * [Icons](technology/sites/icons.md)
