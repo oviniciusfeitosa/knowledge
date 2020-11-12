@@ -137,7 +137,7 @@ rm -rf ~/.local/share/Trash/*
 sed -i 's/SEARCH_REGEX/REPLACEMENT/g' INPUTFILE
 ```
 
-## Check open ports of server
+## Check open ports of the server
 
 ```text
 nmap HOST
@@ -146,5 +146,29 @@ nmap HOST
 
 nmap google.com
 nmap 55.1.22.5.68
+```
+
+## Show real-time logs from OS
+
+```text
+tail -f /var/log/syslog
+```
+
+## Set Global environment
+
+```text
+sudo sh -c "echo MY_GLOBAL_ENV_TO_MY_CURRENT_DIR=$(pwd)" >> /etc/environment"
+```
+
+## Set local environment
+
+```text
+env MY_GLOBAL_ENV_TO_MY_CURRENT_DIR=$(pwd)
+```
+
+## Unset local environment
+
+```text
+unset MY_GLOBAL_ENV_TO_MY_CURRENT_DIR
 ```
 
