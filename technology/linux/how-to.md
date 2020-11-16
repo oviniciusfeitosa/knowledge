@@ -174,3 +174,9 @@ env MY_GLOBAL_ENV_TO_MY_CURRENT_DIR=$(pwd)
 unset MY_GLOBAL_ENV_TO_MY_CURRENT_DIR
 ```
 
+## Show all service status
+
+```text
+sudo service --status-all 
+```
+
