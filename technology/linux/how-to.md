@@ -65,20 +65,22 @@ scp -r * remoteuser@remoteserver:/remote/folder/
 
 ## Custom DNS servers for /etc/resolv.conf
 
-To define a custom DNS follow this commands bellow
+To define a custom DNS:
+
+* First, install **`resolvconf`** and follow the commands bellow
 
 ```bash
-sudo apt-get install resolvconf
+sudo apt install resolvconf -y
 ```
 
-Put the content below inside the file**`/etc/resolvconf/resolv.conf.d/head`**
+* Put the nameservers from Google inside the file**`/etc/resolvconf/resolv.conf.d/head`**
 
-{% code title="/etc/resolvconf/resolv.conf.d/head" %}
 ```bash
-nameserver 8.8.8.8
-nameserver 8.8.4.4
+sudo sh -c "echo \"nameserver 8.8.8.8
+nameserver 8.8.4.4\" >> /etc/resolvconf/resolv.conf.d/head"
 ```
-{% endcode %}
+
+* Restart resolvconf service
 
 ```bash
 sudo service resolvconf restart
