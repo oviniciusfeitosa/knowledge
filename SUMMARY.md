@@ -62,3 +62,7 @@
   * [Freelancer](technology/sites/freelancer.md)
   * [Converters](technology/sites/converters.md)
 
+## Pessoal
+
+* [Specs](pessoal/specs.md)
+
