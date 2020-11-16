@@ -34,7 +34,7 @@
     * [Vue](technology/programming-languages/javascript/vue.md)
 * [Docker](technology/docker/README.md)
   * [How to](technology/docker/how-to.md)
-  * [Knowing issues](technology/docker/knowing-issues.md)
+  * [Known issues](technology/docker/known-issues.md)
   * [Proxy](technology/docker/proxy.md)
   * [Docker Compose](technology/docker/docker-compose.md)
   * [Cloud Platforms](technology/docker/cloud-platforms.md)
