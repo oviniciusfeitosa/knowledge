@@ -42,6 +42,7 @@
 * [Git](technology/git/README.md)
   * [How to](technology/git/how-to.md)
   * [Gitlab](technology/git/gitlab/README.md)
+    * [Gitlab CI](technology/git/gitlab/gitlab-ci.md)
     * [Gitlab Runner](technology/git/gitlab/gitlab-runner.md)
     * [GitlabCI](technology/git/gitlab/gitlabci.md)
 * [Database](technology/database/README.md)
