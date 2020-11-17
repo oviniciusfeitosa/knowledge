@@ -63,6 +63,15 @@ scp -r * remoteuser@remoteserver:/remote/folder/
 
 #### References: [Simplified Guide](https://www.simplified.guide/ssh/copy-file)
 
+## Custom DNS 
+
+```text
+$ vim  /etc/resolv.conf   
+
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+```
+
 ## Custom DNS servers for /etc/resolv.conf
 
 To define a custom DNS:
@@ -139,6 +148,12 @@ rm -rf ~/.local/share/Trash/*
 sed -i 's/SEARCH_REGEX/REPLACEMENT/g' INPUTFILE
 ```
 
+## Check ports in use
+
+```text
+sudo netstat -tlnp | grep 80
+```
+
 ## Check open ports of the server
 
 ```text
@@ -178,5 +193,31 @@ unset MY_GLOBAL_ENV_TO_MY_CURRENT_DIR
 
 ```text
 sudo service --status-all 
+```
+
+## Exec commands at startup
+
+```text
+
+sudo vim /etc/init.d/rc.local
+
+    #!/bin/bash
+
+    #command1
+    #command2
+    exit 0;
+
+sudo chmod ugo+x /etc/init.d/rc.local
+
+update-rc.d rc.local defaults
+```
+
+## Open Firewall ports
+
+To open ports on the firewall, using the **iptables** command is possible specifying the desired port. Using the example below, just replace port **8888** with the desired port.
+
+```text
+$ iptables -I INPUT -p tcp --dport 8888 -j ACCEPT
+$ iptables -t filter -I FORWARD -i eth2 -o etho -m multiport --dport 8888 -j ACCEPT
 ```
 

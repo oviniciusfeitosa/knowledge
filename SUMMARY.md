@@ -6,6 +6,7 @@
 
 * [Linux](technology/linux/README.md)
   * [How to](technology/linux/how-to.md)
+  * [Known issues](technology/linux/known-issues.md)
   * [Proxy](technology/linux/proxy.md)
   * [SSH](technology/linux/ssh.md)
   * [Shell Script](technology/linux/shell-script.md)
