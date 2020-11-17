@@ -14,6 +14,8 @@ sudo chmod -R 777 /home/gitlab-runner/.config/
 
 ```text
 sudo gpasswd -a gitlab-runner docker
+sudo service docker stop
+sudo service docker start
 ```
 
 ### Register Runner
@@ -46,5 +48,9 @@ gitlab-runner restart
 gitlab-runner verify
 ```
 
-## 
+## Full permissions
+
+```text
+sudo usermod -a -G sudo gitlab-runner
+```
 
