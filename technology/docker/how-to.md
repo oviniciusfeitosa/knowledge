@@ -11,7 +11,9 @@ sudo groupadd docker ; \
 sudo usermod -aG docker $USER ; \
 newgrp docker  ; \
 sudo systemctl enable docker ; \
-sudo gpasswd -a $USER docker
+sudo gpasswd -a $USER docker ; \
+sudo service docker stop ; \
+sudo service docker start
 ```
 
 ## Uninstall Docker
