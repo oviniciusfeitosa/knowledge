@@ -24,6 +24,7 @@
     * [GitlabCI](technology/git/gitlab/gitlabci.md)
     * [Gitlab Runner](technology/git/gitlab/gitlab-runner.md)
 * [IDE / Text Editor](technology/ide_text-editor/README.md)
+  * [PHPStorm](technology/ide_text-editor/php-storm.md)
   * [VSCode](technology/ide_text-editor/vscode.md)
 * [Linux](technology/linux/README.md)
   * [Gnome](technology/linux/gnome/README.md)

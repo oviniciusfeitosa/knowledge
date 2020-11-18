@@ -38,6 +38,11 @@ List of sites with opportunities to work as a freelancer:
 
 * \*\*\*\*[**Reactivex**](http://reactivex.io/languages.html)\*\*\*\*
 
+## Hacking
+
+* \*\*\*\*[**Google Hacking Database**](https://www.exploit-db.com/google-hacking-database)\*\*\*\*
+* \*\*\*\*[**Dorks**](https://googl3inurl.wordpress.com/?s=dorks&submit=Pesquisa)\*\*\*\*
+
 ## Icons
 
 ### Badges
