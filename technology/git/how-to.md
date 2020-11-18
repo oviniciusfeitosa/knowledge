@@ -82,9 +82,15 @@ git stash --include-untracked
 git stash push path/to/file
 ```
 
-## Revert files from specific hash commit
+## Revert files from a specific hash commit
 
 ```bash
 git checkout 3df73866bef5d560ef2e5s59b6deaa18001 -- wp-content/uploads/2011 wp-content/uploads/2012 
+```
+
+## Reset by time
+
+```bash
+git reset --hard master@{"300 minutes ago"}
 ```
 
