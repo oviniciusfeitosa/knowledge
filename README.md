@@ -12,7 +12,7 @@ description: The focus of this space is to share knowledge and help solve proble
 * \*\*\*\*[**Git**](technology/git/)\*\*\*\*
 * \*\*\*\*[**Database**](technology/database/)\*\*\*\*
 * \*\*\*\*[**Tools**](technology/tools/)\*\*\*\*
-* \*\*\*\*[**Sites**](technology/sites/)\*\*\*\*
+* \*\*\*\*[**Sites**](technology/sites.md)\*\*\*\*
 
 
 
