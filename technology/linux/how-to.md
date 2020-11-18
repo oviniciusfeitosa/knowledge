@@ -229,3 +229,18 @@ $ iptables -I INPUT -p tcp --dport 8888 -j ACCEPT
 $ iptables -t filter -I FORWARD -i eth2 -o etho -m multiport --dport 8888 -j ACCEPT
 ```
 
+## Create an alias for shell commands
+
+* Add the script below at end of the file  **`~/.profile`** 
+
+```text
+alias hello_world="echo \"Hello World!\""
+```
+
+* Then type your alias directly
+
+```text
+hello_world
+# output: Hello World
+```
+
