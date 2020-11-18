@@ -39,6 +39,7 @@
   * [ZSH](technology/linux/zsh.md)
 * [Messaging](technology/messaging/README.md)
   * [Discord](technology/messaging/discord.md)
+  * [Telegram](technology/messaging/telegram.md)
 * [Programming Languages](technology/programming-languages/README.md)
   * [Java](technology/programming-languages/java/README.md)
     * [How to](technology/programming-languages/java/how-to.md)
