@@ -1,6 +1,8 @@
 # Git
 
-* \*\*\*\*[**How to do**](how-to.md)\*\*\*\*
+## Topics
+
+* \*\*\*\*[**How to**](how-to.md)\*\*\*\*
 * \*\*\*\*[**Github**](github.md)\*\*\*\*
 * \*\*\*\*[**Gitlab**](gitlab/)\*\*\*\*
 

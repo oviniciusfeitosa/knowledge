@@ -1,7 +1,9 @@
 # PHP
 
-* \*\*\*\*[**How to**](how-to.md)\*\*\*\*
-* [**Wordpress**](wordpress/)\*\*\*\*
-* \*\*\*\*[**Laravel**](laravel.md)\*\*\*\*
+## Topics
+
 * \*\*\*\*[**Docker**](docker.md)\*\*\*\*
+* \*\*\*\*[**How to**](how-to.md)\*\*\*\*
+* \*\*\*\*[**Laravel**](laravel.md)\*\*\*\*
+* [**Wordpress**](wordpress/)\*\*\*\*
 

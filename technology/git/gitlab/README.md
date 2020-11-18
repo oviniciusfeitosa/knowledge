@@ -1,9 +1,9 @@
 # Gitlab
 
-## Content list:
+## Topics
 
-* \*\*\*\*[**Gitlab Runner**](gitlab-runner.md)\*\*\*\*
 * \*\*\*\*[**GitlabCI**](gitlabci.md)\*\*\*\*
+* \*\*\*\*[**Gitlab Runner**](gitlab-runner.md)\*\*\*\*
 
 ### 
 
