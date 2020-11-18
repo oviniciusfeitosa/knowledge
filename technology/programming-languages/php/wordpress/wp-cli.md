@@ -54,12 +54,12 @@ RUN mv wp-cli.phar /usr/local/bin/wp
 echo "[ Check current siteurl ]"
 currentSiteUrl=$(wp option get siteurl)
 
-if [["$currentSiteUrl" != 'https://platform.coop']]; then
+if [["$currentSiteUrl" != 'https://yoursiteurl.com']]; then
   if [[ "$WPAPP_ENV_HOST" != "$currentSiteUrl" ]]; then
     wp --allow-root search-replace $currentSiteUrl $WPAPP_ENV_HOST 'wp_*options'
   fi
-  define( 'WP_HOME', 'http://yoursiteurl.com' );
-  define( 'WP_SITEURL', ‘http://yoursiteurl.com' );
+  #define( 'WP_HOME', 'http://yoursiteurl.com' );
+  #define( 'WP_SITEURL', ‘http://yoursiteurl.com' );
 fi
 ```
 
