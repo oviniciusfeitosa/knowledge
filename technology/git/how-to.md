@@ -92,6 +92,12 @@ git stash push path/to/file
 git checkout 3df73866bef5d560ef2e5s59b6deaa18001 -- wp-content/uploads/2011 wp-content/uploads/2012 
 ```
 
+## Revert to a specific commit
+
+```text
+git revert --no-commit 0766c053..HEAD
+```
+
 ## Reset by time
 
 ```bash
