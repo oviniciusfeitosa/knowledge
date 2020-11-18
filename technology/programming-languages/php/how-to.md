@@ -64,3 +64,23 @@ $mytime = Carbon\Carbon::now();
 echo $mytime->toDateTimeString();
 ```
 
+## Use PHPCS globally
+
+Installing globally PHPCS
+
+```text
+composer global require squizlabs/php_codesniffer
+```
+
+* Know your path
+
+```text
+echo $path
+```
+
+* Add the line below into your `~/.zshrc` ou `~/.bashrc`
+
+```text
+export PATH="/home/$USER/.config/composer/vendor/bin:$PATH"
+```
+

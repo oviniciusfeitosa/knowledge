@@ -321,3 +321,9 @@ sudo apt-get install screenfetch -y
 screenfetch
 ```
 
+## Know where program was installed
+
+```text
+which php
+```
+

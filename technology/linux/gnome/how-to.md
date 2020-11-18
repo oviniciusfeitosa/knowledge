@@ -10,3 +10,9 @@ You can use the Gnome Command Box by:
 
 👌
 
+## Changing the default location path of gnome-screenshot
+
+```text
+gsettings set org.gnome.gnome-screenshot auto-save-directory "file:///home/$USER/Downloads/"
+```
+
