@@ -4,6 +4,8 @@
 
 ## Technology
 
+* [Browser](technology/browser/README.md)
+  * [Chrome / Brave](technology/browser/chrome-or-brave.md)
 * [Database](technology/database/README.md)
   * [Postgres](technology/database/postgres.md)
   * [SQLServer](technology/database/sqlserver.md)
@@ -20,6 +22,8 @@
   * [Gitlab](technology/git/gitlab/README.md)
     * [GitlabCI](technology/git/gitlab/gitlabci.md)
     * [Gitlab Runner](technology/git/gitlab/gitlab-runner.md)
+* [IDE / Text Editor](technology/ide_text-editor/README.md)
+  * [VSCode](technology/ide_text-editor/vscode.md)
 * [Linux](technology/linux/README.md)
   * [Gnome](technology/linux/gnome/README.md)
     * [How to](technology/linux/gnome/how-to.md)
@@ -31,6 +35,8 @@
   * [Vim](technology/linux/vim/README.md)
     * [Commands](technology/linux/vim/commands.md)
   * [ZSH](technology/linux/zsh.md)
+* [Messaging](technology/messaging/README.md)
+  * [Discord](technology/messaging/discord.md)
 * [Programming Languages](technology/programming-languages/README.md)
   * [Java](technology/programming-languages/java/README.md)
     * [How to](technology/programming-languages/java/how-to.md)
@@ -58,10 +64,6 @@
 * [Sites](technology/sites.md)
 * [Tests](technology/tests/README.md)
   * [Stress Tests](technology/tests/stress-tests.md)
-* [Tools](technology/tools/README.md)
-  * [Chrome / Brave](technology/tools/chrome-or-brave.md)
-  * [Discord](technology/tools/discord.md)
-  * [VSCode](technology/tools/vscode.md)
 
 ## Pessoal
 
