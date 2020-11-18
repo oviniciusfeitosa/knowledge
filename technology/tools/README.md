@@ -1,5 +1,6 @@
 # Tools
 
+* \*\*\*\*[**Discord**](discord.md)\*\*\*\*
 * \*\*\*\*[**VSCode**](vscode.md)\*\*\*\*
-* \*\*\*\*[**Chrome**](chrome-or-brave.md)\*\*\*\*
+* \*\*\*\*[**Chrome/Brave**](chrome-or-brave.md)
 
