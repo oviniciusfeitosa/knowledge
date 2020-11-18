@@ -57,5 +57,10 @@ $2y$10$id8o48ibJptfS7c6HL2x/uJNX4jBDSW.RYLAgx1HtG66EHvSJgM0K
 print_r(shell_exec("cat /etc/hosts"));die;
 ```
 
-## 
+## Working with Dates
+
+```text
+$mytime = Carbon\Carbon::now();
+echo $mytime->toDateTimeString();
+```
 

@@ -250,3 +250,67 @@ hello_world
 sudo apt-get install -y --reinstall ca-certificates
 ```
 
+## Remove installed PPA repository
+
+Use the "--remove" flag, similar to how the PPA was added:
+
+```text
+sudo add-apt-repository --remove ppa:whatever/ppa
+```
+
+As a safer alternative, you can install "ppa-purge":
+
+```text
+sudo apt-get install ppa-purge
+```
+
+And then remove the PPA, downgrading gracefully packages it provided to packages provided by official repositories:
+
+```text
+sudo ppa-purge ppa:whatever/ppa
+```
+
+Note that this will uninstall packages provided by the PPA, but not those provided by the official repositories. If you want to remove them, you should tell it to apt:
+
+```text
+sudo apt-get purge package_name
+```
+
+You can also remove PPAs by deleting the .list files from `/etc/apt/sources.list.d` directory.
+
+Last but not least, you can also disable or remove PPAs from the "Software Sources" section in Ubuntu Settings with a few clicks of your mouse \(no terminal needed\).
+
+## Add multi-touch to your Linux distribution
+
+To do it, make sure to do the steps below:
+
+```text
+sudo gpasswd -a $USER input
+sudo apt install xdotool wmctrl libinput-tools
+git clone https://github.com/bulletmark/libinput-gestures
+cd libinput-gestures
+sudo ./libinput-gestures-setup install
+touch ~/.config/libinput-gestures.conf
+```
+
+* Paste the content below inside **`~/.config/libinput-gestures.conf`**:
+
+```text
+gesture swipe up 3 xdotool key super+Down  
+gesture swipe left 3 xdotool key super+Right  
+gesture swipe right 3 xdotool key super+Left  
+```
+
+* `After that execute the commands below`
+
+```text
+libinput-gestures-setup autostart
+libinput-gestures-setup start
+libinput-gestures-setup restart
+```
+
+### References:
+
+* [https://github.com/bulletmark/libinput-gestures](https://github.com/bulletmark/libinput-gestures)
+* [https://www.youtube.com/watch?v=ci6YbQGx3c4](https://www.youtube.com/watch?v=ci6YbQGx3c4)
+
