@@ -64,6 +64,8 @@
   * [Freelancer](technology/sites/freelancer.md)
   * [Converters](technology/sites/converters.md)
   * [Domains](technology/sites/domains.md)
+* [Tests](technology/tests/README.md)
+  * [Stress Tests](technology/tests/stress-tests.md)
 
 ## Pessoal
 

@@ -44,7 +44,9 @@ When you want to ignore files but want to keep a directory you can add a **`.git
 git branch --show-current
 ```
 
-## Clear Entire Git Cache
+## Cache
+
+### Clear Entire Git Cache
 
 {% hint style="info" %}
 To clear your entire Git cache, use the “git rm” command with the “-r” option for recursive
@@ -63,20 +65,22 @@ git add .
 $ git commit -am 'Removed files from the index (now ignored)'
 ```
 
-## Cache user and password
+### Cache user and password
 
 ```bash
 git config credential.helper store
 git config --global credential.helper 'cache --timeout 7200'
 ```
 
-## Stash including untracked files
+## Stash
+
+### Stash including untracked files
 
 ```bash
 git stash --include-untracked
 ```
 
-## Stash only file or folder
+### Stash only file or folder
 
 ```bash
 git stash push path/to/file
@@ -93,4 +97,32 @@ git checkout 3df73866bef5d560ef2e5s59b6deaa18001 -- wp-content/uploads/2011 wp-c
 ```bash
 git reset --hard master@{"300 minutes ago"}
 ```
+
+## Rename
+
+### Rename your branch
+
+```bash
+git branch -m new-name
+```
+
+If you are on a different branch:
+
+```bash
+git branch -m old-name new-name
+```
+
+> * Delete the old-name remote branch and push the new-name local branch.
+>
+> `git push origin :old-name new-name`
+>
+> * Reset the upstream branch for the new-name local branch.
+>
+> Switch to the branch and then:
+>
+> ```text
+> git push origin -u new-name
+> ```
+
+
 
