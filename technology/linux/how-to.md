@@ -314,3 +314,10 @@ libinput-gestures-setup restart
 * [https://github.com/bulletmark/libinput-gestures](https://github.com/bulletmark/libinput-gestures)
 * [https://www.youtube.com/watch?v=ci6YbQGx3c4](https://www.youtube.com/watch?v=ci6YbQGx3c4)
 
+## Get SO information
+
+```text
+sudo apt-get install screenfetch -y
+screenfetch
+```
+
