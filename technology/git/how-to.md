@@ -148,3 +148,9 @@ git config --global add remote.{remote_name} proxy
 git config --local --add remote.{remote_name}.proxy ""
 ```
 
+## Fixing wrong commit messages
+
+```text
+git rebase -i HEAD~4
+```
+

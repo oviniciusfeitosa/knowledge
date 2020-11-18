@@ -1,5 +1,13 @@
 # How to
 
+## Install ESLint
+
+```text
+npm uninstall -g eslint
+npm i eslint --save-dev
+./node_modules/.bin/eslint --init
+```
+
 ## Validate a group of conditions
 
 ```text
