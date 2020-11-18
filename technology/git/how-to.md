@@ -124,5 +124,11 @@ git branch -m old-name new-name
 > git push origin -u new-name
 > ```
 
+## Find versioned files
 
+To find files that have been versioned, regardless of whether they were removed from versioning or not.
+
+```text
+git log --all --full-history -- "**/thefile.*"
+```
 

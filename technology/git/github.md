@@ -32,3 +32,9 @@ xclip -sel clip < ~/.ssh/id_rsa.pub
 
 * Open [Github](https://github.com/settings/keys) and Add the ssh key
 
+## Github Shortcuts
+
+```text
+Shift + /
+```
+

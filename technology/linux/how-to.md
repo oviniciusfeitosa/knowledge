@@ -244,3 +244,9 @@ hello_world
 # output: Hello World
 ```
 
+## Revalidade ca-certificates
+
+```text
+sudo apt-get install -y --reinstall ca-certificates
+```
+
