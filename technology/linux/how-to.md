@@ -148,13 +148,13 @@ rm -rf ~/.local/share/Trash/*
 sed -i 's/SEARCH_REGEX/REPLACEMENT/g' INPUTFILE
 ```
 
-## Check ports in use
+## Check network ports in use
 
 ```text
 sudo netstat -tlnp | grep 80
 ```
 
-## Check open ports of the server
+## Check opened network ports of the server
 
 ```text
 nmap HOST
@@ -163,6 +163,14 @@ nmap HOST
 
 nmap google.com
 nmap 55.1.22.5.68
+```
+
+## Open network ports
+
+```text
+# Openning 8080 port
+ 
+ sudo iptables -A INPUT -p tcp --dport 8080 -j ACCEPT
 ```
 
 ## Show real-time logs from OS
