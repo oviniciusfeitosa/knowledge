@@ -22,7 +22,7 @@ volumes:
     consistency: cached
 ```
 
-## NGinX + Reverse proxy + LetsEncrypt SSL
+## NGinX Reverse proxy + LetsEncrypt SSL
 
 {% code title="docker.compose.yaml" %}
 ```text
@@ -132,4 +132,16 @@ networks:
 ```
 
 > **Note**: In order for the "**vinnyfs89api**" network to be visible when building a docker image, the "api\_vinnyfs89api" value needs to be defined using the "**build** &gt; **network**" parameter.
+
+## Docker Compose auto-scale
+
+To specify how many containers to scale using docker-compose use the command **`--scale service = {number}`**. 
+
+```text
+# This command sets 5 containers for redis-service
+docker-compose up -d --scale redis-service=5
+
+# Example 2
+docker-compose -f docker-compose-scale.yml up -d --scale hello=5
+```
 

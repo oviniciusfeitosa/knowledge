@@ -42,6 +42,7 @@
     * [How to](technology/programming-languages/java/how-to.md)
     * [Spring Boot](technology/programming-languages/java/spring-boot.md)
   * [Javascript](technology/programming-languages/javascript/README.md)
+    * [How to](technology/programming-languages/javascript/how-to.md)
     * [NestJS](technology/programming-languages/javascript/nestjs.md)
     * [NodeJS](technology/programming-languages/javascript/nodejs.md)
     * [Vue](technology/programming-languages/javascript/vue.md)

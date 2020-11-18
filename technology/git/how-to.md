@@ -132,3 +132,13 @@ To find files that have been versioned, regardless of whether they were removed 
 git log --all --full-history -- "**/thefile.*"
 ```
 
+## Proxy bypass to specific host
+
+```text
+# Globally
+git config --global add remote.{remote_name} proxy 
+
+# Locally
+git config --local --add remote.{remote_name}.proxy ""
+```
+
