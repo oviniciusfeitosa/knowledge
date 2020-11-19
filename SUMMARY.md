@@ -53,6 +53,7 @@
     * [NestJS](technology/programming-languages/javascript/nestjs.md)
     * [NodeJS](technology/programming-languages/javascript/nodejs.md)
     * [Vue](technology/programming-languages/javascript/vue.md)
+    * [React](technology/programming-languages/javascript/react.md)
   * [PHP](technology/programming-languages/php/README.md)
     * [Docker](technology/programming-languages/php/docker.md)
     * [How to](technology/programming-languages/php/how-to.md)
