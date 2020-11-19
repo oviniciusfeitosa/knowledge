@@ -42,6 +42,7 @@
   * [Discord](technology/messaging/discord/README.md)
     * [Known Issues](technology/messaging/discord/known-issues.md)
   * [Telegram](technology/messaging/telegram.md)
+* [Music Production](technology/music-production.md)
 * [Programming Languages](technology/programming-languages/README.md)
   * [Java](technology/programming-languages/java/README.md)
     * [How to](technology/programming-languages/java/how-to.md)
