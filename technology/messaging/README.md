@@ -2,6 +2,6 @@
 
 ## Topics
 
-* \*\*\*\*[**Discord**](discord.md)\*\*\*\*
+* \*\*\*\*[**Discord**](discord/)\*\*\*\*
 * \*\*\*\*[**Telegram**](telegram.md)\*\*\*\*
 
