@@ -154,3 +154,9 @@ git config --local --add remote.{remote_name}.proxy ""
 git rebase -i HEAD~4
 ```
 
+## Deleting remote branches
+
+```text
+git push origin --delete branchName
+```
+

@@ -104,3 +104,10 @@ public function downloadArquivo($identificador)
     }
 ```
 
+## Get only decimal from number 
+
+```text
+const number = 11,12;
+Math.round((number + Number.EPSILON) * 100) / 100
+```
+
