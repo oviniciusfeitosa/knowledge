@@ -179,6 +179,12 @@ nmap 55.1.22.5.68
 tail -f /var/log/syslog
 ```
 
+### Using journalctl
+
+```text
+journalctl -f
+```
+
 ## Set Global environment
 
 ```text
