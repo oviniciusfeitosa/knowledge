@@ -9,7 +9,7 @@
 * \*\*\*\*[**Oceanic**](https://chrome.google.com/webstore/detail/oceanic/gbbacdmgjdfajabgglpjifcedoajdimg?hl=pt-BR)\*\*\*\*
 * \*\*\*\*[**Material Dark Theme - Space Gray**](https://chrome.google.com/webstore/detail/material-dark-theme-space/hkbfhddllgdpmkmmpofocllfnaeogokm?hl=pt-BR)\*\*\*\*
 
-## Extensions
+## Recommended Extensions
 
 * **AdBlock**
 * **GoFullPage**
