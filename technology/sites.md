@@ -56,6 +56,10 @@ List of sites with opportunities to work as a freelancer:
   >
   > &lt;img height="25" src="https://img.shields.io/badge/docker-33adff.svg?&style=for-the-badge&logo=docker&logoColor=white"&gt;&lt;/img&gt;
 
+## Animation
+
+* \*\*\*\*[**LottieFiles**](https://lottiefiles.com/)\*\*\*\*
+
 ## Online Editor
 
 * \*\*\*\*[**Figma**](https://www.figma.com)\*\*\*\*
