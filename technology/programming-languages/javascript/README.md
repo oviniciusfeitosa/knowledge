@@ -7,7 +7,8 @@
 * [**NodeJS**](nodejs.md)\*\*\*\*
 * \*\*\*\*[**Vue**](vue.md)\*\*\*\*
 
-## Recommended list
+## Recommended Projects
 
 * \*\*\*\*[**Spread Operators**](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_operator)\*\*\*\*
+* \*\*\*\*[**MermaidJS**](https://mermaid-js.github.io/)\*\*\*\*
 

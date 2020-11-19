@@ -17,9 +17,9 @@ gnome-tweaks
 
 ### [Nodejs 14.x + Yarn](../../programming-languages/javascript/nodejs.md#install-nodejs-14-x-yarn)
 
-### [Docker](../../docker/#install-docker-community-edition-docker-ce)
+### [Docker](../../dev-ops/docker/#install-docker-community-edition-docker-ce)
 
-### [Docker Compose](../../docker/docker-compose.md#install-docker-compose)
+### [Docker Compose](../../dev-ops/docker-compose.md#install-docker-compose)
 
 ### [VSCode](../../ide_text-editor/vscode.md#install-vscode)
 
