@@ -4,7 +4,7 @@
 
 * \*\*\*\*[**How to**](how-to.md)\*\*\*\*
 * \*\*\*\*[**NestJS**](nestjs.md)\*\*\*\*
-* [**NodeJS**](nodejs.md)\*\*\*\*
+* [**NodeJS**](nodejs/)\*\*\*\*
 * \*\*\*\*[**Vue**](vue.md)\*\*\*\*
 
 ## Recommended Projects

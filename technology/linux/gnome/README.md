@@ -15,7 +15,7 @@ gnome-tweaks
 
 ### [ZSH](../zsh.md#install-zsh)
 
-### [Nodejs 14.x + Yarn](../../programming-languages/javascript/nodejs.md#install-nodejs-14-x-yarn)
+### [Nodejs 14.x + Yarn](../../programming-languages/javascript/nodejs/#install-nodejs-14-x-yarn)
 
 ### [Docker](../../dev-ops/docker/#install-docker-community-edition-docker-ce)
 
