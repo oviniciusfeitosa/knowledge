@@ -333,9 +333,77 @@ sudo apt-get install screenfetch -y
 screenfetch
 ```
 
-## Know where program was installed
+## Know where the program was installed
 
 ```text
 which php
 ```
+
+## Show any configured swap
+
+```text
+sudo swapon --show
+```
+
+## Observe and monitor system memory usage
+
+{% hint style="info" %}
+* "-h" means Human Mode
+  * Shows values in Mega or Giga
+{% endhint %}
+
+```text
+free -h
+```
+
+## Downgrade Ubuntu Linux system version
+
+{% hint style="info" %}
+This example will be used a downgrade from Ubuntu 20.10 to 20.04.
+
+* **From**
+  * **Version**: Ubuntu 20.10
+  * **Name**: Gorilla Grovy
+  * **Codename**: grovy
+* **To**
+  * **Version**: Ubuntu 20.04
+  * **Name**: Focal Fossa
+  * **Codename**: focal
+{% endhint %}
+
+### **Downgrade sources.list**
+
+```text
+sudo sed -i 's/groovy/focal/g' /etc/apt/sources.list
+```
+
+### **Pin packages**
+
+{% hint style="info" %}
+Open **`/etc/apt/preferences`** file and enter the following content while replacing the codename of the system codename you aim to downgrade to.
+{% endhint %}
+
+{% code title="/etc/apt/preferences" %}
+```text
+Package: *
+Pin: release a=focal v=20.04
+Pin-Priority: 1001
+```
+{% endcode %}
+
+### **Downgrade Ubuntu system**
+
+```text
+sudo apt update ; sudo apt upgrade ; sudo apt dist-upgrade
+```
+
+{% hint style="warning" %}
+If you found any errors try this:
+
+```text
+sudo apt --fix-broken install
+sudo dpkg --configure -a
+sudo apt dist-upgrade
+```
+{% endhint %}
 
