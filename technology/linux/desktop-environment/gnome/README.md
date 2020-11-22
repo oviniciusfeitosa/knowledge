@@ -13,23 +13,23 @@ sudo apt install git vim dconf-cli uuid-runtime pulseaudio blueman \
 gnome-tweaks
 ```
 
-### [ZSH](../zsh.md#install-zsh)
+### [ZSH](../../zsh.md#install-zsh)
 
-### [Nodejs 14.x + Yarn](../../programming-languages/javascript/nodejs/#install-nodejs-14-x-yarn)
+### [Nodejs 14.x + Yarn](../../../programming-languages/javascript/nodejs/#install-nodejs-14-x-yarn)
 
-### [Docker](../../dev-ops/docker/#install-docker-community-edition-docker-ce)
+### [Docker](../../../dev-ops/docker/#install-docker-community-edition-docker-ce)
 
-### [Docker Compose](../../dev-ops/docker-compose.md#install-docker-compose)
+### [Docker Compose](../../../dev-ops/docker-compose.md#install-docker-compose)
 
-### [VSCode](../../ide_text-editor/vscode.md#install-vscode)
+### [VSCode](../../../ide_text-editor/vscode.md#install-vscode)
 
-### [PHP](../../programming-languages/php/#install-php-7-4-ubuntu-below-20-04)
+### [PHP](../../../programming-languages/php/#install-php-7-4-ubuntu-below-20-04)
 
 ## Theming
 
 ### [GTK Dracula Theme](theming.md#gtk-themes)
 
-### [ZSH Dracula Theme](../zsh.md#dracula-theme)
+### [ZSH Dracula Theme](../../zsh.md#dracula-theme)
 
 ### [Gnome Terminal Dracula Theme](theming.md#gnome-terminal-dracula-theme)
 
