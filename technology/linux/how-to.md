@@ -404,6 +404,7 @@ If you found any errors try this:
 sudo apt --fix-broken install
 sudo dpkg --configure -a
 sudo apt dist-upgrade
+sudo apt install ubuntu-desktop
 ```
 {% endhint %}
 
