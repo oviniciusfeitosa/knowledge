@@ -12,6 +12,7 @@
   * [SQLServer](technology/database/sqlserver.md)
 * [DevOps](technology/dev-ops/README.md)
   * [Cloud Platforms](technology/dev-ops/cloud-platforms.md)
+  * [Continuous Integration](technology/dev-ops/continuous-integration.md)
   * [Docker](technology/dev-ops/docker/README.md)
     * [How to](technology/dev-ops/docker/how-to.md)
     * [Known issues](technology/dev-ops/docker/known-issues.md)

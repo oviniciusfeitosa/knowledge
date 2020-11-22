@@ -35,6 +35,12 @@ To download in the background, use the option `-b` . In the following example, w
 wget -b https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso
 ```
 
+### Download all files from FTP
+
+```text
+wget -r 'ftp://username:password@ip/directoryname'
+```
+
 ## Upload Files
 
 ### Single file from remote to local
