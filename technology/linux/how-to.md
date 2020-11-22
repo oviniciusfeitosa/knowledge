@@ -408,3 +408,10 @@ sudo apt install ubuntu-desktop
 ```
 {% endhint %}
 
+## Find and remove folder recursively
+
+```text
+# Example: node_modules
+  sudo find . -type d -name node_modules -exec rm -r {} \;
+```
+
