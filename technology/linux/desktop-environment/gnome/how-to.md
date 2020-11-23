@@ -16,7 +16,7 @@ You can use the Gnome Command Box by:
 gsettings set org.gnome.gnome-screenshot auto-save-directory "file:///home/$USER/Downloads/"
 ```
 
-## Remove Gnome Shell Extensions
+## Uninstall Gnome Shell Extensions
 
 * Move extensions to your user extensions dir
 
