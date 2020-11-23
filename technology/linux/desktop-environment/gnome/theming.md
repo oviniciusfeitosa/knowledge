@@ -41,7 +41,8 @@ Access this [**link**](https://extensions.gnome.org/local) or press "**F2**", ty
 * \*\*\*\*[**Flickr Wallpaper**](https://extensions.gnome.org/extension/2920/flickr-wallpaper/)\*\*\*\*
 * [**Hide Activities Button**](https://extensions.gnome.org/extension/744/hide-activities-button/)\*\*\*\*
 * \*\*\*\*[**Material Shell**](https://extensions.gnome.org/extension/3357/material-shell/)\*\*\*\*
-  * Shortcut hotkeys
+  * \*\*\*\*[**Official site**](https://material-shell.com)\*\*\*\*
+  * **Shortcut hotkeys**
 
 ![](../../../../.gitbook/assets/captura-de-tela-de-2020-11-23-01-20-42.png)
 

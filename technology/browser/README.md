@@ -2,5 +2,5 @@
 
 ## Topics
 
-* \*\*\*\*[**Chrome/Brave**](chrome-or-brave.md)
+* \*\*\*\*[**Chrome/Brave**](chrome-or-brave/)
 

@@ -5,7 +5,8 @@
 ## Technology
 
 * [Browser](technology/browser/README.md)
-  * [Chrome / Brave](technology/browser/chrome-or-brave.md)
+  * [Chrome / Brave](technology/browser/chrome-or-brave/README.md)
+    * [Known Issues](technology/browser/chrome-or-brave/known-issues.md)
 * [Code Quality](technology/code-quality.md)
 * [Database](technology/database/README.md)
   * [Postgres](technology/database/postgres.md)
