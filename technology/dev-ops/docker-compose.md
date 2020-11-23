@@ -3,12 +3,12 @@
 ## Install Docker-compose
 
 ```text
-sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-sudo chmod 777 /usr/local/bin/docker-compose
-sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
-docker-compose --version
-sudo service docker stop
-sudo service docker start
+sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose; \
+sudo chmod 777 /usr/local/bin/docker-compose; \
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose; \
+docker-compose --version; \
+sudo service docker stop; \
+sudo service docker start;
 ```
 
 ## Improve performance when using volumes
@@ -77,6 +77,10 @@ docker-compose logs -f service-name
 
 ## Build an image using an external network
 
+{% hint style="info" %}
+**Note** In order for the "**vinnyfs89api**" network to be visible when building a docker image, the "**api\_vinnyfs89api**" value needs to be defined using the "build &gt; network" parameter.
+{% endhint %}
+
 ```text
 version: '3.4'
 
@@ -130,8 +134,6 @@ networks:
         - subnet: 172.16.57.0/24
 
 ```
-
-> **Note**: In order for the "**vinnyfs89api**" network to be visible when building a docker image, the "api\_vinnyfs89api" value needs to be defined using the "**build** &gt; **network**" parameter.
 
 ## Docker Compose auto-scale
 
