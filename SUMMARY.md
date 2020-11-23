@@ -80,5 +80,6 @@
 
 ## Pessoal
 
+* [About me](pessoal/about-me.md)
 * [Specs](pessoal/specs.md)
 

@@ -15,7 +15,7 @@
 * **GoFullPage**
 * **Google Tradutor**
 * **Grammarly for Chrome**
-* **Integração com GNOME Shell**
+* **GNOME Shell Integration**
 * **JSON Viewer**
 * **RSS Feed Reader**
 * **The Great Suspender**
