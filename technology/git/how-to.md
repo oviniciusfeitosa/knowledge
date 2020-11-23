@@ -197,3 +197,25 @@ git rebase -i HEAD~4
 git push origin --delete branchName
 ```
 
+## Keeping a fork up to date
+
+###  Clone your fork:
+
+```text
+git clone git@github.com:YOUR-USERNAME/YOUR-FORKED-REPO.git
+```
+
+### Add remote from the original repository in your forked repository:
+
+```text
+cd into/cloned/fork-repo
+git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
+git fetch upstream
+```
+
+### Updating your fork from the original repo to keep up with their changes:
+
+```text
+git pull upstream master
+```
+
