@@ -5,8 +5,7 @@
 ### Basic Stuff
 
 ```text
-sudo apt install git vim dconf-cli uuid-runtime pulseaudio blueman \
-  sudo add-apt-repository universe; \
+sudo add-apt-repository universe; \
   sudo apt install gnome-tweak-tool; \
   sudo apt install $(apt search gnome-shell-extension | grep ^gnome | cut -d / -f1);
   
