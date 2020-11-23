@@ -4,7 +4,9 @@ description: The focus of this space is to share knowledge and help solve proble
 
 # Home
 
-## Technology
+## Topics
+
+### Technology
 
 * \*\*\*\*[**Browser**](technology/browser/)\*\*\*\*
 * \*\*\*\*[**Code Quality**](technology/code-quality.md)\*\*\*\*
@@ -20,7 +22,7 @@ description: The focus of this space is to share knowledge and help solve proble
 * \*\*\*\*[**Sites**](technology/sites.md)\*\*\*\*
 * \*\*\*\*[**Tests**](technology/tests/)\*\*\*\*
 
-## Pessoal
+### Pessoal
 
 * \*\*\*\*[**About me**](pessoal/about-me.md)\*\*\*\*
 * \*\*\*\*[**Specs**](pessoal/specs.md)\*\*\*\*
