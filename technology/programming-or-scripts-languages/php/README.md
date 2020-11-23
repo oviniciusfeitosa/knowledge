@@ -7,3 +7,7 @@
 * \*\*\*\*[**Laravel**](laravel.md)\*\*\*\*
 * [**Wordpress**](wordpress/)\*\*\*\*
 
+## Recommended
+
+* \*\*\*\*[**PHPCS & PHPMD Ruleset Generator**](http://edorian.github.io/php-coding-standard-generator/#phpcs) 
+

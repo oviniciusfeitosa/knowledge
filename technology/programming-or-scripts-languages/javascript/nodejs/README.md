@@ -2,7 +2,7 @@
 
 ## Topics
 
-* \*\*\*\*[**Proxy**](../../../linux/how-to/proxy.md#proxy-for-npm)\*\*\*\*
+* \*\*\*\*[**Proxy**](../../../operational-systems/linux/how-to/proxy.md#proxy-for-npm)\*\*\*\*
 * \*\*\*\*[**Yarn**](yarn.md)\*\*\*\*
 
 ## Install Nodejs 14.x + Yarn

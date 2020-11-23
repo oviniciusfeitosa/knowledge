@@ -84,3 +84,31 @@ echo $path
 export PATH="/home/$USER/.config/composer/vendor/bin:$PATH"
 ```
 
+## array\_map to utf8\_encode
+
+```text
+$result = array_map(function ($data) {
+    return array_map('utf8_encode', $data);
+}, $result);
+```
+
+## Docker command as an alias for Composer
+
+{% hint style="info" %}
+Put the content below inside **`~/.bashrc`** or **`~/.zshrc`**
+{% endhint %}
+
+```text
+alias composer='docker run --rm -v $(pwd):/app composer:1.5.1 '
+```
+
+## Docker command as an alias for PHP
+
+{% hint style="info" %}
+Put the content below inside **`~/.bashrc`** or **`~/.zshrc`**
+{% endhint %}
+
+```text
+ alias php='docker run --rm --name=php-cli -v $(pwd):/www matriphe/alpine-php:cli php'
+```
+

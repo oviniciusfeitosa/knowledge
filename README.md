@@ -14,9 +14,9 @@ description: The focus of this space is to share knowledge and help solve proble
 * \*\*\*\*[**DevOps**](technology/dev-ops/)\*\*\*\*
 * \*\*\*\*[**Git**](technology/git/)\*\*\*\*
 * \*\*\*\*[**IDE / Text Editor**](technology/ide_text-editor/)\*\*\*\*
-* \*\*\*\*[**Linux**](technology/linux/)\*\*\*\*
 * \*\*\*\*[**Messaging**](technology/messaging/)\*\*\*\*
 * \*\*\*\*[**Music Production**](technology/music-production.md)\*\*\*\*
+* \*\*\*\*[**Operational systems**](technology/operational-systems/)\*\*\*\*
 * \*\*\*\*[**Programming/Scripts Languages**](technology/programming-or-scripts-languages/)\*\*\*\*
 * \*\*\*\*[**Server**](technology/server/)\*\*\*\*
 * \*\*\*\*[**Sites**](technology/sites.md)\*\*\*\*
