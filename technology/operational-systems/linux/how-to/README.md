@@ -421,5 +421,20 @@ sudo apt install ubuntu-desktop
   sudo find . -type d -name node_modules -exec rm -r {} \;
 ```
 
+## Open Mac External Harddrive on linux
+
+```text
+
+- [x] sudo apt-get install hfsprogs
+- [x] Mount volume
+
+or
+
+- [x] chmod -R 777 /user/media/volumeX
+
+# df -h
+# sudo mount -t hfsplus -o remount,force,rw /dev/sdg1
+```
+
 \*\*\*\*
 
