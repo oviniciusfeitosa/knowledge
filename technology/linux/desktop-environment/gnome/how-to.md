@@ -30,6 +30,7 @@ sudo mv /usr/share/gnome-shell/extensions/* ~/.local/share/gnome-shell/extension
 sudo chown -R $(whoami): ~/.local/share/gnome-shell/extensions/
 ```
 
+* Do this step: [Restart Gnome 3 without closing the programs running](how-to.md#restart-gnome-3-without-closing-the-programs-running)
 * Access your installed extensions by gnome-tweak or [Gnome Shell Extensions](https://extensions.gnome.org/local/) site
 * Remove what you want
 
