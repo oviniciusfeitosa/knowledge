@@ -32,6 +32,10 @@ List of sites with opportunities to work as a freelancer:
 * \*\*\*\*[**https://www.workana.com**](https://www.workana.com/)\*\*\*\*
 * \*\*\*\*[**http://www.freelance.com/en/**](http://www.freelance.com/en/)\*\*\*\*
 
+## Fonts
+
+* \*\*\*\*[**Fonts Awesome**](https://fontawesome.com/)\*\*\*\*
+
 ## Guide
 
 ### Asynchronous Programming
