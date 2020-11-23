@@ -8,25 +8,6 @@ Assuming as an example that the remote `upstream` has been added and you need to
 git push upstream develop:dev-master
 ```
 
-## Reset Permissions
-
-When you accidentally modify the permissions of versioned files, it is possible to return to the initial permission state using the command below
-
-```bash
-git diff -p -R --no-ext-diff --no-color \
-    | grep -E "^(diff|(old|new) mode)" --color=never  \
-    | git apply
-```
-
-### Use globally
-
-If you want to use globally, you can do it that way:
-
-```bash
-git config --global --add alias.permission-reset '!git diff -p -R --no-ext-diff --no-color | grep -E "^(diff|(old|new) mode)" --color=never | git apply'
-git permission-reset
-```
-
 ## Ignore all files in this folder
 
 {% hint style="info" %}
@@ -86,19 +67,42 @@ git stash --include-untracked
 git stash push path/to/file
 ```
 
-## Revert files from a specific hash commit
+## Revert
+
+### Revert files from a specific hash commit
 
 ```bash
 git checkout 3df73866bef5d560ef2e5s59b6deaa18001 -- wp-content/uploads/2011 wp-content/uploads/2012 
 ```
 
-## Revert to a specific commit
+### Revert to a specific commit
 
 ```text
 git revert --no-commit 0766c053..HEAD
 ```
 
-## Reset by time
+## Reset
+
+### Reset Permissions
+
+When you accidentally modify the permissions of versioned files, it is possible to return to the initial permission state using the command below
+
+```bash
+git diff -p -R --no-ext-diff --no-color \
+    | grep -E "^(diff|(old|new) mode)" --color=never  \
+    | git apply
+```
+
+### Use globally
+
+If you want to use globally, you can do it that way:
+
+```bash
+git config --global --add alias.permission-reset '!git diff -p -R --no-ext-diff --no-color | grep -E "^(diff|(old|new) mode)" --color=never | git apply'
+git permission-reset
+```
+
+### Reset by time
 
 ```bash
 git reset --hard master@{"300 minutes ago"}
@@ -130,12 +134,37 @@ git branch -m old-name new-name
 > git push origin -u new-name
 > ```
 
-## Find versioned files
+## Logs
+
+### Find versioned files
 
 To find files that have been versioned, regardless of whether they were removed from versioning or not.
 
 ```text
 git log --all --full-history -- "**/thefile.*"
+```
+
+### View git logs of just one author commits
+
+```text
+# Only commits by Vinicius
+git log --author="Vinicius"
+
+# Use "--all" to search all branches
+git log --author="Vinicius" --all
+```
+
+### View git logs of many authors commit
+
+```text
+# Many Authors
+git log --author="\(Vinicius\)\|\(Jose\)"
+```
+
+### Exclude git commits log from one or more author
+
+```text
+git log --author='^(?!Vinicius|Jose).*$' --perl-regexp
 ```
 
 ## Proxy bypass to specific host
