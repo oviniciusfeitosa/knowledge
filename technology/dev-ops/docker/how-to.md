@@ -31,7 +31,7 @@ docker system prune
 ## Removing "&lt;none&gt;" images
 
 ```text
-docker rmi $(docker images -f "dangling=true" -q
+docker rmi $(docker images -f "dangling=true" -q)
 ```
 
 ## Show real-time logs from the initialized container
