@@ -24,7 +24,7 @@ php -v # Show PHP version.
 php -m # Show PHP modules loaded.
 ```
 
-## **Install a**dditional extensions
+### **Install a**dditional extensions
 
 An example to install a few more useful extensions:
 
