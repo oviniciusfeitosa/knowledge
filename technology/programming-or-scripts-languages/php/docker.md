@@ -22,7 +22,7 @@ RUN docker-php-ext-configure memcached && docker-php-ext-install memcached \
 RUN a2enmod rewrite
 ```
 
-## Docker Compose + Memcached
+## Docker Compose + Memcached + Wordpress
 
 {% code title="docker-compose.yml" %}
 ```bash
