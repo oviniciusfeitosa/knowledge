@@ -1,6 +1,8 @@
 # How to
 
-## Install PHP 7.4 - Ubuntu below 20.04
+## PHP 7
+
+### Install PHP 7.4 - Ubuntu below 20.04
 
 ```text
 sudo apt-get update
@@ -10,7 +12,9 @@ sudo apt-get update
 sudo apt -y install php7.4 php7.4-xml composer php7.4-mbstring
 ```
 
-## Install PHP 8.0 - Ubuntu
+## PHP 8
+
+### Install PHP 8.0 - Ubuntu
 
 ```text
 sudo add-apt-repository ppa:ondrej/php --force-yes
@@ -19,6 +23,31 @@ sudo apt-get update ; \
 php -v # Show PHP version.
 php -m # Show PHP modules loaded.
 ```
+
+## **Install a**dditional extensions
+
+An example to install a few more useful extensions:
+
+```text
+sudo apt install php8.0-{bz2,curl,intl,mysql,readline,xml}
+```
+
+For development environments, [code coverage tools](https://php.watch/articles/php-code-coverage-comparison) or the Xdebug debugger can be installed as well.
+
+```text
+sudo apt install php8.0-pcov # PCOV code coverage tool
+sudo apt install php8.0-xdebug # Xdebug debugger
+```
+
+### Purge old PHP versions
+
+If the new installation is working as expected, you can remove the old PHP packages from the system.
+
+```text
+sudo apt purge '^php7.4.*'
+```
+
+This assumes you are using PHP 7.4 as the previous version. Change `php7.4` part of the command above with the appropriate PHP version.
 
 **References**
 
