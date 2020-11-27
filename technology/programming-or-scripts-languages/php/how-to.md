@@ -53,6 +53,21 @@ This assumes you are using PHP 7.4 as the previous version. Change `php7.4` part
 
 * \*\*\*\*[**PHP.Watch**](https://php.watch/articles/php-8.0-installation-update-guide-debian-ubuntu#:~:text=Install%20PHP%208.0%20with%20CLI&text=0%2Dcommon%20%2C%20and%20the%20CLI,m%20%23%20Show%20PHP%20modules%20loaded.)\*\*\*\*
 
+## Commands
+
+### PHP Built-in Server
+
+```text
+# Against current folder
+php -S localhost:8888 -t .
+```
+
+### Interactive mode
+
+```text
+php -a
+```
+
 ## Install Composer
 
 ```text
@@ -68,19 +83,6 @@ define('DB_HOST', getenv('MY_DB_HOST') ?: 'my-default-database-name' );
 
 # Variables
 $host = getenv('MY_DB_HOST') ?: 'my-default-database-name';
-```
-
-## PHP Built-in Server
-
-```text
-# Against current folder
-php -S localhost:8888 -t .
-```
-
-## Interactive mode
-
-```text
-php -a
 ```
 
 ## Generate BCrypt hash
@@ -135,23 +137,5 @@ $result = array_map(function ($data) {
 }, $result);
 ```
 
-## Docker command as an alias for Composer
-
-{% hint style="info" %}
-Put the content below inside **`~/.bashrc`** or **`~/.zshrc`**
-{% endhint %}
-
-```text
-alias composer='docker run --rm -v $(pwd):/app composer:1.5.1 '
-```
-
-## Docker command as an alias for PHP
-
-{% hint style="info" %}
-Put the content below inside **`~/.bashrc`** or **`~/.zshrc`**
-{% endhint %}
-
-```text
- alias php='docker run --rm --name=php-cli -v $(pwd):/www matriphe/alpine-php:cli php'
-```
+## 
 
