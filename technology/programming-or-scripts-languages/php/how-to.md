@@ -10,6 +10,20 @@ sudo apt-get update
 sudo apt -y install php7.4 php7.4-xml composer php7.4-mbstring
 ```
 
+## Install PHP 8.0 - Ubuntu
+
+```text
+sudo add-apt-repository ppa:ondrej/php --force-yes
+sudo apt-get update ; \
+    sudo apt install php8.0-common php8.0-cli -y
+php -v # Show PHP version.
+php -m # Show PHP modules loaded.
+```
+
+**References**
+
+* \*\*\*\*[**PHP.Watch**](https://php.watch/articles/php-8.0-installation-update-guide-debian-ubuntu#:~:text=Install%20PHP%208.0%20with%20CLI&text=0%2Dcommon%20%2C%20and%20the%20CLI,m%20%23%20Show%20PHP%20modules%20loaded.)\*\*\*\*
+
 ## Install Composer
 
 ```text

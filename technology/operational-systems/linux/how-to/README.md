@@ -25,7 +25,7 @@ sudo apt install wget
 wget https://wordpress.org/latest.zip
 ```
 
-### Save the downloaded file under different name <a id="using-wget-command-to-save-the-downloaded-file-under-different-name"></a>
+### Save the downloaded file under a different name <a id="using-wget-command-to-save-the-downloaded-file-under-different-name"></a>
 
 To save the downloaded file under a different name, pass the `-O` option followed by the chosen name.
 
@@ -33,7 +33,7 @@ To save the downloaded file under a different name, pass the `-O` option followe
 wget -O latest-wordpress.zip https://wordpress.org/latest.zip
 ```
 
-### How to download in background with wget  <a id="how-to-download-in-background-with-wget"></a>
+### How to download in the background mode with wget  <a id="how-to-download-in-background-with-wget"></a>
 
 To download in the background, use the option `-b` . In the following example, we are downloading the OpenSuse iso file in the background.
 
@@ -47,7 +47,7 @@ wget -b https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86
 wget -r 'ftp://username:password@ip/directoryname'
 ```
 
-## Upload Files
+## Download / Upload Files
 
 ### Single file from remote to local
 
@@ -75,7 +75,9 @@ scp -r * remoteuser@remoteserver:/remote/folder/
 
 #### References: [Simplified Guide](https://www.simplified.guide/ssh/copy-file)
 
-## Custom DNS 
+## DNS
+
+### Custom DNS 
 
 ```text
 $ vim  /etc/resolv.conf   
@@ -84,7 +86,7 @@ nameserver 8.8.8.8
 nameserver 8.8.4.4
 ```
 
-## Custom DNS servers for /etc/resolv.conf
+### Custom DNS servers for /etc/resolv.conf
 
 To define a custom DNS:
 
@@ -101,7 +103,7 @@ sudo sh -c "echo \"nameserver 8.8.8.8
 nameserver 8.8.4.4\" >> /etc/resolvconf/resolv.conf.d/head"
 ```
 
-* Restart resolvconf service
+* Restart the resolvconf service
 
 ```bash
 sudo service resolvconf restart
@@ -160,13 +162,15 @@ rm -rf ~/.local/share/Trash/*
 sed -i 's/SEARCH_REGEX/REPLACEMENT/g' INPUTFILE
 ```
 
-## Check network ports in use
+## Network
+
+### Check network ports in use
 
 ```text
 sudo netstat -tlnp | grep 80
 ```
 
-## Check opened network ports of the server
+### Check opened network ports of the server
 
 ```text
 nmap HOST
@@ -177,7 +181,7 @@ nmap google.com
 nmap 55.1.22.5.68
 ```
 
-## Open network ports
+### Open network ports
 
 ```text
 # Openning 8080 port
@@ -185,43 +189,55 @@ nmap 55.1.22.5.68
  sudo iptables -A INPUT -p tcp --dport 8080 -j ACCEPT
 ```
 
-## Show real-time logs from OS
+### Open Firewall ports
+
+To open ports on the firewall, using the **iptables** command is possible specifying the desired port. Using the example below, just replace port **8888** with the desired port.
+
+```text
+$ iptables -I INPUT -p tcp --dport 8888 -j ACCEPT
+$ iptables -t filter -I FORWARD -i eth2 -o etho -m multiport --dport 8888 -j ACCEPT
+```
+
+## Logs
+
+### Show real-time logs from OS
 
 ```text
 tail -f /var/log/syslog
+
+# Or you can use journalctl
+# journalctl -f
 ```
 
-### Using journalctl
+## Environment
 
-```text
-journalctl -f
-```
-
-## Set Global environment
+### Set Global environment
 
 ```text
 sudo sh -c "echo MY_GLOBAL_ENV_TO_MY_CURRENT_DIR=$(pwd)" >> /etc/environment"
 ```
 
-## Set local environment
+### Set local environment
 
 ```text
 env MY_GLOBAL_ENV_TO_MY_CURRENT_DIR=$(pwd)
 ```
 
-## Unset local environment
+### Unset local environment
 
 ```text
 unset MY_GLOBAL_ENV_TO_MY_CURRENT_DIR
 ```
 
-## Show all service status
+## Startup
+
+### Show all service status
 
 ```text
 sudo service --status-all 
 ```
 
-## Exec commands at startup
+### Exec commands at startup
 
 ```text
 
@@ -238,37 +254,9 @@ sudo chmod ugo+x /etc/init.d/rc.local
 update-rc.d rc.local defaults
 ```
 
-## Open Firewall ports
+## PPA
 
-To open ports on the firewall, using the **iptables** command is possible specifying the desired port. Using the example below, just replace port **8888** with the desired port.
-
-```text
-$ iptables -I INPUT -p tcp --dport 8888 -j ACCEPT
-$ iptables -t filter -I FORWARD -i eth2 -o etho -m multiport --dport 8888 -j ACCEPT
-```
-
-## Create an alias for shell commands
-
-* Add the script below at end of the file  **`~/.profile`** 
-
-```text
-alias hello_world="echo \"Hello World!\""
-```
-
-* Then type your alias directly
-
-```text
-hello_world
-# output: Hello World
-```
-
-## Revalidade ca-certificates
-
-```text
-sudo apt-get install -y --reinstall ca-certificates
-```
-
-## Remove installed PPA repository
+### Remove installed PPA repository
 
 Use the "--remove" flag, similar to how the PPA was added:
 
@@ -297,6 +285,42 @@ sudo apt-get purge package_name
 You can also remove PPAs by deleting the .list files from `/etc/apt/sources.list.d` directory.
 
 Last but not least, you can also disable or remove PPAs from the "Software Sources" section in Ubuntu Settings with a few clicks of your mouse \(no terminal needed\).
+
+### **Execute "add-apt-repository" without press enter**
+
+{% hint style="info" %}
+**--force-yes**
+
+Force yes; this is a dangerous option that will cause apt to continue without prompting if it is doing something potentially harmful. It **should not** be used except in very special situations. Using force-yes can potentially destroy your system! Configuration Item: APT::Get::force-yes.
+{% endhint %}
+
+```text
+# Example
+sudo add-apt-repository ppa:ondrej/php --force-yes
+```
+
+## Create an alias for shell commands
+
+* Add the script below at end of the file  **`~/.profile`** 
+
+```text
+alias hello_world="echo \"Hello World!\""
+```
+
+* Then type your alias directly
+
+```text
+hello_world
+# output: Hello World
+```
+
+## Revalidade ca-certificates
+
+```text
+sudo apt-get install -y --reinstall ca-certificates
+```
+
+## 
 
 ## Add multi-touch to your Linux distribution
 
@@ -421,7 +445,7 @@ sudo apt install ubuntu-desktop
   sudo find . -type d -name node_modules -exec rm -r {} \;
 ```
 
-## Open Mac External Harddrive on linux
+## Open Mac External Harddrive on Linux
 
 ```text
 
@@ -436,5 +460,5 @@ or
 # sudo mount -t hfsplus -o remount,force,rw /dev/sdg1
 ```
 
-\*\*\*\*
+## \*\*\*\*
 
