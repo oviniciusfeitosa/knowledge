@@ -12,6 +12,10 @@ Add the content below inside your profile that may be **`.profile`**, **`.bash_p
 export PATH="$(yarn global bin):$PATH"
 ```
 
+### Default config file
+
+.eslintrc
+
 ### Install package globally
 
 ```text

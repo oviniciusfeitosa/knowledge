@@ -1,19 +1,13 @@
 # How to
 
-## Install ESLint
-
-```text
-npm uninstall -g eslint
-npm i eslint --save-dev
-./node_modules/.bin/eslint --init
-```
+## 
 
 ## Validate a group of conditions
 
 ```text
 let conditionsArray = [ condition1, condition2, condition3, ]
 
-if (conditionsArray.indexOf(false) === -1) { "do somthing" }
+if (conditionsArray.indexOf(false) === -1) { "do something" }
 ```
 
 ## Oliver Steele’s Nested Object Access Pattern
