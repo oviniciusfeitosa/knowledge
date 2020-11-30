@@ -2,12 +2,11 @@
 
 ## Topics
 
-* \*\*\*\*[**JQuery**](jquery.md)\*\*\*\*
+* \*\*\*\*[**Backend**](backend/)\*\*\*\*
+* \*\*\*\*[**Frontend**](frontend/)\*\*\*\*
 * \*\*\*\*[**How to**](how-to.md)\*\*\*\*
-* \*\*\*\*[**NestJS**](nodejs/nestjs.md)\*\*\*\*
-* [**NodeJS**](nodejs/)\*\*\*\*
+* \*\*\*\*[**Package Manager**](package-manager/)\*\*\*\*
 * \*\*\*\*[**Packages**](packages.md)\*\*\*\*
-* \*\*\*\*[**Vue**](vue.md)\*\*\*\*
 
 ## Recommended
 
