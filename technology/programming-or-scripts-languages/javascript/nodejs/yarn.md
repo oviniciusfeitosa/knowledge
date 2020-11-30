@@ -34,10 +34,21 @@ yarn global upgrade
 yarn global upgrade-interactive
 ```
 
+## Install package globally and specifying the directory
+
+```text
+yarn global add nodemon --prefix /usr/local
+```
+
 ## Adding the install location to your PATH
 
 ```text
 export PATH="$(yarn global bin):$PATH"
+
+# Global
+
+="$(yarn global bin):$PATH"
+
 ```
 
 ## 
