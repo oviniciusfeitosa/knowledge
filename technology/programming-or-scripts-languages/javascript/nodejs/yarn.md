@@ -1,55 +1,60 @@
 # Yarn
 
-## Install package globally
-
-```text
-yarn global add 
-
-
-```
-
 ## Global
 
-### Command list
+### Path Setup
+
+{% hint style="info" %}
+Add the content below inside your profile that may be **`.profile`**, **`.bash_profile`**, **`.bashrc`**, **`.zshrc`**, etc.
+{% endhint %}
 
 ```text
-# Install package globally
-##### Example
-##### yarn global add @nestjs/cli
-yarn global add packageName
-
-# Displays the location of the yarn bin folder.
-yarn global bin
-
-# List installed packages.
-yarn global list
-
-# Remove a package that will no longer be used in your current package.
-yarn global remove
-
-# Upgrade packages to their latest version based on the specified range.
-yarn global upgrade
-
-# Similar to upgrade command, but display the outdated packages before performing any upgrade, allowing the user to select which packages to upgrade.
-yarn global upgrade-interactive
+export PATH="$(yarn global bin):$PATH"
 ```
 
-## Install package globally and specifying the directory
+### Install package globally
+
+```text
+yarn global add @nestjs/cli
+```
+
+### Install package globally and specifying the directory
 
 ```text
 yarn global add nodemon --prefix /usr/local
 ```
 
-## Adding the install location to your PATH
+### Displays the location of the yarn bin folder
 
 ```text
-export PATH="$(yarn global bin):$PATH"
-
-# Global
-
-="$(yarn global bin):$PATH"
-
+yarn global bin
 ```
 
-## 
+### List installed packages
+
+```text
+yarn global list
+```
+
+### Remove a package
+
+```text
+yarn global remove
+```
+
+### Upgrade packages
+
+```text
+yarn global upgrade
+```
+
+### Upgrade Interactively
+
+Similar to upgrade command, but display the outdated packages before performing any upgrade, allowing the user to select which packages to upgrade.
+
+```text
+yarn global upgrade-interactive
+```
+
+
 
