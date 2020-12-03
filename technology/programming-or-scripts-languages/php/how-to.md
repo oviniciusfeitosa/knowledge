@@ -53,6 +53,16 @@ This assumes you are using PHP 7.4 as the previous version. Change `php7.4` part
 
 * \*\*\*\*[**PHP.Watch**](https://php.watch/articles/php-8.0-installation-update-guide-debian-ubuntu#:~:text=Install%20PHP%208.0%20with%20CLI&text=0%2Dcommon%20%2C%20and%20the%20CLI,m%20%23%20Show%20PHP%20modules%20loaded.)\*\*\*\*
 
+### Install Pear
+
+```text
+sudo apt install php8.0-xml php-pear 
+pear install PHP_CodeSniffer-3.5.8
+
+# or
+# composer global require squizlabs/php_codesniffer:3.5.8
+```
+
 ## Commands
 
 ### PHP Built-in Server

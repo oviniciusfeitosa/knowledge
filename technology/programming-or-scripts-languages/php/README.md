@@ -4,6 +4,7 @@
 
 * \*\*\*\*[**Docker**](docker.md)\*\*\*\*
 * \*\*\*\*[**How to**](how-to.md)\*\*\*\*
+* \*\*\*\*[**Known Issues**](known-issues.md)\*\*\*\*
 * \*\*\*\*[**Laravel**](laravel.md)\*\*\*\*
 * [**Wordpress**](wordpress/)\*\*\*\*
 
