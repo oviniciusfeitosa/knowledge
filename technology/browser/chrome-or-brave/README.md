@@ -25,3 +25,13 @@
 * **The Great Suspender**
 * **Video Speed Controller**
 
+## Set Brave as default browser using Linux
+
+```text
+update-alternatives --config x-www-browser
+
+# Choose your default browser
+```
+
+
+

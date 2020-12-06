@@ -23,3 +23,7 @@ Toggle the selection mode to Column:
 Shift + Alt + Insert
 ```
 
+## Free license for student
+
+* Sign in using free account on [Better Code Hub](https://bettercodehub.com/pricing)
+* 
