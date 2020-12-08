@@ -15,7 +15,7 @@ If are you using **Brave Nightly** follow these steps:
 ```text
 sudo xdg-mime default brave-browser-nightly.desktop x-scheme-handler/https
 sudo xdg-mime default brave-browser-nightly.desktop x-scheme-handler/http
-xdg-settings set default-web-browser brave-browser-nightly.desktop
+sudo xdg-settings set default-web-browser brave-browser-nightly.desktop
 ```
 
 Hope it helps ![+1](https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png)
