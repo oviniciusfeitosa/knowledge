@@ -12,3 +12,9 @@
   * \*\*\*\*[**Sonar Whal**](https://blogs.windows.com/msedgedev/2018/04/19/sonarwhal-v1-linting-tool-for-web/)\*\*\*\*
 * \*\*\*\*[**Static Analysis**](https://github.com/analysis-tools-dev/static-analysis)\*\*\*\*
 
+## Standards
+
+* **Commit Message**
+  * \*\*\*\*[**CMC**](https://github.com/devbrotherhood/cmc)\*\*\*\*
+  * \*\*\*\*[**Gitmoji**](https://github.com/carloscuesta/gitmoji)\*\*\*\*
+

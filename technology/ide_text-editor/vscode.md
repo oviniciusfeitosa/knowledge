@@ -34,3 +34,11 @@ To activate these "blow" effects on the cursor when typing, you will need to **i
 
 References: [**Vscode PowerMode Github**](https://github.com/hoovercj/vscode-power-mode)\*\*\*\*
 
+## **Change / Rename all occurrences**
+
+{% hint style="success" %}
+Press "**CTRL +  F2**"
+{% endhint %}
+
+
+
