@@ -66,6 +66,7 @@
       * [Yarn](technology/programming-or-scripts-languages/javascript/package-manager/yarn.md)
     * [Packages](technology/programming-or-scripts-languages/javascript/packages.md)
   * [PHP](technology/programming-or-scripts-languages/php/README.md)
+    * [About](technology/programming-or-scripts-languages/php/about.md)
     * [Docker](technology/programming-or-scripts-languages/php/docker.md)
     * [How to](technology/programming-or-scripts-languages/php/how-to.md)
     * [Known Issues](technology/programming-or-scripts-languages/php/known-issues.md)
