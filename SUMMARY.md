@@ -71,6 +71,7 @@
     * [How to](technology/programming-or-scripts-languages/php/how-to.md)
     * [Known Issues](technology/programming-or-scripts-languages/php/known-issues.md)
     * [Laravel](technology/programming-or-scripts-languages/php/laravel.md)
+    * [PHPUnit](technology/programming-or-scripts-languages/php/phpunit.md)
     * [Wordpress](technology/programming-or-scripts-languages/php/wordpress/README.md)
       * [Docker](technology/programming-or-scripts-languages/php/wordpress/docker.md)
       * [WP CLI](technology/programming-or-scripts-languages/php/wordpress/wp-cli.md)

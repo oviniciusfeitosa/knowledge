@@ -7,6 +7,7 @@
 * \*\*\*\*[**How to**](how-to.md)\*\*\*\*
 * \*\*\*\*[**Known Issues**](known-issues.md)\*\*\*\*
 * \*\*\*\*[**Laravel**](laravel.md)\*\*\*\*
+* \*\*\*\*[**PHPUnit**](phpunit.md)\*\*\*\*
 * [**Wordpress**](wordpress/)\*\*\*\*
 
 ## Recommended
