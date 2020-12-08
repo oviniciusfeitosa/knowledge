@@ -1,5 +1,25 @@
 # Known Issues
 
+## Set Brave as default browser using Linux
+
+```text
+update-alternatives --config x-www-browser
+
+# Choose your default browser
+```
+
+## Set Brave Nightly as default browser using Linux 
+
+If are you using **Brave Nightly** follow these steps:
+
+```text
+sudo xdg-mime default brave-browser-nightly.desktop x-scheme-handler/https
+sudo xdg-mime default brave-browser-nightly.desktop x-scheme-handler/http
+xdg-settings set default-web-browser brave-browser-nightly.desktop
+```
+
+Hope it helps ![+1](https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png)
+
 ## How to enable 3rd-party cookies in Google Chrome browser
 
 You may have seen messages like this for example: "_Your browser is most likely blocking third-party cookies, required by the Google widget. Unblock third-party cookies and reload the page to access this feature._"
