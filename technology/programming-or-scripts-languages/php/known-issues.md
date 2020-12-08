@@ -1,6 +1,6 @@
 # Known Issues
 
-## Ignores \`Missing file doc comment\` errors using PHPCS in VSCode 
+## Ignores \`Missing file doc comment ...\` errors using PHPCS in VSCode 
 
 You can also use a specific ruleset by adding a `phpcs.xml` to your project. Here's one I'm using in a Laravel project, works in Visual Studio Code with PHPCS extension installed.
 
