@@ -9,7 +9,7 @@ sudo apt install php8.0-mbstring
 ## Globally install
 
 ```text
-composer global require phpunit/phpunit
+composer global require phpunit/phpunit --ignore-platform-reqs
 ```
 
 
