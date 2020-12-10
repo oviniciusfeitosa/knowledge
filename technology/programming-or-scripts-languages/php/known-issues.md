@@ -18,9 +18,9 @@ You can also use a specific ruleset by adding a `phpcs.xml` to your project. Her
 </ruleset>
 ```
 
-\*\*\*\*
-
 **References**
 
 * \*\*\*\*[**Github**](https://github.com/squizlabs/PHP_CodeSniffer/issues/1348#issuecomment-581181427)\*\*\*\*
+
+\*\*\*\*
 
