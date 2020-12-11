@@ -11,6 +11,7 @@
 * [Database](technology/database/README.md)
   * [Postgres](technology/database/postgres.md)
   * [SQLServer](technology/database/sqlserver.md)
+* [Design Patterns](technology/design-patterns.md)
 * [DevOps](technology/dev-ops/README.md)
   * [Cloud Platforms](technology/dev-ops/cloud-platforms.md)
   * [Continuous Integration](technology/dev-ops/continuous-integration.md)
