@@ -11,6 +11,7 @@ description: The focus of this space is to share knowledge and help solve proble
 * \*\*\*\*[**Browser**](technology/browser/)\*\*\*\*
 * \*\*\*\*[**Code Quality**](technology/code-quality.md)\*\*\*\*
 * \*\*\*\*[**Database**](technology/database/)\*\*\*\*
+* \*\*\*\*[**Design Patterns**](technology/design-patterns.md)\*\*\*\*
 * \*\*\*\*[**DevOps**](technology/dev-ops/)\*\*\*\*
 * \*\*\*\*[**Git**](technology/git/)\*\*\*\*
 * \*\*\*\*[**IDE / Text Editor**](technology/ide_text-editor/)\*\*\*\*
