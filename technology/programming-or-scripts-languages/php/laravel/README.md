@@ -5,6 +5,7 @@
 * \*\*\*\*[**Jet Stream**](jet-stream.md)\*\*\*\*
 * \*\*\*\*[**Know Issues**](known-issues-1.md)\*\*\*\*
 * \*\*\*\*[**Sail**](sail.md)\*\*\*\*
+* \*\*\*\*[**Sanctum**](sanctum.md)\*\*\*\*
 * \*\*\*\*[**Valet**](valet.md)\*\*\*\*
 
 ## Laravel 8

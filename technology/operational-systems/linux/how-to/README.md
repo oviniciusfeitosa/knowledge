@@ -460,5 +460,29 @@ or
 # sudo mount -t hfsplus -o remount,force,rw /dev/sdg1
 ```
 
-## \*\*\*\*
+## [Remote access using the xrdp package](https://serverspace.io/support/help/install-xrdp-server-on-ubuntu-20-04/)
+
+```text
+apt install xrdp
+adduser xrdp ssl-cert
+systemctl restart xrdp
+
+# Allow firewall access on port 3389
+ufw allow 3389
+
+# Change "allowed_users" to anybody
+# like this: allowed_users=anybody
+vim /etc/X11/Xwrapper.config
+
+
+# Check your hostname
+cat /etc/hostname
+
+# Or get your ip address
+if config
+```
+
+
+
+
 

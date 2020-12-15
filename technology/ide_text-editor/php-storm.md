@@ -42,10 +42,16 @@ Shift + Alt + Insert
 
 * Sign in using a free account on [Better Code Hub](https://bettercodehub.com/pricing)
 
-## Code formatting on save
+## Plugins
+
+### Code formatting on save
 
 * Install the "[**Save Actions**](https://plugins.jetbrains.com/plugin/7642-save-actions)" Plugin for PhpSorm.
 * Configure like the image below
 
 ![](../../.gitbook/assets/captura-de-tela-de-2020-12-15-03-14-12.png)
+
+### [Gitmoji](https://plugins.jetbrains.com/plugin/10315-gitmoji)
+
+
 

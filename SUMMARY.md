@@ -74,6 +74,7 @@
     * [Laravel](technology/programming-or-scripts-languages/php/laravel/README.md)
       * [Jet Stream](technology/programming-or-scripts-languages/php/laravel/jet-stream.md)
       * [Know Issues](technology/programming-or-scripts-languages/php/laravel/known-issues-1.md)
+      * [Sanctum](technology/programming-or-scripts-languages/php/laravel/sanctum.md)
       * [Sail](technology/programming-or-scripts-languages/php/laravel/sail.md)
       * [Valet](technology/programming-or-scripts-languages/php/laravel/valet.md)
     * [PHPUnit](technology/programming-or-scripts-languages/php/phpunit.md)
