@@ -15,3 +15,9 @@ source ~/.zshrc
 
 Be happy 👌
 
+## tymon/jwt-auth 0.5.12 requires illuminate/support ~5.0 -&gt; found illuminate/support\[v5.0.0, ..., 5.8.x-dev\] but it conflicts with your root composer.json require \(^8.18\).
+
+```bash
+composer require tymon/jwt-auth:^1.0.2
+```
+
