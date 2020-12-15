@@ -20,8 +20,18 @@ cd my-simple-app
 ### Create a simple app using Composer
 
 ```text
-composer create-project laravel/laravel example-app
-cd example-app
+composer create-project laravel/laravel my-simple-app
+cd my-simple-app
+php artisan serve
+```
+
+### Create a simple app using t**he Laravel Installer**
+
+You may install the Laravel Installer as a global Composer dependency:
+
+```text
+composer global require laravel/installer
+laravel new my-simple-app
 php artisan serve
 ```
 
