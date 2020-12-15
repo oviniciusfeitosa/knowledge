@@ -64,6 +64,10 @@ List of sites with opportunities to work as a freelancer:
 
 * \*\*\*\*[**LottieFiles**](https://lottiefiles.com/)\*\*\*\*
 
+## Books
+
+* \*\*\*\*[**Wish4Book**](https://wish4book.net/)\*\*\*\*
+
 ## Online Editor
 
 * \*\*\*\*[**Figma**](https://www.figma.com)\*\*\*\*
