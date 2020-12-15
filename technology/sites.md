@@ -84,6 +84,11 @@ List of sites with opportunities to work as a freelancer:
 
 * \*\*\*\*[**BoaDica**](https://www.boadica.com.br/pesquisa/cpu_proc)\*\*\*\*
 
+## SMS
+
+* \*\*\*\*[**ReceiveASMS**](https://receiveasms.com/brazil)\*\*\*\*
+* \*\*\*\*[**Twilio**](https://www.twilio.com/)\*\*\*\*
+
 ## Wallpapers
 
 * \*\*\*\*[**Wallhaven**](https://wallhaven.cc/)\*\*\*\*
