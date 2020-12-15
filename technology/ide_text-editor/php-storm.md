@@ -1,5 +1,20 @@
 # PHPStorm
 
+## [Install using Jetbrains Toolbox](https://www.jetbrains.com/help/phpstorm/installation-guide.html#toolbox)
+
+* Download the tarball ".tar.gz" from the [Toolbox App web page](https://www.jetbrains.com/toolbox/app/).
+* Extract the tarball to a directory that supports file execution.
+
+  For example, if the downloaded version is 1.17.7391, you can extract it to the recommended /opt directory using the following command:
+
+  ```text
+  sudo tar -xzf jetbrains-toolbox-1.17.7391.tar.gz -C /opt
+  ```
+
+* Execute the "jetbrains-toolbox" binary from the extracted directory to run the Toolbox App and select which product and version you want to install. After you run the Toolbox App for the first time, it will automatically add the Toolbox App icon to the main menu.
+* ![The Toolbox App](https://www.jetbrains.com/help/img/idea/2020.3/ps_toolbox_app_lin.png)
+* Log in to your JetBrains Account from the Toolbox App and it will automatically activate the available licenses for any IDE that you install.
+
 ## Keymap - Clone Caret
 
 * Settings  \(Ctrl + Alt + S\)
