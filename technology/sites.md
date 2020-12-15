@@ -68,6 +68,10 @@ List of sites with opportunities to work as a freelancer:
 
 * \*\*\*\*[**Wish4Book**](https://wish4book.net/)\*\*\*\*
 
+## Courses
+
+* \*\*\*\*[**Desenvolvedor.io**](https://desenvolvedor.io/)\*\*\*\*
+
 ## Online Editor
 
 * \*\*\*\*[**Figma**](https://www.figma.com)\*\*\*\*
