@@ -482,7 +482,13 @@ cat /etc/hostname
 if config
 ```
 
+## Install Postman
 
+```text
+sudo apt update
+sudo apt install snapd
+sudo snap install postman
+```
 
 
 
