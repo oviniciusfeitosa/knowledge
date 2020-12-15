@@ -9,8 +9,8 @@ sudo apt install openjdk-14-jre
 ## Install java Oracle
 
 ```text
-sudo add-apt-repository ppa:linuxuprising/java
-sudo apt-get update
+sudo add-apt-repository ppa:linuxuprising/java ; \
+sudo apt update ; \
 sudo apt install oracle-java14-installer
 ```
 

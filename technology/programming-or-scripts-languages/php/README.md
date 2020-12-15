@@ -6,7 +6,7 @@
 * \*\*\*\*[**Docker**](docker.md)\*\*\*\*
 * \*\*\*\*[**How to**](how-to.md)\*\*\*\*
 * \*\*\*\*[**Known Issues**](known-issues.md)\*\*\*\*
-* \*\*\*\*[**Laravel**](laravel.md)\*\*\*\*
+* \*\*\*\*[**Laravel**](laravel/)\*\*\*\*
 * \*\*\*\*[**PHPUnit**](phpunit.md)\*\*\*\*
 * [**Wordpress**](wordpress/)\*\*\*\*
 
