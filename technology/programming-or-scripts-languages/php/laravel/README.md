@@ -17,6 +17,14 @@ cd my-simple-app
 ./vendor/bin/sail up
 ```
 
+### Create a simple app using Composer
+
+```text
+composer create-project laravel/laravel example-app
+cd example-app
+php artisan serve
+```
+
 ## Recommended
 
 * \*\*\*\*[**Laracasts**](https://laracasts.com)\*\*\*\*
