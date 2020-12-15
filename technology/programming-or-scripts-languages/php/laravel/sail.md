@@ -18,8 +18,10 @@ alias sail='bash vendor/bin/sail'
 ```text
 # Running Artisan commands locally...
 php artisan queue:work
+php artisan migrate
 
 # Running Artisan commands within Laravel Sail...
 sail artisan queue:work
+sail artisan migrate
 ```
 
