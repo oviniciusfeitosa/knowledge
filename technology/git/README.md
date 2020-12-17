@@ -7,9 +7,10 @@
 * \*\*\*\*[**Github**](github.md)\*\*\*\*
 * \*\*\*\*[**Gitlab**](gitlab/)\*\*\*\*
 
-## Tools
+## Recommended
 
 * \*\*\*\*[**Gitmoji CLI**](https://github.com/carloscuesta/gitmoji-cli)\*\*\*\*
+* \*\*\*\*[**GitGuardian**](https://gitguardian.com)\*\*\*\*
 
 
 
