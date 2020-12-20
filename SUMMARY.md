@@ -21,6 +21,7 @@
     * [Proxy](technology/dev-ops/docker/proxy.md)
   * [Docker Compose](technology/dev-ops/docker-compose.md)
   * [Swarm](technology/dev-ops/swarm.md)
+* [Game](technology/game.md)
 * [Git](technology/git/README.md)
   * [How to](technology/git/how-to.md)
   * [Known Issues](technology/git/known-issues.md)
