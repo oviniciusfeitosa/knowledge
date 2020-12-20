@@ -68,5 +68,13 @@ Then hit `ctrl + x` to exit, and say “Y” to save. After a reboot the mouse s
 
 After installing Parsec for the first time on your Pi or reinstalling it, run the app one time by typing `parsec`. Once you run Parsec once, the configuration file is located in `home/pi/.parsec`. If you don't see the config file there, it might be hidden. Run this command - `ls -al`.
 
+
+
+**References**
+
+* [https://www.youtube.com/watch?v=sjO95WmyCc0&t=288s](https://www.youtube.com/watch?v=sjO95WmyCc0&t=288s)
+* [https://www.youtube.com/watch?v=FwoFi1wpBOY](https://www.youtube.com/watch?v=FwoFi1wpBOY)
+* [https://www.youtube.com/watch?v=FHKpWyovvws](https://www.youtube.com/watch?v=FHKpWyovvws)
+
 -
 
