@@ -93,6 +93,8 @@
     * [How To](technology/server/nginx/how-to.md)
     * [Known issues](technology/server/nginx/known-issues.md)
 * [Sites](technology/sites.md)
+* [Stream](technology/stream/README.md)
+  * [Twitch](technology/stream/twitch.md)
 * [Tests](technology/tests/README.md)
   * [Stress Tests](technology/tests/stress-tests.md)
   * [Unit Tests](technology/tests/unit-tests.md)
