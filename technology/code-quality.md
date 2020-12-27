@@ -18,3 +18,10 @@
   * \*\*\*\*[**CMC**](https://github.com/devbrotherhood/cmc)\*\*\*\*
   * \*\*\*\*[**Gitmoji**](https://github.com/carloscuesta/gitmoji)\*\*\*\*
 
+## Error Handling
+
+* \*\*\*\*[**Flare**](https://flareapp.io/)\*\*\*\*
+* \*\*\*\*[**BugSnag**](https://www.bugsnag.com/)\*\*\*\*
+* \*\*\*\*[**Sentry**](https://sentry.io/welcome/)\*\*\*\*
+  * \*\*\*\*[**Laravel**](https://github.com/getsentry/sentry-laravel)\*\*\*\*
+
