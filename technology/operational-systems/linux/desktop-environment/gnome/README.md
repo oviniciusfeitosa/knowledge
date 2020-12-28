@@ -14,15 +14,15 @@ gnome-tweaks
 
 ### [ZSH](../../how-to/zsh.md#install-zsh)
 
-### [Nodejs 14.x + Yarn](../../../../programming-or-scripts-languages/javascript/backend/nodejs.md#install-nodejs-14-x-yarn)
+### [Nodejs 14.x + Yarn](../../../../programming/programming-languages/javascript/backend/nodejs.md#install-nodejs-14-x-yarn)
 
-### [Docker](../../../../dev-ops/docker/#install-docker-community-edition-docker-ce)
+### [Docker](../../../../programming/dev-ops/docker/#install-docker-community-edition-docker-ce)
 
-### [Docker Compose](../../../../dev-ops/docker-compose.md#install-docker-compose)
+### [Docker Compose](../../../../programming/dev-ops/docker-compose.md#install-docker-compose)
 
-### [VSCode](../../../../ide_text-editor/vscode.md#install-vscode)
+### [VSCode](../../../../programming/ide_text-editor/vscode.md#install-vscode)
 
-### [PHP](../../../../programming-or-scripts-languages/php/#install-php-7-4-ubuntu-below-20-04)
+### [PHP](../../../../programming/programming-languages/php/#install-php-7-4-ubuntu-below-20-04)
 
 ## Theming
 

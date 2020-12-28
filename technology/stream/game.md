@@ -1,6 +1,10 @@
 # Game
 
+## [Raspberry remote gaming solution](https://www.youtube.com/watch?v=sjO95WmyCc0)
+
 ## Linux remote gaming solutions 
+
+### Config
 
 * Moonlight \(NVidia\)
 * NoMachine
@@ -9,15 +13,13 @@
 
 ## Windows remote gaming solution
 
+#### **GPU MEMORY SPLIT**
+
 * Parsec
 
 ### [Parsec](https://www.youtube.com/watch?v=sjO95WmyCc0) \( For raspberry \) 
 
-**RASPBIAN INSTALLATION**
-
-The installation of Parsec is very simple. Start with a fresh distribution of Raspbian. The Raspberry Pi Organization provides detailed installation instructions [here](https://www.raspberrypi.org/documentation/installation/installing-images/).
-
-#### **GPU MEMORY SPLIT**
+Enter **204**, accept the option, and exit choosing to reboot.
 
 Once the installation and set up of Raspbian is complete, verify that the GPU memory split is 128mb or higher. Please run this command `sudo raspi-config`. Navigate down to `7 Advanced Options` then `A3 Memory Split` Enter 204, accept the option, and exit choosing to reboot.
 
