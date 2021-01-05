@@ -42,6 +42,21 @@ Shift + Alt + Insert
 
 * Sign in using a free account on [Better Code Hub](https://bettercodehub.com/pricing)
 
+## [Stop indexing node\_modules](https://stackoverflow.com/questions/18514438/ignore-node-modules-in-webstorm-when-using-navigation-pop-up#:~:text=In%20Webstorm%208%2C%20you%20need,will%20then%20work%20as%20before.)
+
+To exclude **node\_modules** folder from all projects \(only created after that change\) you can add this folder to a list of standard folders to ignore.
+
+1. Open PHPStorm, and close current project **File &gt; Close Project**.
+2. On startup, PHPStorm window click "**Configure &gt; Settings**". [![enter image description here](https://i.stack.imgur.com/nvKlG.png)](https://i.stack.imgur.com/nvKlG.png)
+3. Then navigate to **Build, Execution, Deployment &gt; Deployment &gt; Options**.
+4. Now you can set node\_modules or anyone else to exclude by default for **all new projects**. [![enter image description here](https://i.stack.imgur.com/RxtXg.png)](https://i.stack.imgur.com/RxtXg.png)
+
+P.s. Closing the current project is very important. If you do these settings with an active project, this will affect only the current project.
+
+**References**
+
+* [https://stackoverflow.com/a/38304837/1330323](https://stackoverflow.com/a/38304837/1330323)
+
 ## Plugins
 
 ### Code formatting on save

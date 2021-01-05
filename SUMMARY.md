@@ -10,6 +10,7 @@
 * [Messaging](technology/messaging/README.md)
   * [Discord](technology/messaging/discord/README.md)
     * [Known Issues](technology/messaging/discord/known-issues.md)
+  * [Microsoft Teams](technology/messaging/microsoft-teams.md)
   * [Telegram](technology/messaging/telegram.md)
 * [Music Production](technology/music-production.md)
 * [Operational systems](technology/operational-systems/README.md)
