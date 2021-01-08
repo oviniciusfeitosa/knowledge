@@ -314,6 +314,12 @@ hello_world
 # output: Hello World
 ```
 
+## Update packages less noisy
+
+```text
+apt-get -qq update
+```
+
 ## Revalidade ca-certificates
 
 ```text

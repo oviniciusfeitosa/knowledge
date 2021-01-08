@@ -26,3 +26,13 @@ sudo service docker start
 sudo service docker restart
 ```
 
+## Docker build “Could not resolve ‘archive.ubuntu.com’” apt-get fails to install anything
+
+{% hint style="info" %}
+This doesn't address the underlying issue, but I had success adding **--network=host** to the docker build command.
+{% endhint %}
+
+```text
+sudo docker build --network=host -t my-docker-image .. 
+```
+

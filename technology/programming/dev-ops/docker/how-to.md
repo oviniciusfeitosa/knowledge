@@ -83,3 +83,9 @@ exit 0
 docker run -it --rm --name my-frontend-build -v "$PWD":/home/node/app -w /home/node/app node:13-alpine sh -c "npm run build"
 ```
 
+## Docker Service Providers DNS
+
+```text
+nmcli dev show | grep IP4.DNS
+```
+
