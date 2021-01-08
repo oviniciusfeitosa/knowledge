@@ -35,7 +35,13 @@ To use the new alias, type **`:sudow`** inside Vim editor
 
 ## Set vim as default editor
 
-#### Global Context
+### Alternative 1: 
+
+```text
+sudo update-alternatives --config editor
+```
+
+### Alternative 2: Global Context
 
 Set to global context:
 
