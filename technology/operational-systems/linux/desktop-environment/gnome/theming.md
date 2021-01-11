@@ -35,6 +35,7 @@ Access this [**link**](https://extensions.gnome.org/local) or press "**F2**", ty
 
 ### Recommended Extensions
 
+* \*\*\*\*[**Dash to Dock**](https://extensions.gnome.org/extension/307/dash-to-dock/)\*\*\*\*
 * \*\*\*\*[**Caffeine**](https://extensions.gnome.org/extension/517/caffeine/)\*\*\*\*
 * \*\*\*\*[**Emoji Selector**](https://extensions.gnome.org/extension/1162/emoji-selector/)\*\*\*\*
 * \*\*\*\*[**Extensions**](https://extensions.gnome.org/extension/1036/extensions/)\*\*\*\*
