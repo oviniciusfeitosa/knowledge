@@ -147,3 +147,11 @@ docker-compose up -d --scale redis-service=5
 docker-compose -f docker-compose-scale.yml up -d --scale hello=5
 ```
 
+## Using --add-host or extra\_hosts with docker-compose \( or /etc/hosts \)
+
+```text
+...
+  extra_hosts:
+  - "somehost:162.242.195.82"
+```
+
