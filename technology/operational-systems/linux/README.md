@@ -33,6 +33,12 @@ systemctl
 systemctl disable <service>.
 ```
 
+### Verify services dependencies
+
+```text
+systemctl list-dependencies --reverse plymouth-quit-wait.service
+```
+
 ## Recommended
 
 * [**How to create Bootable windows image on Linux**](https://github.com/slacka/WoeUSB)\*\*\*\*
