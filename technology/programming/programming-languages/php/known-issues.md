@@ -22,5 +22,17 @@ You can also use a specific ruleset by adding a `phpcs.xml` to your project. Her
 
 * \*\*\*\*[**Github**](https://github.com/squizlabs/PHP_CodeSniffer/issues/1348#issuecomment-581181427)\*\*\*\*
 
-\*\*\*\*
+## **Fatal error: Call to undefined function mcrypt\_module\_open\(\) in {path/file.php} on line yyyyyy"** 
+
+### Manual
+
+```text
+# PHP 5+
+apt-get install -y libmcrypt-dev
+sudo apt install php5-mcrypt
+
+# PHP 7.x & 8.+
+pecl install mcrypt-1.0.3
+docker-php-ext-enable mcrypt
+```
 
