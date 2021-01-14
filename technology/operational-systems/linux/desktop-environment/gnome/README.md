@@ -46,4 +46,5 @@ gnome-tweaks
 * \*\*\*\*[**CPU Power Management**](https://extensions.gnome.org/extension/945/cpu-power-manager/)\*\*\*\*
 * \*\*\*\*[**Volume Mixer**](https://extensions.gnome.org/extension/858/volume-mixer/)\*\*\*\*
 * \*\*\*\*[**BackSlide**](https://extensions.gnome.org/extension/543/backslide/)\*\*\*\*
+* \*\*\*\*[**Lock Screen Background**](https://extensions.gnome.org/extension/1476/unlock-dialog-background/)\*\*\*\*
 

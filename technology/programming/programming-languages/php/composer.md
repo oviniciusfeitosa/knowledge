@@ -37,3 +37,11 @@ source ~/.zshrc #ZSH
   composer global require "squizlabs/php_codesniffer=*"
 ```
 
+## PHPCS Fixer
+
+### Globally
+
+```bash
+ composer global require friendsofphp/php-cs-fixer
+```
+
