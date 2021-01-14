@@ -8,7 +8,8 @@
 * \*\*\*\*[**How to**](how-to.md)\*\*\*\*
 * \*\*\*\*[**Known Issues**](known-issues.md)\*\*\*\*
 * \*\*\*\*[**Laravel**](laravel/)\*\*\*\*
-* \*\*\*\*[**PHPUnit**](phpunit.md)\*\*\*\*
+* \*\*\*\*[**PHPUnit**](tools/phpunit.md)\*\*\*\*
+* \*\*\*\*[**Tools**](tools/)\*\*\*\*
 * [**Wordpress**](wordpress/)\*\*\*\*
 
 ## Recommended
