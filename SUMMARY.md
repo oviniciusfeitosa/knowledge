@@ -19,6 +19,7 @@
     * [Desktop Environment](technology/operational-systems/linux/desktop-environment/README.md)
       * [Gnome](technology/operational-systems/linux/desktop-environment/gnome/README.md)
         * [How to](technology/operational-systems/linux/desktop-environment/gnome/how-to.md)
+        * [Known Issues](technology/operational-systems/linux/desktop-environment/gnome/known-issues.md)
         * [Theming](technology/operational-systems/linux/desktop-environment/gnome/theming.md)
       * [Kde Plasma](technology/operational-systems/linux/desktop-environment/kde-plasma.md)
     * [How to](technology/operational-systems/linux/how-to/README.md)
