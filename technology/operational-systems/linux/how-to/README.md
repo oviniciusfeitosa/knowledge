@@ -496,5 +496,11 @@ sudo apt install snapd
 sudo snap install postman
 ```
 
+## Unzip with the destination folder
 
+Set **-d** parameter 
+
+```text
+unzip package.zip -d /opt
+```
 
