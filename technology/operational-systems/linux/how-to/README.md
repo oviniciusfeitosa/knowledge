@@ -504,3 +504,21 @@ Set **-d** parameter
 unzip package.zip -d /opt
 ```
 
+## How to Install netstat Command in Linux
+
+
+
+```text
+# [On CentOS/RHEL]
+yum install net-tools     
+
+# [On Debian/Ubuntu]
+apt install net-tools     
+
+# [On OpenSuse]
+zypper install net-tools  
+
+# [On Arch Linux]
+pacman -S netstat-nat     
+```
+
