@@ -526,3 +526,9 @@ pacman -S netstat-nat
 netstat -r -n
 ```
 
+or
+
+```text
+ip -o -f inet addr show | awk '/scope global/ {print $2, $4}'
+```
+
