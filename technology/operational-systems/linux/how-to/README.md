@@ -506,8 +506,6 @@ unzip package.zip -d /opt
 
 ## How to Install netstat Command in Linux
 
-
-
 ```text
 # [On CentOS/RHEL]
 yum install net-tools     
@@ -526,9 +524,15 @@ pacman -S netstat-nat
 netstat -r -n
 ```
 
-or
+## Show subnet
 
 ```text
 ip -o -f inet addr show | awk '/scope global/ {print $2, $4}'
+```
+
+## Show gateway
+
+```text
+ip route | grep default
 ```
 
