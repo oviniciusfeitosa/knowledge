@@ -523,6 +523,6 @@ pacman -S netstat-nat
 ```
 
 ```text
-netstat -v
+netstat -r -n
 ```
 
