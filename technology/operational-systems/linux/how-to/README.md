@@ -522,3 +522,7 @@ zypper install net-tools
 pacman -S netstat-nat     
 ```
 
+```text
+netstat -v
+```
+
