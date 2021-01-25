@@ -89,3 +89,95 @@ docker run -it --rm --name my-frontend-build -v "$PWD":/home/node/app -w /home/n
 nmcli dev show | grep IP4.DNS
 ```
 
+## [Set Memory limit](https://www.baeldung.com/ops/docker-memory-limit)
+
+### Memory
+
+For instance, let's limit the memory that the container can use to 512 megabytes. **To constrain memory, we need to use the** _**m**_ **parameter:**
+
+```text
+$ docker run -m 512m nginx
+```
+
+We can also set a soft limit called a reservation. It's activated when docker detects low memory on the host machine:
+
+```text
+$ docker run -m 512m --memory-reservation=256m nginx
+```
+
+### CPU
+
+By default, access to the computing power of the host machine is unlimited. **We can set the CPUs limit using the** _**cpus**_ **parameter.** For example, let's constrain our container to use at most two CPUs:
+
+```text
+$ docker run --cpus=2 nginx
+```
+
+We can also specify the priority of CPU allocation. The default is 1024, higher numbers are higher priority:
+
+```text
+$ docker run --cpus=2 --cpu-shares=2000 nginx
+```
+
+Similar to the memory reservation, CPU shares play the main role when computing power is scarce and needs to be divided between competing processes.  
+
+
+### Setting Memory Limit With the docker-compose File
+
+We can achieve similar results using [_docker-compose_](https://www.baeldung.com/docker-compose) files. Mind that the format and possibilities will vary between versions of _docker-compose_.  
+
+
+#### Versions 3 and Newer With _docker swarm_
+
+Let's give the Nginx service limit of half of CPU and 512 megabytes of memory, and reservation of a quarter of CPU and 128 megabytes of memory. **We need to create “**_**deploy**_**” and then “**_**resources**_**” segments in our service configuration**:
+
+```text
+services:
+  service:
+    image: nginx
+    deploy:
+        resources:
+            limits:
+              cpus: 0.50
+              memory: 512M
+            reservations:
+              cpus: 0.25
+              memory: 128M
+```
+
+**To take advantage of the** _**deploy**_ **segment in a docker-compose file, we need to use the** [_**docker stack**_](https://docs.docker.com/engine/reference/commandline/stack_deploy/) **command.** To deploy a stack to the swarm, we run the _deploy_ command:
+
+```text
+$ docker stack deploy --compose-file docker-compose.yml bael_stack
+```
+
+#### Version 2 With _docker-compose_
+
+In older versions of _docker-compose,_ we can put resource limits on the same level as the service's main properties. They also have slightly different naming:
+
+```text
+service:
+  image: nginx
+  mem_limit: 512m
+  mem_reservation: 128M
+  cpus: 0.5
+  ports:
+    - "80:80"
+```
+
+To create configured containers, we need to run the _docker-compose_ command:
+
+```text
+$ docker-compose up
+```
+
+### Verifying Resources Usage
+
+After we set the limits, we can verify them using the _docker stats_ command:
+
+```text
+$ docker stats
+CONTAINER ID        NAME                                             CPU %               MEM USAGE / LIMIT   MEM %               NET I/O             BLOCK I/O           PIDS
+8ad2f2c17078        bael_stack_service.1.jz2ks49finy61kiq1r12da73k   0.00%               2.578MiB / 512MiB   0.50%               936B / 0B           0B / 0B             2
+```
+
