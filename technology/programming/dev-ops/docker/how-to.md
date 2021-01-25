@@ -181,3 +181,12 @@ CONTAINER ID        NAME                                             CPU %      
 8ad2f2c17078        bael_stack_service.1.jz2ks49finy61kiq1r12da73k   0.00%               2.578MiB / 512MiB   0.50%               936B / 0B           0B / 0B             2
 ```
 
+## MACOS 
+
+### Set Bridge IP \(docker bip\)
+
+```text
+cd ~/Library/Containers/com.docker.docker/Data/database/com.docker.driver.amd64-linux
+echo '{"experimental": false,"debug":"true","bip":"172.18.19.1/24"}' > etc/docker/daemon.js
+```
+
