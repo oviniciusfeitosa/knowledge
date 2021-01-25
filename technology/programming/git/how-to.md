@@ -219,3 +219,25 @@ git fetch upstream
 git pull upstream master
 ```
 
+## How to use prune to Clean Up remote branches <a id="how-to-use-span-classmonospaced-boldprunespan-to-clean-up-remote-branches-in-git"></a>
+
+### Using "prune" on a Remote Repository
+
+The easiest way to use prune is to provide it as an option when fetching:
+
+```text
+$ git fetch --prune origin
+```
+
+In cases where you'd like to _only_ perform a prune and _not_ fetch remote data, you can use it with the `git remote` command:
+
+```text
+$ git remote prune origin
+```
+
+If you want to have prune executed with every fetch operation, you can configure Git accordingly:
+
+```text
+$ git config --global fetch.prune true
+```
+
