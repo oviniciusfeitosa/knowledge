@@ -116,6 +116,12 @@ git permission-reset
 git reset --hard master@{"300 minutes ago"}
 ```
 
+### Undo the last commit
+
+```text
+ git reset --soft HEAD~1
+```
+
 ## Rename
 
 ### Rename your branch
