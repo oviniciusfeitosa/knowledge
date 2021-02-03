@@ -72,6 +72,7 @@
       * [Packages](technology/programming/programming-languages/javascript/packages.md)
     * [PHP](technology/programming/programming-languages/php/README.md)
       * [About](technology/programming/programming-languages/php/about.md)
+      * [Cache](technology/programming/programming-languages/php/cache.md)
       * [Composer](technology/programming/programming-languages/php/composer.md)
       * [Docker](technology/programming/programming-languages/php/docker.md)
       * [How to](technology/programming/programming-languages/php/how-to.md)
