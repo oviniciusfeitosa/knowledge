@@ -3,6 +3,7 @@
 ## Topics
 
 * \*\*\*\*[**About**](about.md)\*\*\*\*
+* \*\*\*\*[**Cache**](cache.md)\*\*\*\*
 * \*\*\*\*[**Composer**](composer.md)\*\*\*\*
 * \*\*\*\*[**Docker**](docker.md)\*\*\*\*
 * \*\*\*\*[**How to**](how-to.md)\*\*\*\*
