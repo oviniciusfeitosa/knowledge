@@ -263,6 +263,7 @@ proxy_cache_lock on;
 ## Recommended
 
 * [Maximizing PHP 7 Performance with NGINX, Part 1: Web Serving and Caching](https://www.nginx.com/blog/maximizing-php-7-performance-with-nginx-part-i-web-serving-and-caching/)
+* [Speed up PHP Using OPcache and Memcached](https://php.tutorials24x7.com/blog/speed-up-php-using-opcache-and-memcached)
 
 ## 
 
