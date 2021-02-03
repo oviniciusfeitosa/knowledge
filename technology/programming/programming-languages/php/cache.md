@@ -2,17 +2,11 @@
 
 ## [Memcached vs Opcache](https://stackoverflow.com/a/24923592)
 
-> **OPcache** is for accelerating code access. 
+> **OPcache** is for accelerating code access \(application level\). 
 >
-> **Memcached** is for accelerating data access. 
+> **Memcached** is for accelerating data access \(database level\). 
 >
 > They are **completely different**, and **completely independent**.
-
-## [Maximizing PHP 7 Performance with NGINX, Part 1: Web Serving and Caching](https://www.nginx.com/blog/maximizing-php-7-performance-with-nginx-part-i-web-serving-and-caching/)
-
-## Database-level Caching
-
-* Memcached
 
 ## [Enabling FastCGI Cache in NGINX](https://www.tecmint.com/cache-content-with-nginx/)
 
@@ -265,4 +259,10 @@ proxy_cache_use_stale error timeout updating http_500;
 proxy_cache_background_update on;
 proxy_cache_lock on;
 ```
+
+## Recommended
+
+* [Maximizing PHP 7 Performance with NGINX, Part 1: Web Serving and Caching](https://www.nginx.com/blog/maximizing-php-7-performance-with-nginx-part-i-web-serving-and-caching/)
+
+## 
 
