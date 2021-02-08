@@ -49,6 +49,7 @@ Make sure to place Composer's system-wide vendor bin directory in your `$PATH` s
 * \*\*\*\*[**Laracasts**](https://laracasts.com)\*\*\*\*
 * **Packages**
   * \*\*\*\*[**Laravel Modules**](https://github.com/nWidart/laravel-modules)\*\*\*\*
+* \*\*\*\*[**Laravel Robust**](https://github.com/sfelix-martins/laravel-robust)\*\*\*\*
 
 
 
