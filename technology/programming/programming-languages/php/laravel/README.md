@@ -50,6 +50,7 @@ Make sure to place Composer's system-wide vendor bin directory in your `$PATH` s
 * **Packages**
   * \*\*\*\*[**Laravel Modules**](https://github.com/nWidart/laravel-modules)\*\*\*\*
 * \*\*\*\*[**Laravel Robust**](https://github.com/sfelix-martins/laravel-robust)\*\*\*\*
+* \*\*\*\*[**Laravel guard vs middleware**](https://www.xspdf.com/resolution/51019724.html#:~:text=Laravel%20guard%20vs%20middleware,Guards.&text=my%20API%E2%80%8B.-,Middleware%20is%20to%20protect%20routes%20e.g.%20check%20role,user%20is%20admin%20or%20not.)\*\*\*\*
 
 
 
