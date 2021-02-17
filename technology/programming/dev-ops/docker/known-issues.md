@@ -7,7 +7,7 @@
 sudo service docker start
 ```
 
-## docker Err http://deb.debian.org jessie InRelease
+## docker Err http://deb.debian.org Jessie InRelease
 
 * Try to execute the command `nslookup duckduckgo.com 8.8.8.8` . If the message `;; connection timed out; no servers could be reached` appears 
 * Then edit your `daemon.json`
@@ -46,7 +46,7 @@ By default Docker uses 172.17.0.0/16. This can conflict with the IP range you us
 
 You need to add "bip": "172.26.0.1/16" to the JSON in daemon.json
 
-The json will look like this after you amend. NOTE remember to add the ',' at the end of the second last '}'.
+The JSON will look like this after you amend. NOTE remember to add the ',' at the end of the second last '}'.
 
 ```text
 $ sudo vim /etc/docker/daemon.json
@@ -81,9 +81,13 @@ netstat -rn
 # 172.31.16.0 0.0.0.0 255.255.240.0 U 0 0 0 eth0
 ```
 
-  
-  
 The docker containers will restart and it should then start to collect!
 
+## Could not find an available, non-overlapping IPv4 address pool among the defaults to assign to the network
 
+```text
+sudo service network-manager restart
+```
+
+Note: when using OpenVPN, **disable** it first.
 
