@@ -230,5 +230,12 @@ If the Docker Engine default bridge network is conflicting with your internal ne
 
  And that’s it!
 
+## Docker unable to access from VPN
 
+* Check your subnet IP [here](https://vinnyfs89.gitbook.io/knowledge/technology/programming/dev-ops/docker/how-to#how-to-change-the-docker-default-subnet-ip-address) 
+* Reset your networks to set correct subnet ip
+
+```text
+docker network prune
+```
 
