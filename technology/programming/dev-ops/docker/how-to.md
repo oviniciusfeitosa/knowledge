@@ -239,3 +239,16 @@ If the Docker Engine default bridge network is conflicting with your internal ne
 docker network prune
 ```
 
+### Using Docker Compose + OpenVPN
+
+Set the content below inside your docker-compose file:
+
+```text
+networks:
+  default:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.10.1.0/24
+```
+
