@@ -190,3 +190,45 @@ cd ~/Library/Containers/com.docker.docker/Data/database/com.docker.driver.amd64-
 echo '{"experimental": false,"debug":"true","bip":"172.18.19.1/24"}' > etc/docker/daemon.js
 ```
 
+## [How to change the Docker default subnet IP address](https://support.getjoan.com/hc/en-us/articles/360008889859-How-to-change-the-Docker-default-subnet-IP-address)
+
+If the Docker Engine default bridge network is conflicting with your internal network hosts access, you can change the default Docker subnet by following these steps:
+
+1. First, you need to delete your old containers 
+
+   ```text
+   sudo docker-compose stop
+   ```
+
+2. Next, change the subnet IP inside "/etc/docker/daemon.json", by using this command:
+
+   ```text
+   sudo vim /etc/docker/daemon.json
+   ```
+
+3. Type in the Netmask IP. With the following structure. Please keep in mind that the IP used here is an example:
+
+   ```text
+   {
+     "default-address-pools": [
+       {"base":"10.10.0.0/16","size":24}
+     ]
+   }
+   ```
+
+4. Restart the Docker Daemon by using this command:
+
+   ```text
+   sudo service docker restart
+   ```
+
+5. Create a new VSS container and postgres with the following command:
+
+   ```text
+   sudo docker-compose up -d
+   ```
+
+ And that’s it!
+
+
+
