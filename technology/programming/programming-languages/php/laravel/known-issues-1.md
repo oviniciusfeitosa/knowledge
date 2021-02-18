@@ -21,3 +21,12 @@ Be happy 👌
 composer require tymon/jwt-auth:^1.0.2
 ```
 
+## flock\(\) expects parameter 1 to be resource, boolean given
+
+* Go to your application root folder
+* Give permissions to your `storage`folder
+
+```bash
+sudo chmod -R 775 storage
+```
+
