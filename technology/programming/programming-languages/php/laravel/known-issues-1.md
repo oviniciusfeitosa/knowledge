@@ -1,8 +1,8 @@
 # Know Issues
 
-## zsh: command not found laravel
+## ZSH: command not found laravel
 
-When you install laravel with this command `composer global require laravel/installer` the command **laravel** still unavailable.
+When you install Laravel with this command `composer global require laravel/installer` the command **Laravel** still unavailable.
 
 ### Solution
 
