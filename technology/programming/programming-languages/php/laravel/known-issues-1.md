@@ -30,3 +30,10 @@ composer require tymon/jwt-auth:^1.0.2
 sudo chmod -R 775 storage
 ```
 
+* The right thing is to have `775` permissions to this folder then change only the group to allow both your user and the webserver user to write into those folders
+
+  ```text
+  sudo chgrp www-data storage/framework/cache
+  sudo chgrp www-data storage/framework/cache/data
+  ```
+
