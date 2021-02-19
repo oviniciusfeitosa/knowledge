@@ -232,6 +232,8 @@ If the Docker Engine default bridge network is conflicting with your internal ne
 
 ## Docker unable to access from VPN
 
+### Linux
+
 * Check your subnet IP [here](https://vinnyfs89.gitbook.io/knowledge/technology/programming/dev-ops/docker/how-to#how-to-change-the-docker-default-subnet-ip-address) 
 * Reset your networks to set correct subnet ip
 
@@ -239,7 +241,7 @@ If the Docker Engine default bridge network is conflicting with your internal ne
 docker network prune
 ```
 
-### Using Docker Compose + OpenVPN
+#### Using Docker Compose + OpenVPN
 
 Set the content below inside your docker-compose file:
 
@@ -251,4 +253,14 @@ networks:
       config:
         - subnet: 10.10.1.0/24
 ```
+
+### Windows
+
+* Set a "default-address-pool"
+
+![](../../../../.gitbook/assets/image%20%282%29.png)
+
+* Set a subnet network inside the `docker-compose` file
+
+![](../../../../.gitbook/assets/image.png)
 
