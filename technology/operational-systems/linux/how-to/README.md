@@ -536,9 +536,17 @@ ip -o -f inet addr show | awk '/scope global/ {print $2, $4}'
 ip route | grep default
 ```
 
-## Add user to group sudo
+## User & Groups
+
+### Create new user
 
 ```text
-sudo usermod -a -G sudo theUsername
+sudo adduser newuser
+```
+
+### Add an existing user to the sudo group 
+
+```text
+sudo usermod -aG sudo newuser
 ```
 
