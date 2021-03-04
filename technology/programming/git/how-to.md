@@ -247,3 +247,11 @@ If you want to have prune executed with every fetch operation, you can configure
 $ git config --global fetch.prune true
 ```
 
+## Tags
+
+### Create and tag with a message
+
+```text
+git tag -a 0.0.0 -m "initial Changelog" 
+```
+
