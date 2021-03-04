@@ -18,7 +18,7 @@ gnome-tweaks
 
 ### [Docker](../../../../programming/dev-ops/docker/#install-docker-community-edition-docker-ce)
 
-### [Docker Compose](../../../../programming/dev-ops/docker-compose.md#install-docker-compose)
+### [Docker Compose](../../../../programming/dev-ops/docker/docker-compose.md#install-docker-compose)
 
 ### [VSCode](../../../../programming/ide_text-editor/vscode.md#install-vscode)
 

@@ -5,7 +5,6 @@
 * \*\*\*\*[**Cloud Platforms**](cloud-platforms.md)\*\*\*\*
 * \*\*\*\*[**Continuous Integration**](continuous-integration.md)\*\*\*\*
 * \*\*\*\*[**Docker**](docker/)\*\*\*\*
-* \*\*\*\*[**Docker Compose**](docker-compose.md)\*\*\*\*
 * \*\*\*\*[**Swarm**](swarm.md)\*\*\*\*
 
 ## Tools
