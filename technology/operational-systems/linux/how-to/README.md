@@ -544,7 +544,7 @@ ip route | grep default
 sudo adduser newuser
 ```
 
-### Add an existing user to the sudo group 
+### Add an existing user to the Sudo group 
 
 ```text
 sudo usermod -aG sudo newuser
