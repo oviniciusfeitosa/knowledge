@@ -536,3 +536,9 @@ ip -o -f inet addr show | awk '/scope global/ {print $2, $4}'
 ip route | grep default
 ```
 
+## Add user to group sudo
+
+```text
+sudo usermod -a -G sudo theUsername
+```
+
