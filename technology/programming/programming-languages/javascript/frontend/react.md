@@ -23,6 +23,12 @@
   >
   >
   > If you’re thinking about building an application, both can be used. While Redux holds the global state and actions that can be dispatched, the React Hooks features to handle the local component state.
+  >
+  >
+  >
+  > You don’t always need Redux for every app, or every component. If your app consists of a single view, doesn’t save or load state, and has no asynchronous I/O, I can’t think of a good reason to add the complexity of Redux.
+
+
 
   * \*\*\*\*[**DEMYSTIFYING REACT HOOKS VS REDUX**](https://www.imaginarycloud.com/blog/react-hooks-vs-redux/#:~:text=If%20you're%20thinking%20about,handle%20the%20local%20component%20state.)\*\*\*\*
   * \*\*\*\*[**Do React Hooks Replace Redux**](https://medium.com/javascript-scene/do-react-hooks-replace-redux-210bab340672)\*\*\*\*
