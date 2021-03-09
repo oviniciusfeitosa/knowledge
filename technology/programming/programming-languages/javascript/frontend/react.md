@@ -4,6 +4,28 @@
 
 * \*\*\*\*[**How to Setup ESLint and Prettier for Your React Apps**](https://thomlom.dev/setup-eslint-prettier-react/)\*\*\*\*
 * \*\*\*\*[**React examples**](https://reactjsexample.com/)\*\*\*\*
+* **REACT HOOKS VS REDUX**
+
+  > **React Hooks** provides an easy way of handling the component behavior and share the component logic. Redux **should be used** in applications that have several features. With these features sharing chunks of the same information.
+  >
+  >
+  >
+  > **Redux** is a library for managing the global application state. In this library, we can find several tools that help us, developers, to be in touch with the state of the application and also transform it by giving the user the ability to emit actions.
+  >
+  > * Single source of truth: the global state of your application is stored in an object tree within a single store.
+  > * The State is read-only: The only way to change the store is by emitting actions.
+  > * Changes are made with pure functions: To update the store, the reducer should be written as a pure function.
+  >
+  >
+  >
+  > **Redux** and **React** **Hooks** should be seen as complements and also as different things. While with the new React Hooks additions, useContext and useReducer, you can manage the global state, in projects with larger complexity you can rely on Redux to help you manage the application data.
+  >
+  >
+  >
+  > If you’re thinking about building an application, both can be used. While Redux holds the global state and actions that can be dispatched, the React Hooks features to handle the local component state.
+
+  * \*\*\*\*[**DEMYSTIFYING REACT HOOKS VS REDUX**](https://www.imaginarycloud.com/blog/react-hooks-vs-redux/#:~:text=If%20you're%20thinking%20about,handle%20the%20local%20component%20state.)\*\*\*\*
+  * \*\*\*\*[**Do React Hooks Replace Redux**](https://medium.com/javascript-scene/do-react-hooks-replace-redux-210bab340672)\*\*\*\*
 
 
 
