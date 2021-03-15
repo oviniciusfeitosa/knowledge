@@ -105,3 +105,9 @@ const number = 11,12;
 Math.round((number + Number.EPSILON) * 100) / 100
 ```
 
+## Node.js Port 3000 already in use \| Kill process
+
+```text
+npx kill-port 3000
+```
+
