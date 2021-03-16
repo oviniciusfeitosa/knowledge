@@ -8,7 +8,7 @@
 ## Initial Setup
 
 ```text
-sudo apt install git vim dconf-cli uuid-runtime pulseaudio blueman; \
+sudo apt install git vim dconf-cli uuid-runtime pulseaudio blueman pavucontrol \
   pip3 install --user powerline-status;
 ```
 
