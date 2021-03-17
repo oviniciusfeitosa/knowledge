@@ -14,4 +14,6 @@
 * \*\*\*\*[**MermaidJS**](https://mermaid-js.github.io/)\*\*\*\*
 * \*\*\*\*[**Husky - Easy way**](https://willianjusten.com.br/trabalhando-com-git-hooks-de-forma-facil/)\*\*\*\*
 * \*\*\*\*[**SPA vs SSR**](https://www.treinaweb.com.br/blog/spa-e-ssr-quais-as-diferencas/)\*\*\*\*
+* \*\*\*\*[**Node OpenID Client**](https://github.com/panva/node-openid-client)\*\*\*\*
+* \*\*\*\*[**React Best Pratices**](https://www.sitepoint.com/react-with-typescript-best-practices/)\*\*\*\*
 
