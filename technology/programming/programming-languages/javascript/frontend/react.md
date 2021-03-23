@@ -33,5 +33,21 @@
   * \*\*\*\*[**DEMYSTIFYING REACT HOOKS VS REDUX**](https://www.imaginarycloud.com/blog/react-hooks-vs-redux/#:~:text=If%20you're%20thinking%20about,handle%20the%20local%20component%20state.)\*\*\*\*
   * \*\*\*\*[**Do React Hooks Replace Redux**](https://medium.com/javascript-scene/do-react-hooks-replace-redux-210bab340672)\*\*\*\*
 
+### Known issues
+
+#### Could not find a declaration file for module 'react-router-dom'
+
+if you are using **yarn**:
+
+```text
+yarn add @types/react @types/react-dom @types/react-router-dom -D
+```
+
+if you are using **npm**:
+
+```text
+npm install @types/react @types/react-dom @types/react-router-dom --save-dev
+```
+
 
 
