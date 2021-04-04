@@ -33,6 +33,10 @@
   * \*\*\*\*[**DEMYSTIFYING REACT HOOKS VS REDUX**](https://www.imaginarycloud.com/blog/react-hooks-vs-redux/#:~:text=If%20you're%20thinking%20about,handle%20the%20local%20component%20state.)\*\*\*\*
   * \*\*\*\*[**Do React Hooks Replace Redux**](https://medium.com/javascript-scene/do-react-hooks-replace-redux-210bab340672)\*\*\*\*
 
+* \*\*\*\*[**Criando container personalizaveis em React**](https://blog.matheuscastiglioni.com.br/criando-containers-personalizaveis-em-react/)\*\*\*\*
+* \*\*\*\*[**Build a financial dashboard with React**](https://www.telerik.com/blogs/lets-build-a-financial-dashboard-with-react)\*\*\*\*
+* \*\*\*\*[**React Admin - Authentication**](https://marmelab.com/react-admin/Authentication.html)\*\*\*\*
+
 ### Known issues
 
 #### Could not find a declaration file for module 'react-router-dom'
