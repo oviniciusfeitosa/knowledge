@@ -51,4 +51,5 @@ Access this [**link**](https://extensions.gnome.org/local) or press "**F2**", ty
 * \*\*\*\*[**Remove Dropdown Arrows**](https://extensions.gnome.org/extension/800/remove-dropdown-arrows/)\*\*\*\*
 * \*\*\*\*[**Sound Input & Output Device Chooser**](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)\*\*\*\*
 * \*\*\*\*[**User Themes**](https://extensions.gnome.org/extension/19/user-themes/)\*\*\*\*
+* \*\*\*\*[**Docker Status**](https://extensions.gnome.org/extension/1065/docker-status/)\*\*\*\*
 
