@@ -76,6 +76,7 @@ List of sites with opportunities to work as a freelancer:
 
 * \*\*\*\*[**Figma**](https://www.figma.com)\*\*\*\*
 * \*\*\*\*[**PixCleaner**](https://pixcleaner.com/)\*\*\*\*
+* \*\*\*\*[**RemoveBackground**](https://www.remove.bg/)\*\*\*\*
 
 ## Scrum
 
