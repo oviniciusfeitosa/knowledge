@@ -98,6 +98,8 @@
     * [Nginx](technology/programming/server/nginx/README.md)
       * [How To](technology/programming/server/nginx/how-to.md)
       * [Known issues](technology/programming/server/nginx/known-issues.md)
+  * [Tools](technology/programming/tools/README.md)
+    * [Visual Studio Code](technology/programming/tools/visual-studio-code.md)
 * [Stream](technology/stream/README.md)
   * [Game](technology/stream/game.md)
   * [Twitch](technology/stream/twitch.md)
