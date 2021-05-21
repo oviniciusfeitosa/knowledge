@@ -70,6 +70,7 @@
       * [Package Manager](technology/programming/programming-languages/javascript/package-manager/README.md)
         * [Yarn](technology/programming/programming-languages/javascript/package-manager/yarn.md)
       * [Packages](technology/programming/programming-languages/javascript/packages.md)
+      * [Vanilla](technology/programming/programming-languages/javascript/vanilla.md)
     * [PHP](technology/programming/programming-languages/php/README.md)
       * [About](technology/programming/programming-languages/php/about.md)
       * [Cache](technology/programming/programming-languages/php/cache.md)

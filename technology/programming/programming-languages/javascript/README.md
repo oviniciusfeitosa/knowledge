@@ -7,6 +7,7 @@
 * \*\*\*\*[**How to**](how-to.md)\*\*\*\*
 * \*\*\*\*[**Package Manager**](package-manager/)\*\*\*\*
 * \*\*\*\*[**Packages**](packages.md)\*\*\*\*
+* \*\*\*\*[**Vanilla**](vanilla.md)\*\*\*\*
 
 ## Recommended
 
