@@ -95,3 +95,13 @@ while read line; do
 done <app.env
 ```
 
+## Log 
+
+### Basic view of records
+
+```text
+journalctl
+```
+
+To see the logs that the `journald` daemon has collected, use the `journalctl` command
+
