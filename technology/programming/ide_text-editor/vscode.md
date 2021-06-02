@@ -40,5 +40,7 @@ References: [**Vscode PowerMode Github**](https://github.com/hoovercj/vscode-pow
 Press "**CTRL +  F2**"
 {% endhint %}
 
+## Extensions
 
+* **HTML Preview**
 
