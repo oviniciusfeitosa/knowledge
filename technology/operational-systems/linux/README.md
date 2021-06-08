@@ -1,5 +1,7 @@
 # Linux
 
+## 
+
 ## Topics
 
 * \*\*\*\*[**Desktop Environment**](desktop-environment/)\*\*\*\*
@@ -79,6 +81,27 @@ If you still have problems you can obtain a list of the libraries that are on th
 
 ```text
 ldconfig -v
+```
+
+## Terminal
+
+### Copy/paste to clipboard
+
+```text
+sudo apt install xclip
+```
+
+* Create alias to commands inside .bashrc or .zshrc
+
+```text
+alias tcopy="xclip -selection c"; 
+alias tpaste="xclip -selection clipboard -o"
+```
+
+* Example
+
+```text
+echo -n test | tcopy
 ```
 
 ## Recommended
