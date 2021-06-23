@@ -1,5 +1,30 @@
 # React
 
+## Components
+
+### Override props
+
+In the example below it is possible to override properties from a newly created component.
+
+{% code title="/src/modules/core/components/Row/index.tsx" %}
+```typescript
+import React, { HtmlHTMLAttributes } from 'react';
+
+interface RowProps extends HtmlHTMLAttributes<HTMLDivElement> {}
+
+const Row = ({ children, ...props }: RowProps) => {
+  props.className = "row " + props.className;
+  return (
+  <>
+    <div {...props}>
+      {children}
+    </div>
+  </>);
+};
+
+```
+{% endcode %}
+
 ## Recommended
 
 * \*\*\*\*[**How to Setup ESLint and Prettier for Your React Apps**](https://thomlom.dev/setup-eslint-prettier-react/)\*\*\*\*
@@ -37,7 +62,7 @@
 * \*\*\*\*[**Build a financial dashboard with React**](https://www.telerik.com/blogs/lets-build-a-financial-dashboard-with-react)\*\*\*\*
 * \*\*\*\*[**React Admin - Authentication**](https://marmelab.com/react-admin/Authentication.html)\*\*\*\*
 
-### Known issues
+## Known issues
 
 #### Could not find a declaration file for module 'react-router-dom'
 
