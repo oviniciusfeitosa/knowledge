@@ -25,6 +25,14 @@ const Row = ({ children, ...props }: RowProps) => {
 ```
 {% endcode %}
 
+## [Plus \(+\) symbol before the parameter](https://stackoverflow.com/a/6683020/1330323)
+
+{% hint style="info" %}
+The plus \(`+`\) operator returns the numeric representation of the object. So in your particular case, it would appear to be predicting the if on whether or not `d` is a non-zero number.
+
+Reference [here](http://en.wikibooks.org/wiki/JavaScript/Operators). And, as pointed out in comments, [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Unary_plus_%28.2B%29).  
+{% endhint %}
+
 ## Recommended
 
 * \*\*\*\*[**How to Setup ESLint and Prettier for Your React Apps**](https://thomlom.dev/setup-eslint-prettier-react/)\*\*\*\*
