@@ -12,6 +12,8 @@
     * [Known Issues](technology/messaging/discord/known-issues.md)
   * [Microsoft Teams](technology/messaging/microsoft-teams.md)
   * [Telegram](technology/messaging/telegram.md)
+* [Office Production](technology/office-production/README.md)
+  * [Sheets](technology/office-production/sheets.md)
 * [Music Production](technology/music-production.md)
 * [Operational systems](technology/operational-systems/README.md)
   * [Raspberry Pi OS](technology/operational-systems/raspberry-pi-os.md)
