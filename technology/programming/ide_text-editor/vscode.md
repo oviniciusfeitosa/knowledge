@@ -22,6 +22,7 @@ Press "**CTRL +  F2**"
 
 * Wrap with abbreviations: [https://github.com/Microsoft/vscode/issues/62705](https://github.com/Microsoft/vscode/issues/62705)
 * Extension: [https://marketplace.visualstudio.com/items?itemName=albymor.increment-selection](https://marketplace.visualstudio.com/items?itemName=albymor.increment-selection)
+  * Then: `CTRL + ALT + i`
 
 ## Extensions
 
