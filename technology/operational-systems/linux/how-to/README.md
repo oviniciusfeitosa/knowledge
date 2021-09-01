@@ -550,3 +550,12 @@ sudo adduser newuser
 sudo usermod -aG sudo newuser
 ```
 
+### Bluetooth device disconnects right after connect 
+
+1. Remove the device on Pulse Audio Bluetooth Devices
+2. Kill pulse audio and restart the Bluetooth service
+
+```bash
+sudo killall pulseaudio && sudo service bluetooth restart
+```
+
