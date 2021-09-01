@@ -40,6 +40,13 @@ References: [**Vscode PowerMode Github**](https://github.com/hoovercj/vscode-pow
 Press "**CTRL +  F2**"
 {% endhint %}
 
+## Add incrementing numbers for multiple cursors selected
+
+### Solutions
+
+* Wrap with abbreviations: [https://github.com/Microsoft/vscode/issues/62705](https://github.com/Microsoft/vscode/issues/62705)
+* Extension: [https://marketplace.visualstudio.com/items?itemName=albymor.increment-selection](https://marketplace.visualstudio.com/items?itemName=albymor.increment-selection)
+
 ## Extensions
 
 * **HTML Preview**
