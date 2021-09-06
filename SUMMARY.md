@@ -111,6 +111,7 @@
     * [Stress Tests](technology/stream/tests/stress-tests.md)
     * [Unit Tests](technology/stream/tests/unit-tests.md)
 * [Sites](technology/sites.md)
+* [Tools](technology/tools.md)
 
 ## Pessoal
 
