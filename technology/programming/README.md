@@ -2,7 +2,7 @@
 
 ## Topics
 
-* \*\*\*\*[**Code Quality**](code-quality.md)\*\*\*\*
+* \*\*\*\*[**Code Quality**](code-quality/)\*\*\*\*
 * \*\*\*\*[**Cascading Style Sheets\(CSS\)**](cascading-style-sheets-css.md)\*\*\*\*
 * \*\*\*\*[**Database**](database/)\*\*\*\*
 * \*\*\*\*[**Design Patterns**](design-patterns.md)\*\*\*\*
