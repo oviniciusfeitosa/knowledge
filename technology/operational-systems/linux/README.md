@@ -104,6 +104,13 @@ alias tpaste="xclip -selection clipboard -o"
 echo -n test | tcopy
 ```
 
+## Install \`.deb\` files
+
+```text
+sudo apt install gdebi
+sudo gdebi deb-file.deb
+```
+
 ## Recommended
 
 * [**How to create Bootable windows image on Linux**](https://github.com/slacka/WoeUSB)\*\*\*\*
