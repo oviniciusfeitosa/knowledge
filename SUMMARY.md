@@ -18,6 +18,7 @@
 * [Operational systems](technology/operational-systems/README.md)
   * [Raspberry Pi OS](technology/operational-systems/raspberry-pi-os.md)
   * [Linux](technology/operational-systems/linux/README.md)
+    * [Known Issues](technology/operational-systems/linux/known-issues.md)
     * [Desktop Environment](technology/operational-systems/linux/desktop-environment/README.md)
       * [Gnome](technology/operational-systems/linux/desktop-environment/gnome/README.md)
         * [How to](technology/operational-systems/linux/desktop-environment/gnome/how-to.md)
