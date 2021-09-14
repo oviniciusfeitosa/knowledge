@@ -16,6 +16,7 @@
   * [Sheets](technology/office-production/sheets.md)
 * [Music Production](technology/music-production.md)
 * [Operational systems](technology/operational-systems/README.md)
+  * [Docker + OSX](technology/operational-systems/docker-+-osx.md)
   * [Raspberry Pi OS](technology/operational-systems/raspberry-pi-os.md)
   * [Linux](technology/operational-systems/linux/README.md)
     * [Known Issues](technology/operational-systems/linux/known-issues.md)
