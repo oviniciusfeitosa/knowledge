@@ -1,10 +1,10 @@
 # Known Issues
 
-## Ignores \`Missing file doc comment ...\` errors using PHPCS in VSCode 
+## Ignores \`Missing file doc comment ...\` errors using PHPCS in VSCode&#x20;
 
 You can also use a specific ruleset by adding a `phpcs.xml` to your project. Here's one I'm using in a Laravel project, works in Visual Studio Code with PHPCS extension installed.
 
-```text
+```
 <?xml version="1.0" ?>
 <ruleset name="PSR2">
   <description>The PSR2 coding standard.</description>
@@ -20,13 +20,13 @@ You can also use a specific ruleset by adding a `phpcs.xml` to your project. Her
 
 **References**
 
-* \*\*\*\*[**Github**](https://github.com/squizlabs/PHP_CodeSniffer/issues/1348#issuecomment-581181427)\*\*\*\*
+* ****[**Github**](https://github.com/squizlabs/PHP\_CodeSniffer/issues/1348#issuecomment-581181427)****
 
-## **Fatal error: Call to undefined function mcrypt\_module\_open\(\) in {path/file.php} on line yyyyyy"** 
+## **Fatal error: Call to undefined function mcrypt\_module\_open() in {path/file.php} on line yyyyyy" **
 
 ### Manual
 
-```text
+```
 # PHP 5+
 apt-get install -y libmcrypt-dev
 sudo apt install php5-mcrypt
@@ -35,4 +35,3 @@ sudo apt install php5-mcrypt
 pecl install mcrypt-1.0.3
 docker-php-ext-enable mcrypt
 ```
-

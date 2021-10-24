@@ -2,11 +2,11 @@
 
 ## [Raspberry remote gaming solution](https://www.youtube.com/watch?v=sjO95WmyCc0)
 
-## Linux remote gaming solutions 
+## Linux remote gaming solutions&#x20;
 
 ### Config
 
-* Moonlight \(NVidia\)
+* Moonlight (NVidia)
 * NoMachine
 * X2Go
 * Xorg Forwarding
@@ -17,17 +17,17 @@
 
 * Parsec
 
-### [Parsec](https://www.youtube.com/watch?v=sjO95WmyCc0) \( For raspberry \) 
+### [Parsec](https://www.youtube.com/watch?v=sjO95WmyCc0) ( For raspberry )&#x20;
 
 Enter **204**, accept the option, and exit choosing to reboot.
 
-Once the installation and set up of Raspbian is complete, verify that the GPU memory split is 128mb or higher. Please run this command `sudo raspi-config`. Navigate down to `7 Advanced Options` then `A3 Memory Split` Enter 204, accept the option, and exit choosing to reboot.
+Once the installation and set up of Raspbian is complete, verify that the GPU memory split is 128mb or higher. Please run this command `sudo raspi-config`. Navigate down to `7 Advanced Options `then `A3 Memory Split `Enter 204, accept the option, and exit choosing to reboot.
 
 **INSTALL AND RUN PARSEC**
 
-After the Pi has rebooted, download Parsec from here 
+After the Pi has rebooted, download Parsec from here&#x20;
 
-```text
+```
 wget https://s3.amazonaws.com/parsec-build/package/parsec-rpi.deb
 sudo dpkg -i parsec-rpi.deb
 
@@ -41,17 +41,17 @@ If you prefer to run the Parsec Application headless, type `parsecd peer_id=YOUR
 
 #### **RASPBERRY PI WIFI**
 
-The native Wifi adapter on the Pi is not good. We recommend using ethernet or buying one of [these](https://www.amazon.com/Edimax-Adapter-Supports-MU-MIMO-EW-7822ULC/dp/B01MY7PL10/ref=sr_1_2?s=electronics&ie=UTF8&qid=1516079377&sr=1-2&keywords=edimax+wifi+adapter+5+ghz). Make sure the one you choose supports 5 Ghz Wifi.
+The native Wifi adapter on the Pi is not good. We recommend using ethernet or buying one of [these](https://www.amazon.com/Edimax-Adapter-Supports-MU-MIMO-EW-7822ULC/dp/B01MY7PL10/ref=sr\_1\_2?s=electronics\&ie=UTF8\&qid=1516079377\&sr=1-2\&keywords=edimax+wifi+adapter+5+ghz). Make sure the one you choose supports 5 Ghz Wifi.
 
 #### **SETTING UP XBOX CONTROLLERS ON PI**
 
-For the Raspberry Pi, you can install Xbox controller support. 
+For the Raspberry Pi, you can install Xbox controller support.&#x20;
 
-```text
+```
 sudo apt install xboxdrv
 ```
 
-Unfortunately, however, if you have an Xbox One S and want to use the Bluetooth connection, you'll need [this driver](https://github.com/atar-axis/xpadneo/). 
+Unfortunately, however, if you have an Xbox One S and want to use the Bluetooth connection, you'll need [this driver](https://github.com/atar-axis/xpadneo/).&#x20;
 
 #### **SETTING UP OTHER BLUETOOTH CONTROLLERS**
 
@@ -63,9 +63,8 @@ After installing Parsec for the first time on your Pi or reinstalling it, run th
 
 **References**
 
-* [https://www.youtube.com/watch?v=sjO95WmyCc0&t=288s](https://www.youtube.com/watch?v=sjO95WmyCc0&t=288s)
+* [https://www.youtube.com/watch?v=sjO95WmyCc0\&t=288s](https://www.youtube.com/watch?v=sjO95WmyCc0\&t=288s)
 * [https://www.youtube.com/watch?v=FwoFi1wpBOY](https://www.youtube.com/watch?v=FwoFi1wpBOY)
 * [https://www.youtube.com/watch?v=FHKpWyovvws](https://www.youtube.com/watch?v=FHKpWyovvws)
 
--
-
+\-

@@ -4,7 +4,7 @@
 
 ### Local Installation
 
-```text
+```
 # Yarn
 yarn add eslint
 
@@ -13,7 +13,6 @@ yarn add eslint
 
 ### Install globally
 
-```text
+```
 yarn global add eslint
 ```
-

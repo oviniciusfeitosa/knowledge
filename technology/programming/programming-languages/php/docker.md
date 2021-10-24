@@ -6,7 +6,7 @@
 Put the content below inside **`~/.bashrc`** or **`~/.zshrc`**
 {% endhint %}
 
-```text
+```
 alias composer='docker run --rm -v $(pwd):/app composer:1.5.1 '
 ```
 
@@ -16,7 +16,7 @@ alias composer='docker run --rm -v $(pwd):/app composer:1.5.1 '
 Put the content below inside **`~/.bashrc`** or **`~/.zshrc`**
 {% endhint %}
 
-```text
+```
  alias php='docker run --rm --name=php-cli -v $(pwd):/www matriphe/alpine-php:cli php'
 ```
 
@@ -105,6 +105,4 @@ services:
     - wordpress-data:/var/www/html
 ```
 {% endcode %}
-
-
 

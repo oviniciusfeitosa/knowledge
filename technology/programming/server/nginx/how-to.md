@@ -2,14 +2,14 @@
 
 ## Disable Nginx at startup
 
-```text
+```
 sudo systemctl disable nginx
 ```
 
 ## NGiNX Configuration for Vue-Router in HTML5 Mode
 
 {% code title="" %}
-```text
+```
 server {
   listen 80 default_server;
   listen [::]:80 default_server;
@@ -38,4 +38,3 @@ server {
 }
 ```
 {% endcode %}
-

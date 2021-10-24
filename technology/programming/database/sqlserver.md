@@ -16,7 +16,7 @@ sudo /opt/mssql/bin/mssql-conf setup
 
 ### Tools
 
-```text
+```
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
 curl https://packages.microsoft.com/config/ubuntu/16.04/prod.list | sudo tee /etc/apt/sources.list.d/msprod.list
 sudo apt-get update 
@@ -30,7 +30,7 @@ source ~/.zshrc
 
 ## Backup database
 
-```text
+```
 touch /home/vinicius/demodatabase.bak
 sudo chmod 777 /home/vinicius/demodatabase.bak
 sqlcmd -S 127.0.0.1 -U SA -Q "BACKUP DATABASE demodatabase TO DISK = N'/home/vinicius/demodatabase.bak' WITH NOFORMAT, NOINIT, NAME = 'demodatabase', SKIP, NOREWIND, NOUNLOAD, STATS = 10"
@@ -40,18 +40,18 @@ sqlcmd -S 127.0.0.1 -U SA -Q "BACKUP DATABASE demodatabase TO DISK = N'/home/vin
 
 ### DBeaver
 
-```text
+```
 USE master RESTORE DATABASE database_demo FROM 
 DISK = N'/home/vinicius/Downloads/database_bkp.bak' WITH  FILE = 1, NOUNLOAD, REPLACE, STATS = 10
 ```
 
 ## Error when trying to drop database
 
-SQL Error \[3702\] \[S0004\]: Cannot drop database "my\_database" because it is currently in use.
+SQL Error \[3702] \[S0004]: Cannot drop database "my\_database" because it is currently in use.
 
 Solution:
 
-```text
+```
 use master;
 
 DECLARE @DatabaseName nvarchar(50)
@@ -69,4 +69,3 @@ EXEC(@SQL)
 
 drop database my_database;
 ```
-

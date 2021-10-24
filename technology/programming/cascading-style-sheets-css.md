@@ -1,10 +1,10 @@
-# Cascading Style Sheets\(CSS\)
+# Cascading Style Sheets(CSS)
 
 ## [Position](https://developer.mozilla.org/pt-BR/docs/Web/CSS/position)
 
 ## Blur background
 
-```text
+```
 <div
   className="rounder-md"
   style="background: url(https://source.unsplash.com/user/jackie/likes/1600x900) no-repeat"
@@ -17,7 +17,7 @@
 
 Style:
 
-```text
+```
 .blur {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(16px);
@@ -25,4 +25,3 @@ Style:
   width: 100%;
 }
 ```
-

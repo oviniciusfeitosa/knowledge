@@ -1,10 +1,10 @@
 # How to
 
-## 
+##
 
 ## Validate a group of conditions
 
-```text
+```
 let conditionsArray = [ condition1, condition2, condition3, ]
 
 if (conditionsArray.indexOf(false) === -1) { "do something" }
@@ -12,7 +12,7 @@ if (conditionsArray.indexOf(false) === -1) { "do something" }
 
 ## Oliver Steele’s Nested Object Access Pattern
 
-```text
+```
 const name = ((user || {}).personalInfo || {}).name;
 ```
 
@@ -20,7 +20,7 @@ const name = ((user || {}).personalInfo || {}).name;
 
 * Javascript
 
-```text
+```
 export const getFile = (coArquivo, config = { responseType: 'blob' }) => instance.get(`/upload/${coArquivo}`, config)
   .then((response) => {
     const { headers } = response;
@@ -38,7 +38,7 @@ export const getFile = (coArquivo, config = { responseType: 'blob' }) => instanc
 
 * Laravel: cors.php
 
-```text
+```
 <?php
 
 return [
@@ -66,7 +66,7 @@ return [
 
 * Laravel: Controller
 
-```text
+```
 class UploadController extends Controller
 {
 
@@ -86,7 +86,7 @@ class UploadController extends Controller
 }
 ```
 
-```text
+```
 ...
 public function downloadArquivo($identificador)
     {
@@ -98,22 +98,22 @@ public function downloadArquivo($identificador)
     }
 ```
 
-## Get only decimal from number 
+## Get only decimal from number&#x20;
 
-```text
+```
 const number = 11,12;
 Math.round((number + Number.EPSILON) * 100) / 100
 ```
 
-## Node.js Port 3000 already in use \| Kill process
+## Node.js Port 3000 already in use | Kill process
 
-```text
+```
 npx kill-port 3000
 ```
 
 ## [How to write a type assertion](https://www.typescriptlang.org/docs/handbook/jsx.html#the-as-operator)
 
-```text
+```
 var foo = <foo>bar;
 ```
 
@@ -121,9 +121,8 @@ This asserts the variable `bar` to have the type `foo`. Since TypeScript also us
 
 Since the above syntax cannot be used in `.tsx` files, an alternate type assertion operator should be used: `as`. The example can easily be rewritten with the `as` operator.
 
-```text
+```
 var foo = bar as foo;
 ```
 
 The `as` operator is available in both `.ts` and `.tsx` files, and is identical in behavior to the angle-bracket type assertion style.
-

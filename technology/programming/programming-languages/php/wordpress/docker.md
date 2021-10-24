@@ -13,5 +13,3 @@ docker-compose logs -f
 The application will use 2 services to handle containers. The first to turn on database and second to application.
 {% endhint %}
 
-
-

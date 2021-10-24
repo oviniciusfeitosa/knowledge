@@ -4,7 +4,7 @@
 
 ### Desktop
 
-```text
+``````
 $ screenfetch                 
                           ./+o+-       vinnyfs89@Desktop
                   yyyyy- -yyyyyy+      OS: Ubuntu 20.04 focal
@@ -24,5 +24,4 @@ $ screenfetch
                /osyyyyyyo++ooo+++/     GPU: AMD/ATI Bonaire XTX [Radeon R7 260X/360]
                    ````` +oo+++o\:     RAM: 2975MiB / 7907MiB
 
-```
-
+``````

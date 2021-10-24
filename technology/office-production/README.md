@@ -2,5 +2,4 @@
 
 ## Topics
 
-* [**Sheets**](sheets.md)\*\*\*\*
-
+* [**Sheets**](sheets.md)****

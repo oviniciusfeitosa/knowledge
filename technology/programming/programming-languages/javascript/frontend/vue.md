@@ -4,7 +4,7 @@
 
 To get it done you need to set the content below in your `jsconfig.json` file:
 
-```text
+```
 {
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
@@ -17,9 +17,8 @@ To get it done you need to set the content below in your `jsconfig.json` file:
 }
 ```
 
-## Adding a new property to a reactive object \(Vue 2\)
+## Adding a new property to a reactive object (Vue 2)
 
-```text
+```
 Vue.set(this.myObject, key, value)
 ```
-

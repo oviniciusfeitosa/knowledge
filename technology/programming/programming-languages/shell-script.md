@@ -4,7 +4,7 @@
 
 ### With the if statement
 
-```text
+```
 FILE=/etc/resolv.conf
 if [ -f "$FILE" ]; then
     echo "$FILE exists."
@@ -15,13 +15,13 @@ fi
 
 ### With the "&&" operator
 
-```text
+```
 [ -f /etc/resolv.conf ] && echo "File exists!"
 ```
 
 ## Folder exists
 
-```text
+```
 if [ "$(ls -A /tmp)" ]; then
   echo "Exists and is not Empty"
 fi
@@ -35,7 +35,7 @@ fi
 
 ### Or not exists
 
-```text
+```
 if ! [ "$(ls -A /tmp322)" ]; then
   echo "Empty"
 else
@@ -45,13 +45,13 @@ fi
 
 ## Find differences between foldes
 
-```text
+```
 diff -q directory-1/ directory-2/
 ```
 
 ## Show ports in use
 
-```text
+```
 sudo lsof -i -P -n | grep LISTEN
 ```
 
@@ -59,14 +59,14 @@ sudo lsof -i -P -n | grep LISTEN
 
 Insert the line below to your `~/.zsh.rc`  or  `~/.profile`
 
-```text
+```
 alias ports="sudo lsof -i -P -n | grep LISTEN"
 ```
 
 ## Cheatsheet of multiple commands
 
 {% hint style="info" %}
-```text
+```
 A; B    # Run A and then B, regardless of success of A
 A && B  # Run B if and only if A succeeded
 A || B  # Run B if and only if A failed
@@ -76,7 +76,7 @@ A &     # Run A in background.
 
 **Example**
 
-```text
+```
 mv tmp.file tmp.file2 ; echo 'aa'
 mv tmp.file tmp.file2 && echo 'aa'
 mv tmp.file tmp.file2 || echo 'aa'
@@ -87,7 +87,7 @@ mv tmp.file tmp.file2 &
 
 In the example below read every line from a file and do something.
 
-```text
+```
 while read line; do
   if [ ! -z $line ]; then
    echo "export $line" >> /etc/apache2/envvars
@@ -95,13 +95,12 @@ while read line; do
 done <app.env
 ```
 
-## Log 
+## Log&#x20;
 
 ### Basic view of records
 
-```text
+```
 journalctl
 ```
 
 To see the logs that the `journald` daemon has collected, use the `journalctl` command
-

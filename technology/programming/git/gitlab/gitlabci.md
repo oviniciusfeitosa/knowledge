@@ -2,7 +2,7 @@
 
 ## Multiline script
 
-```text
+```
 script:
   - |
     echo \
@@ -13,7 +13,7 @@ script:
 
 **or**
 
-```text
+```
 script:
   - >
     echo
@@ -27,7 +27,7 @@ script:
 It is possible to use the source code of the code-climate project to provide one of the tools for code quality for the continuous integration process of Gitlab.
 
 {% code title=".gitlab-ci.yml" %}
-```text
+```
 code_quality:
   stage: codeQuality
   image: docker:stable
@@ -52,4 +52,3 @@ code_quality:
 
 ```
 {% endcode %}
-

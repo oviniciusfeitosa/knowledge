@@ -2,6 +2,5 @@
 
 ## Topics
 
-* \*\*\*\*[**Gnome**](gnome/)\*\*\*\*
-* \*\*\*\*[**Kde Plasma**](kde-plasma.md)\*\*\*\*
-
+* ****[**Gnome**](gnome/)****
+* ****[**Kde Plasma**](kde-plasma.md)****

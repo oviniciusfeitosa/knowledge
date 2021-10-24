@@ -8,5 +8,3 @@ Add this in your _wp-config.php:_
 $_SERVER['HTTPS'] = 'On';
 ```
 
-
-

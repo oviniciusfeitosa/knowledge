@@ -4,7 +4,7 @@
 
 * Define the configs below in the file **`/etc/apt/apt.conf`**
 
-```text
+```
 Acquire::http::proxy "http://user:pass@host:port/";
 Acquire::https::proxy "http://user:pass@host:port/";
 Acquire::ftp::Proxy "ftp://user:pass@host:port/";
@@ -12,7 +12,7 @@ Acquire::ftp::Proxy "ftp://user:pass@host:port/";
 
 * or define environments inside the file **`etc/profile`**
 
-```text
+```
 ftp_proxy="http://user:pass@host:port"
 http_proxy="http://user:pass@host:port"
 https_proxy="https://user:pass@host:port"
@@ -25,7 +25,7 @@ HTTPS_PROXY_REQUEST_FULLURI="0"
 
 ### To disable Proxy
 
-```text
+```
 unset http_proxy
 unset https_proxy
 unset ftp_proxy
@@ -36,7 +36,7 @@ unset FTP_PROXY
 
 ## Proxy for SSH
 
-```text
+```
 $ route -n
 $ sudo route add default gw HOST
 $ sudo vim /etc/rc.local
@@ -51,23 +51,22 @@ $ sudo chmod a+x /etc/rc.local
 
 ### Verify the configs from NPM Proxy
 
-```text
+```
 npm config get proxy
 ```
 
 ### Add Proxy configs for NPM
 
-```text
+```
 npm config set proxy http://"user:pass"@host:port
 npm config set https-proxy http://"user:pass"@host:port
 ```
 
 ### Remove proxy for NPM
 
-```text
+```
 npm config rm proxy
 npm config rm https-proxy
 ```
 
-### 
-
+###

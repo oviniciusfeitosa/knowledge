@@ -2,7 +2,7 @@
 
 ## Install Docker-compose
 
-```text
+```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose; \
 sudo chmod 777 /usr/local/bin/docker-compose; \
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose; \
@@ -12,7 +12,7 @@ sudo service docker restart;
 
 ## Improve performance when using volumes
 
-```text
+```
 volumes:
  #- ./:/var/www/html
   - type: bind
@@ -24,7 +24,7 @@ volumes:
 ## NGinX Reverse proxy + LetsEncrypt SSL
 
 {% code title="docker.compose.yaml" %}
-```text
+```
 version: '3.5'
 
 services:
@@ -70,17 +70,17 @@ volumes:
 
 ## Show real-time logs from service
 
-```text
+```
 docker-compose logs -f service-name
 ```
 
 ## Build an image using an external network
 
 {% hint style="info" %}
-**Note** In order for the "**vinnyfs89api**" network to be visible when building a docker image, the "**api\_vinnyfs89api**" value needs to be defined using the "build &gt; network" parameter.
+**Note** In order for the "**vinnyfs89api**" network to be visible when building a docker image, the "**api\_vinnyfs89api**" value needs to be defined using the "build > network" parameter.
 {% endhint %}
 
-```text
+```
 version: '3.4'
 
   service-database:
@@ -136,9 +136,9 @@ networks:
 
 ## Docker Compose auto-scale
 
-To specify how many containers to scale using docker-compose use the command **`--scale service = {number}`**. 
+To specify how many containers to scale using docker-compose use the command** `--scale service = {number}`**.&#x20;
 
-```text
+```
 # This command sets 5 containers for redis-service
 docker-compose up -d --scale redis-service=5
 
@@ -146,11 +146,10 @@ docker-compose up -d --scale redis-service=5
 docker-compose -f docker-compose-scale.yml up -d --scale hello=5
 ```
 
-## Using --add-host or extra\_hosts with docker-compose \( or /etc/hosts \)
+## Using --add-host or extra\_hosts with docker-compose ( or /etc/hosts )
 
-```text
+```
 ...
   extra_hosts:
   - "somehost:162.242.195.82"
 ```
-

@@ -2,6 +2,5 @@
 
 ## Topics
 
-* \*\*\*\*[**NestJS**](nestjs.md)\*\*\*\*
-* [**NodeJS**](nodejs.md)\*\*\*\*
-
+* ****[**NestJS**](nestjs.md)****
+* [**NodeJS**](nodejs.md)****

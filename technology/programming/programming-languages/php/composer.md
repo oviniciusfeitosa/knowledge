@@ -4,7 +4,7 @@
 
 ### Install
 
-```text
+```
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 ```
@@ -13,7 +13,7 @@ mv composer.phar /usr/local/bin/composer
 
 If your PATH is in **.bashrc** file :
 
-```text
+```
 echo 'export PATH="$PATH:$HOME/.config/composer/vendor/bin"' >> ~/.bashrc
 
 # Restart your environment
@@ -22,14 +22,14 @@ source ~/.bashrc #Bash
 
 If your PATH is in **.zshrc** file :
 
-```text
+```
 echo 'export PATH="$PATH:$HOME/.config/composer/vendor/bin"' >> ~/.zshrc
 
 # Restart your environment
 source ~/.zshrc #ZSH
 ```
 
-## PHPCS 
+## PHPCS&#x20;
 
 ### Globally
 
@@ -44,4 +44,3 @@ source ~/.zshrc #ZSH
 ```bash
  composer global require friendsofphp/php-cs-fixer
 ```
-

@@ -2,8 +2,7 @@
 
 ## Topics
 
-* \*\*\*\*[**GitlabCI**](gitlabci.md)\*\*\*\*
-* \*\*\*\*[**Gitlab Runner**](gitlab-runner.md)\*\*\*\*
+* ****[**GitlabCI**](gitlabci.md)****
+* ****[**Gitlab Runner**](gitlab-runner.md)****
 
-### 
-
+###

@@ -6,7 +6,7 @@ Open the file "/home/your\_user/.local/share/applications/telegramdesktop.deskto
 
 You will see something like this:
 
-```text
+```
 [Desktop Entry]                                                                                                                                                         
  Version=1.0                                                                                                                                                             
  Name=Telegram Desktop                                                                                                                                                   
@@ -22,6 +22,4 @@ You will see something like this:
  X-Desktop-File-Install-Version=0.23   
 ```
 
-Change `Exec=/opt/telegram/telegram -- %u` to `Exec=env QT_IM_MODULE=xim /opt/telegram/telegram -- %u`  
-
-
+Change `Exec=/opt/telegram/telegram -- %u `to `Exec=env QT_IM_MODULE=xim /opt/telegram/telegram -- %u`\

@@ -2,7 +2,7 @@
 
 ## Initial setup for Debian
 
-```text
+```
 # install
 sudo apt install qemu qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virt-manager
 sudo systemctl enable --now libvirtd
@@ -31,10 +31,9 @@ docker run \\
  docker start $(docker ps -q --all --filter "ancestor=docker-osx")
 ```
 
-* [https://github.com/vinnyfs89/Docker-OSX\#container-creation-examples](https://github.com/vinnyfs89/Docker-OSX#container-creation-examples)
+* [https://github.com/vinnyfs89/Docker-OSX#container-creation-examples](https://github.com/vinnyfs89/Docker-OSX#container-creation-examples)
 
 ### References
 
-* [https://github.com/vinnyfs89/Docker-OSX\#initial-setup](https://github.com/vinnyfs89/Docker-OSX#initial-setup)
+* [https://github.com/vinnyfs89/Docker-OSX#initial-setup](https://github.com/vinnyfs89/Docker-OSX#initial-setup)
 * [https://www.youtube.com/watch?v=XMj5FY4NXyI](https://www.youtube.com/watch?v=XMj5FY4NXyI)
-

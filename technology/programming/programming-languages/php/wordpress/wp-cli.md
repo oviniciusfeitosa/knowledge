@@ -2,7 +2,7 @@
 
 ## Install
 
-```text
+```
 wget https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 chmod +x wp-cli.phar
 sudo mv wp-cli.phar /usr/local/bin/wp
@@ -83,7 +83,7 @@ wp cache flush
 
 ## User
 
-```text
+```
 # List users
 wp user list --field=ID
 
@@ -149,5 +149,4 @@ wp db export my_wordpress_db.sql
 wp plugin deactivate better-wp-security --allow-root
 ```
 
-## 
-
+##

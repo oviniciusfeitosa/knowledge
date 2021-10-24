@@ -2,7 +2,7 @@
 
 ## FIX - KDE Plasma crashes
 
-```text
+```
 killall plasmashell
 plasmashell &
 ```
@@ -11,12 +11,12 @@ plasmashell &
 
 Follow the steps below:
 
-* Go to Control center &gt; File associations &gt; inode &gt; directory 
+* Go to Control center > File associations > inode > directory&#x20;
 * Add: "`nautilus --no-desktop`"
 
 ## KDE Plasma Alt-Tab - Thumbnail Grid
 
-1. Window\(or meta\) key
+1. Window(or meta) key
 2. type `key`
 3. Select `Window Manager`
 4. Donwload `Thumbnail Grid`
@@ -27,7 +27,7 @@ Follow the steps below:
 
 * Install the package bellow:
 
-```text
+```
   sudo apt-get install network-manager-vpnc
 ```
 
@@ -40,7 +40,7 @@ Follow the steps below:
 
 * Make sure you have `gnome-screenshot` installed.
 
-```text
+```
 sudo apt-get install gnome-screenshot
 ```
 
@@ -48,4 +48,3 @@ sudo apt-get install gnome-screenshot
 * [![captura de tela de 2018-04-29 01-38-18](https://user-images.githubusercontent.com/3949238/39403305-e3374e18-4b4e-11e8-98a3-51ce2e17b605.png)](https://user-images.githubusercontent.com/3949238/39403305-e3374e18-4b4e-11e8-98a3-51ce2e17b605.png)
 * [![captura de tela de 2018-04-29 01-43-02](https://user-images.githubusercontent.com/3949238/39403306-e6bd4970-4b4e-11e8-855d-61591d7c86c0.png)](https://user-images.githubusercontent.com/3949238/39403306-e6bd4970-4b4e-11e8-855d-61591d7c86c0.png)
 * Or `Meta + Shift + Print` using Default KDE commands.
-

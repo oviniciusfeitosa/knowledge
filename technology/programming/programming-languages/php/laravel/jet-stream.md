@@ -2,5 +2,4 @@
 
 ## Recommended
 
-* \*\*\*\*[**Documentation**](https://jetstream.laravel.com/1.x/installation.html#installing-jetstream)\*\*\*\*
-
+* ****[**Documentation**](https://jetstream.laravel.com/1.x/installation.html#installing-jetstream)****

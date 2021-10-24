@@ -2,6 +2,5 @@
 
 ## Topics
 
-* \*\*\*\*[**Postgres**](postgres.md)\*\*\*\*
-* \*\*\*\*[**SQLServer**](sqlserver.md)\*\*\*\*
-
+* ****[**Postgres**](postgres.md)****
+* ****[**SQLServer**](sqlserver.md)****

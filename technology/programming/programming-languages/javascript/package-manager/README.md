@@ -2,6 +2,5 @@
 
 ## Topics
 
-* \*\*\*\*[**Yarn**](yarn.md)\*\*\*\*
-* \*\*\*\*[**Proxy**](../../../../operational-systems/linux/how-to/proxy.md#proxy-for-npm)\*\*\*\*
-
+* ****[**Yarn**](yarn.md)****
+* ****[**Proxy**](../../../../operational-systems/linux/how-to/proxy.md#proxy-for-npm)****

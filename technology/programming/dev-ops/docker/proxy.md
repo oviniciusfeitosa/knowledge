@@ -1,10 +1,10 @@
 # Proxy
 
-## Proxy for Docker Images \(Dockerfile\)
+## Proxy for Docker Images (Dockerfile)
 
 To use proxy inside Docker images:
 
-```text
+```
 $ sudo mkdir -p ~/.docker
 $ export DOCKER_CONFIG=~/.docker
 $ sudo vim ~/.docker/config.json
@@ -24,13 +24,13 @@ $ sudo vim ~/.docker/config.json
 $ sudo service docker restart
 ```
 
-### 
+###
 
 ## Proxy for Docker Containers
 
 ### **HTTP Proxy**
 
-```text
+```
 $ sudo mkdir -p /etc/systemd/system/docker.service.d 
 $ sudo vim /etc/systemd/system/docker.service.d/http-proxy.conf
 
@@ -46,7 +46,7 @@ $ sudo service docker restart
 
 ### **HTTPS Proxy**
 
-```text
+```
 $ sudo mkdir -p /etc/systemd/system/docker.service.d 
 $ sudo vim /etc/systemd/system/docker.service.d/https-proxy.conf
 
@@ -59,5 +59,4 @@ $ systemctl daemon-reload
 $ sudo service docker restart
 ```
 
-### 
-
+###

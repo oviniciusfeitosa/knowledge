@@ -2,17 +2,17 @@
 
 ## ERROR: Couldn't connect to Docker daemon at http+docker://localunixsocket - is it running?
 
-```text
+```
 # Solution
 sudo service docker start
 ```
 
 ## docker Err http://deb.debian.org Jessie InRelease
 
-* Try to execute the command `nslookup duckduckgo.com 8.8.8.8` . If the message `;; connection timed out; no servers could be reached` appears 
+* Try to execute the command `nslookup duckduckgo.com 8.8.8.8` . If the message `;; connection timed out; no servers could be reached` appears&#x20;
 * Then edit your `daemon.json`
 
-```text
+```
 # sudo vim /etc/docker/daemon.json
 
 {
@@ -22,7 +22,7 @@ sudo service docker start
 
 * Restart the Docker service
 
-```text
+```
 sudo service docker restart
 ```
 
@@ -32,7 +32,7 @@ sudo service docker restart
 This doesn't address the underlying issue, but I had success adding **--network=host** to the docker build command.
 {% endhint %}
 
-```text
+```
 sudo docker build --network=host -t my-docker-image .. 
 ```
 
@@ -48,7 +48,7 @@ You need to add "bip": "172.26.0.1/16" to the JSON in daemon.json
 
 The JSON will look like this after you amend. NOTE remember to add the ',' at the end of the second last '}'.
 
-```text
+```
 $ sudo vim /etc/docker/daemon.json
 
 {
@@ -63,13 +63,13 @@ $ sudo vim /etc/docker/daemon.json
 
 ### **Step 3: Restart Docker**
 
-```text
+```
 sudo systemctl restart docker
 ```
 
 ### **Step 4: Check the routing table**
 
-```text
+```
 netstat -rn
 
 # Kernel IP routing table
@@ -85,9 +85,8 @@ The docker containers will restart and it should then start to collect!
 
 ## Could not find an available, non-overlapping IPv4 address pool among the defaults to assign to the network
 
-```text
+```
 sudo service network-manager restart
 ```
 
 Note: when using OpenVPN, **disable** it first.
-

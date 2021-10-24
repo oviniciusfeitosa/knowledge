@@ -4,26 +4,26 @@
 
 * Generate key
 
-```text
+```
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
 * Add private key to ssh-client
 
-```text
+```
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 ```
 
 * Install xclip
 
-```text
+```
 sudo apt-get install xclip
 ```
 
-* Copy generated file to clipboard \(CTRL + C\)
+* Copy generated file to clipboard (CTRL + C)
 
-```text
+```
 xclip -sel clip < ~/.ssh/id_rsa.pub
 
 # Example of generated key
@@ -34,14 +34,14 @@ xclip -sel clip < ~/.ssh/id_rsa.pub
 
 ## Github Shortcuts
 
-```text
+```
 Shift + /
 ```
 
-## Github: Signing commits using GPG \(Ubuntu/Mac\) ![closed\_lock\_with\_key](https://github.githubassets.com/images/icons/emoji/unicode/1f510.png)
+## Github: Signing commits using GPG (Ubuntu/Mac) ![closed\_lock\_with\_key](https://github.githubassets.com/images/icons/emoji/unicode/1f510.png)
 
 {% hint style="info" %}
-* Do you have a Github account? 
+* Do you have a Github account?&#x20;
   * If not, create one.
 * **Install the required tools**
 * Latest [Git Client](https://git-scm.com/downloads)
@@ -49,7 +49,7 @@ Shift + /
 
 ### Install GPG Tools
 
-```text
+```
 # Ubuntu
 sudo apt-get install gpa seahorse
 # Mac
@@ -58,7 +58,7 @@ brew install gpg
 
 ### Generate a new GPG [key](https://help.github.com/articles/generating-a-new-gpg-key/)
 
-```text
+```
 gpg --gen-key
 ```
 
@@ -68,7 +68,7 @@ gpg --gen-key
 
 ### **List generated key**
 
-```text
+```
 gpg --list-secret-keys --keyid-format LONG
 
 # Output
@@ -81,9 +81,9 @@ gpg --list-secret-keys --keyid-format LONG
 ```
 
 * Note down your key `COPY_LONG_KEY` from above
-* **Export this \(public\) key to a text file**
+* **Export this (public) key to a text file**
 
-```text
+```
 gpg --armor --export <PASTE_LONG_KEY_HERE> > gpg-key.txt
 ```
 
@@ -94,7 +94,7 @@ gpg --armor --export <PASTE_LONG_KEY_HERE> > gpg-key.txt
 * **Tell git client to auto sign your future commits**
 * Run this command
 
-```text
+```
 gpg --list-keys
 
 # Output
@@ -108,20 +108,20 @@ gpg --list-keys
 
 * Copy the short key from above and use this in the command below
 
-```text
+```
 git config --global user.signingKey <PASTE_SHORT_KEY_HERE>
 git config --global commit.gpgsign true
 ```
 
 * You are done, next time when you commit changes; GPG will ask you the passphrase.
 
-### Make GPG remember your passphrase \(tricky\)
+### Make GPG remember your passphrase (tricky)
 
 To make it remember your password, you can use `gpg-agent`
 
 Edit your `~/.gnupg/gpg-agent.conf` file and paste these lines
 
-```text
+```
 default-cache-ttl 28800
 max-cache-ttl 28800
 ```
@@ -132,27 +132,27 @@ _28800 seconds means 8 hours_
 
 If gpg-agent is not running you can start it with this command
 
-```text
+```
 gpg-agent --daemon
 ```
 
 #### Change your key passphrase
 
-```text
+```
 gpg --edit-key <PASTE_YOUR_KEY_ID_HERE>
 ```
 
 At the gpg prompt type:
 
-```text
+```
 passwd
 ```
 
-Type in the current passphrase when prompted  
-Type in the new passphrase twice when prompted  
+Type in the current passphrase when prompted\
+Type in the new passphrase twice when prompted\
 Type:
 
-```text
+```
 save
 ```
 
@@ -164,8 +164,7 @@ save
 * [https://news.ycombinator.com/item?id=7792026](https://news.ycombinator.com/item?id=7792026)
 * [https://overflow.no/blog/2016/08/11/signed-commits-with-gpg-git-and-github-on-linux/](https://overflow.no/blog/2016/08/11/signed-commits-with-gpg-git-and-github-on-linux/)
 * [http://stackoverflow.com/questions/10161198/is-there-a-way-to-autosign-commits-in-git-with-a-gpg-key](http://stackoverflow.com/questions/10161198/is-there-a-way-to-autosign-commits-in-git-with-a-gpg-key)
-* [http://irtfweb.ifa.hawaii.edu/~lockhart/gpg/gpg-cs.html](http://irtfweb.ifa.hawaii.edu/~lockhart/gpg/gpg-cs.html)
+* [http://irtfweb.ifa.hawaii.edu/\~lockhart/gpg/gpg-cs.html](http://irtfweb.ifa.hawaii.edu/\~lockhart/gpg/gpg-cs.html)
 * [https://help.ubuntu.com/community/GnuPrivacyGuardHowto](https://help.ubuntu.com/community/GnuPrivacyGuardHowto)
-* [https://medium.com/@timmywil/sign-your-commits-on-github-with-gpg-566f07762a43\#.aovevj80y](https://medium.com/@timmywil/sign-your-commits-on-github-with-gpg-566f07762a43#.aovevj80y)
+* [https://medium.com/@timmywil/sign-your-commits-on-github-with-gpg-566f07762a43#.aovevj80y](https://medium.com/@timmywil/sign-your-commits-on-github-with-gpg-566f07762a43#.aovevj80y)
 * [https://blog.erincall.com/p/signing-your-git-commits-with-gpg](https://blog.erincall.com/p/signing-your-git-commits-with-gpg)
-

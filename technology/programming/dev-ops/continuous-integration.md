@@ -9,5 +9,4 @@ description: >-
 
 ## Recommended
 
-* \*\*\*\*[**TravisCI**](https://travis-ci.com/)\*\*\*\*
-
+* ****[**TravisCI**](https://travis-ci.com)****
