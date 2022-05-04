@@ -4,11 +4,18 @@
 
 ```
 git clone https://github.com/hwdsl2/docker-ipsec-vpn-server hwdsl2/docker-ipsec-vpn-server; cd hwdsl2/docker-ipsec-vpn-server
+
+# Generate strong password
+openssl rand -base64 10
+# Generate a PSK
+openssl rand -base64 16
+
 vim vpn.env
 
 # Add following lines bellow
-VPN_USER=your_vpn_username
-VPN_PASSWORD=your_vpn_password
+VPN_USER=user_you_prefer
+VPN_PASSWORD=PYhf7Loy/6z7xtc/kcMQKA==
+VPN_IPSEC_PSK=mruD7+yL4FqLqLJ5Br9tdw==
 VPN_DNS_SRV1=1.1.1.1
 VPN_DNS_SRV2=1.0.0.1
 ```
