@@ -71,4 +71,5 @@ export GIT_EDITOR=vim
 ```
 dw  ---> Delete the word from your cursor to the end of the word
 diw ---> Delete inside word.
+daw ---> Delete all words from your cursor
 ```
