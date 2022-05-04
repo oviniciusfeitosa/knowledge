@@ -3,16 +3,28 @@
 ## Install Docker Community Edition ( DockerCE )
 
 ```
-sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common -y ; \
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - 
+sudo apt remove docker docker-engine docker.io containerd runc ; \
+sudo apt install ca-certificates curl gnupg lsb-release ; \
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" ; \
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
 sudo apt update ; \ 
-sudo apt-get install docker-ce docker-ce-cli containerd.io -y ; \
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+
+
 sudo groupadd docker ; \
 sudo usermod -aG docker $USER ; \
-newgrp docker  ; \
-sudo systemctl enable docker ; \
+newgrp docker
+
+# Optional
+sudo chown "$USER":"$USER" /home/"$USER"/.docker -R ; \
+sudo chmod g+rwx "$HOME/.docker" -R
+
+
+sudo systemctl enable docker.service ; \
+sudo systemctl enable containerd.service
+
 sudo gpasswd -a $USER docker
 ```
 
@@ -91,6 +103,18 @@ docker run -it --rm --name my-frontend-build -v "$PWD":/home/node/app -w /home/n
 nmcli dev show | grep IP4.DNS
 ```
 
+## Specify DNS servers for Docker
+
+```
+sudo nano /etc/docker/daemon.json
+  
+  {
+    "dns": ["8.8.8.8", "8.8.4.4"]
+  }
+  
+ sudo service docker restart
+```
+
 ## [Set Memory limit](https://www.baeldung.com/ops/docker-memory-limit)
 
 ### Memory
@@ -109,7 +133,7 @@ $ docker run -m 512m --memory-reservation=256m nginx
 
 ### CPU
 
-By default, access to the computing power of the host machine is unlimited. **We can set the CPUs limit using the **_**cpus**_** parameter. **For example, let's constrain our container to use at most two CPUs:
+By default, access to the computing power of the host machine is unlimited. **We can set the CPUs limit using the **_**cpus**_** parameter.** For example, let's constrain our container to use at most two CPUs:
 
 ```
 $ docker run --cpus=2 nginx
@@ -147,7 +171,7 @@ services:
               memory: 128M
 ```
 
-**To take advantage of the **_**deploy**_** segment in a docker-compose file, we need to use the **[_**docker stack**_](https://docs.docker.com/engine/reference/commandline/stack\_deploy/)** command.** To deploy a stack to the swarm, we run the _deploy_ command:
+**To take advantage of the **_**deploy**_** segment in a docker-compose file, we need to use the** [_**docker stack**_](https://docs.docker.com/engine/reference/commandline/stack\_deploy/) **command.** To deploy a stack to the swarm, we run the _deploy_ command:
 
 ```
 $ docker stack deploy --compose-file docker-compose.yml bael_stack
