@@ -128,3 +128,93 @@ Memory Device
 
 
 ```
+
+### More memory specs
+
+```
+$ sudo apt install i2c-tools 
+$ decode-dimms
+
+# decode-dimms version 4.3
+
+Memory Serial Presence Detect Decoder
+By Philip Edelbrock, Christian Zuckschwerdt, Burkart Lingner,
+Jean Delvare, Trent Piepho and others
+
+
+Decoding EEPROM: /sys/bus/i2c/drivers/ee1004/0-0050
+Guessing DIMM is in                              bank 1
+Kernel driver used                               ee1004
+
+---=== SPD EEPROM Information ===---
+EEPROM CRC of bytes 0-125                        OK (0x12E4)
+# of bytes written to SDRAM EEPROM               384
+Total number of bytes in EEPROM                  512
+Fundamental Memory type                          DDR4 SDRAM
+SPD Revision                                     1.1
+Module Type                                      SO-DIMM
+EEPROM CRC of bytes 128-253                      OK (0x55EF)
+
+---=== Memory Characteristics ===---
+Maximum module speed                             3200 MT/s (PC4-25600)
+Size                                             8192 MB
+Banks x Rows x Columns x Bits                    16 x 16 x 10 x 64
+SDRAM Device Width                               8 bits
+Ranks                                            1
+Primary Bus Width                                64 bits
+AA-RCD-RP-RAS (cycles)                           22-22-22-52
+Supported CAS Latencies                          24T, 22T, 21T, 20T, 19T, 18T, 17T, 16T, 15T, 14T, 13T, 12T, 11T, 10T
+
+---=== Timings at Standard Speeds ===---
+AA-RCD-RP-RAS (cycles) as DDR4-3200              22-22-22-52
+AA-RCD-RP-RAS (cycles) as DDR4-2933              21-21-21-47
+AA-RCD-RP-RAS (cycles) as DDR4-2666              19-19-19-43
+AA-RCD-RP-RAS (cycles) as DDR4-2400              17-17-17-39
+AA-RCD-RP-RAS (cycles) as DDR4-2133              15-15-15-35
+AA-RCD-RP-RAS (cycles) as DDR4-1866              13-13-13-30
+AA-RCD-RP-RAS (cycles) as DDR4-1600              11-11-11-26
+
+---=== Timing Parameters ===---
+Minimum Cycle Time (tCKmin)                      0.625 ns
+Maximum Cycle Time (tCKmax)                      1.600 ns
+Minimum CAS Latency Time (tAA)                   13.750 ns
+Minimum RAS to CAS Delay (tRCD)                  13.750 ns
+Minimum Row Precharge Delay (tRP)                13.750 ns
+Minimum Active to Precharge Delay (tRAS)         32.000 ns
+Minimum Active to Auto-Refresh Delay (tRC)       45.750 ns
+Minimum Recovery Delay (tRFC1)                   350.000 ns
+Minimum Recovery Delay (tRFC2)                   260.000 ns
+Minimum Recovery Delay (tRFC4)                   160.000 ns
+Minimum Four Activate Window Delay (tFAW)        21.000 ns
+Minimum Row Active to Row Active Delay (tRRD_S)  2.500 ns
+Minimum Row Active to Row Active Delay (tRRD_L)  4.900 ns
+Minimum CAS to CAS Delay (tCCD_L)                5.000 ns
+Minimum Write Recovery Time (tWR)                15.000 ns
+Minimum Write to Read Time (tWTR_S)              2.500 ns
+Minimum Write to Read Time (tWTR_L)              7.500 ns
+
+---=== Other Information ===---
+Package Type                                     Monolithic
+Maximum Activate Count (MAC)                     Unlimited
+Post Package Repair                              One row per bank group
+Soft PPR                                         Supported
+Module Nominal Voltage                           1.2 V
+Thermal Sensor                                   No
+
+---=== Physical Characteristics ===---
+Module Height                                    30 mm
+Module Thickness                                 2 mm front, 2 mm back
+Module Reference Card                            A revision 1
+
+---=== Manufacturer Data ===---
+Module Manufacturer                              Smart Modular
+DRAM Manufacturer                                Smart Modular
+Manufacturing Location Code                      0x06
+Manufacturing Date                               2020-W40
+Assembly Serial Number                           0x05F7694E
+Part Number                                      SMS4WEC8C1K0446FCG  
+
+
+Number of SDRAM DIMMs detected and decoded: 1
+
+```
