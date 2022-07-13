@@ -28,6 +28,8 @@ $ screenfetch
 
 ## Show memory information
 
+### Slots
+
 ```
 $ sudo dmidecode -t 16      
 
@@ -43,5 +45,86 @@ Physical Memory Array
 	Maximum Capacity: 32 GB
 	Error Information Handle: No Error
 	Number Of Devices: 2
+```
+
+### Capacity
+
+```
+$ sudo dmidecode -t 17
+
+# dmidecode 3.3
+Getting SMBIOS data from sysfs.
+SMBIOS 3.2.0 present.
+
+Handle 0x0025, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0024
+	Error Information Handle: No Error
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 8 GB
+	Form Factor: SODIMM
+	Set: None
+	Locator: ChannelA-DIMM0
+	Bank Locator: BANK 0
+	Type: DDR4
+	Type Detail: Synchronous
+	Speed: 2933 MT/s
+	Manufacturer: Smart Brazil
+	Serial Number: 111
+	Asset Tag: 22222
+	Part Number: 33333  
+	Rank: 1
+	Configured Memory Speed: 2933 MT/s
+	Minimum Voltage: 1.25 V
+	Maximum Voltage: 1.35 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 2, Hex 0x94
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 8 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0026, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0024
+	Error Information Handle: No Error
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 8 GB
+	Form Factor: SODIMM
+	Set: None
+	Locator: ChannelB-DIMM0
+	Bank Locator: BANK 2
+	Type: DDR4
+	Type Detail: Synchronous
+	Speed: 2933 MT/s
+	Manufacturer: Crucial
+	Serial Number: 111
+	Asset Tag: 222
+	Part Number: 333  
+	Rank: 1
+	Configured Memory Speed: 2933 MT/s
+	Minimum Voltage: 1.25 V
+	Maximum Voltage: 1.35 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 6, Hex 0x9B
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 8 GB
+	Cache Size: None
+	Logical Size: None
+
 
 ```
