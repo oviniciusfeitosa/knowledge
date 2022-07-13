@@ -41,7 +41,7 @@ systemctl disable <service>.
 systemctl list-dependencies --reverse plymouth-quit-wait.service
 ```
 
-## [How to add shared libraries to Linux's system library path](https://blog.andrewbeacock.com/2007/10/how-to-add-shared-libraries-to-linuxs.html)** (.so)**
+## [How to add shared libraries to Linux's system library path](https://blog.andrewbeacock.com/2007/10/how-to-add-shared-libraries-to-linuxs.html) **(.so)**
 
 ### **Ubuntu**
 

@@ -9,7 +9,7 @@
 
 ### Free Domains
 
-* ****[**Dot T**](http://www.dot.tk)
+* ****[**Dot T**](http://www.dot.tk/)
 
 ## Freelancer
 
@@ -17,24 +17,24 @@ List of sites with opportunities to work as a freelancer:
 
 * ****[**http://www.freelancewebdesigner.com.br**](http://www.freelancewebdesigner.com.br/categoria/oportunidades/)****
 * ****[**http://trampos.co**](http://trampos.co/oportunidades?type=freela)****
-* ****[**http://www.freelancenow.com.br/**](http://www.freelancenow.com.br)****
-* ****[**http://www.nearjob.com.br/**](http://www.nearjob.com.br)****
+* ****[**http://www.freelancenow.com.br/**](http://www.freelancenow.com.br/)****
+* ****[**http://www.nearjob.com.br/**](http://www.nearjob.com.br/)****
 * ****[**http://www.comunicageral.com.br**](http://www.comunicageral.com.br/index.php)****
-* ****[**http://www.escolafreelancer.com**](http://www.escolafreelancer.com)****
-* ****[**http://www.nearjob.com.br**](http://www.nearjob.com.br)****
-* ****[**http://openjobs.com.br**](http://openjobs.com.br)****
+* ****[**http://www.escolafreelancer.com**](http://www.escolafreelancer.com/)****
+* ****[**http://www.nearjob.com.br**](http://www.nearjob.com.br/)****
+* ****[**http://openjobs.com.br**](http://openjobs.com.br/)****
 * ****[**http://www.buscafreela.com.br/brasil/BR\_pt/**](http://www.buscafreela.com.br/brasil/BR\_pt/)****
-* ****[**https://www.vagas.com.br**](https://www.vagas.com.br)****
-* ****[**http://www.prolancer.com.br**](http://www.prolancer.com.br)****
-* ****[**http://www.99freelas.com.br**](http://www.99freelas.com.br)****
-* ****[**https://www.coursera.org**](https://www.coursera.org)****
+* ****[**https://www.vagas.com.br**](https://www.vagas.com.br/)****
+* ****[**http://www.prolancer.com.br**](http://www.prolancer.com.br/)****
+* ****[**http://www.99freelas.com.br**](http://www.99freelas.com.br/)****
+* ****[**https://www.coursera.org**](https://www.coursera.org/)****
 * ****[**https://www.odesk.com/o/home**](https://www.odesk.com/o/home)****
-* ****[**https://www.workana.com**](https://www.workana.com)****
+* ****[**https://www.workana.com**](https://www.workana.com/)****
 * ****[**http://www.freelance.com/en/**](http://www.freelance.com/en/)****
 
 ## Fonts
 
-* ****[**Fonts Awesome**](https://fontawesome.com)****
+* ****[**Fonts Awesome**](https://fontawesome.com/)****
 
 ## Guide
 
@@ -51,10 +51,10 @@ List of sites with opportunities to work as a freelancer:
 
 ### Badges
 
-* ****[**https://simpleicons.org**](https://simpleicons.org)****
+* ****[**https://simpleicons.org**](https://simpleicons.org/)****
 *   ****[**https://img.shields.io**](https://img.shields.io/badge/mycrosoftsqlserver-CC2927.svg?\&style=for-the-badge\&logo=mycrosoftsqlserver\&logoColor=white)****
 
-    > **Example: **
+    > **Example:**&#x20;
     >
     > ![](https://img.shields.io/badge/docker-33adff.svg?\&style=for-the-badge\&logo=docker\&logoColor=white)&#x20;
     >
@@ -62,26 +62,26 @@ List of sites with opportunities to work as a freelancer:
 
 ## Animation
 
-* ****[**LottieFiles**](https://lottiefiles.com)****
+* ****[**LottieFiles**](https://lottiefiles.com/)****
 
 ## Books
 
-* ****[**Wish4Book**](https://wish4book.net)****
+* ****[**Wish4Book**](https://wish4book.net/)****
 
 ## Courses
 
-* ****[**Desenvolvedor.io**](https://desenvolvedor.io)****
+* ****[**Desenvolvedor.io**](https://desenvolvedor.io/)****
 
 ## Online Editor
 
 * ****[**Figma**](https://www.figma.com)****
-* ****[**PixCleaner**](https://pixcleaner.com)****
-* ****[**RemoveBackground**](https://www.remove.bg)****
+* ****[**PixCleaner**](https://pixcleaner.com/)****
+* ****[**RemoveBackground**](https://www.remove.bg/)****
 * ****[**https://whimsical.com/login**](https://whimsical.com/login)****
 
 ## Scrum
 
-* ****[**funretro.io**](https://funretro.io)****
+* ****[**funretro.io**](https://funretro.io/)****
 
 ## Shop
 
@@ -90,16 +90,16 @@ List of sites with opportunities to work as a freelancer:
 ## SMS
 
 * ****[**ReceiveASMS**](https://receiveasms.com/brazil)****
-* ****[**Twilio**](https://www.twilio.com)****
+* ****[**Twilio**](https://www.twilio.com/)****
 
 ## Images
 
-* ****[**Wallhaven**](https://wallhaven.cc)****
+* ****[**Wallhaven**](https://wallhaven.cc/)****
 * ****[**Dracula Wallpaper**](https://raw.githubusercontent.com/dracula/wallpaper/master/base.png)****
-* ****[**Unsplash**](https://unsplash.com)****
+* ****[**Unsplash**](https://unsplash.com/)****
 
 ## Workspaces
 
-* ****[**Notion**](https://www.notion.so)****
+* ****[**Notion**](https://www.notion.so/)****
 
 ****

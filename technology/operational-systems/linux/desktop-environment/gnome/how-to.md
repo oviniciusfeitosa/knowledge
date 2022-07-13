@@ -5,7 +5,7 @@
 You can use the Gnome Command Box by:
 
 * Press **`Alt+F2`**&#x20;
-* Type** `r`**&#x20;
+* Type ** `r`**&#x20;
 * Press **`↵`**
 
 👌

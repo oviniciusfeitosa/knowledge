@@ -22,7 +22,7 @@ You can also use a specific ruleset by adding a `phpcs.xml` to your project. Her
 
 * ****[**Github**](https://github.com/squizlabs/PHP\_CodeSniffer/issues/1348#issuecomment-581181427)****
 
-## **Fatal error: Call to undefined function mcrypt\_module\_open() in {path/file.php} on line yyyyyy" **
+## **Fatal error: Call to undefined function mcrypt\_module\_open() in {path/file.php} on line yyyyyy"**&#x20;
 
 ### Manual
 

@@ -10,10 +10,10 @@
 ## Tools
 
 * **Hypervisor**
-  * ****[**https://xcp-ng.org/**](https://xcp-ng.org)****
+  * ****[**https://xcp-ng.org/**](https://xcp-ng.org/)****
 
 ## Recommend Projects
 
-* ****[**Gitlab**](https://about.gitlab.com)****
+* ****[**Gitlab**](https://about.gitlab.com/)****
 * ****[**Gitlab Pages**](https://about.gitlab.com/stages-devops-lifecycle/pages/)****
 

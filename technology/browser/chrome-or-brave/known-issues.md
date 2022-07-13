@@ -18,7 +18,7 @@ xdg-mime default brave-browser-nightly.desktop x-scheme-handler/http
 xdg-settings set default-web-browser brave-browser-nightly.desktop
 ```
 
-Hope it helps ![+1](https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png)
+Hope it helps <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png" alt="+1" data-size="line">
 
 ## How to enable 3rd-party cookies in Google Chrome browser
 

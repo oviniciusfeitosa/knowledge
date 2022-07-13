@@ -25,7 +25,7 @@ sudo apt install wget
 wget https://wordpress.org/latest.zip
 ```
 
-### Save the downloaded file under a different name <a href="using-wget-command-to-save-the-downloaded-file-under-different-name" id="using-wget-command-to-save-the-downloaded-file-under-different-name"></a>
+### Save the downloaded file under a different name <a href="#using-wget-command-to-save-the-downloaded-file-under-different-name" id="using-wget-command-to-save-the-downloaded-file-under-different-name"></a>
 
 To save the downloaded file under a different name, pass the `-O` option followed by the chosen name.
 
@@ -33,7 +33,7 @@ To save the downloaded file under a different name, pass the `-O` option followe
 wget -O latest-wordpress.zip https://wordpress.org/latest.zip
 ```
 
-### How to download in the background mode with wget  <a href="how-to-download-in-background-with-wget" id="how-to-download-in-background-with-wget"></a>
+### How to download in the background mode with wget  <a href="#how-to-download-in-background-with-wget" id="how-to-download-in-background-with-wget"></a>
 
 To download in the background, use the option `-b` . In the following example, we are downloading the OpenSuse iso file in the background.
 
@@ -427,7 +427,7 @@ sudo sed -i 's/groovy/focal/g' /etc/apt/sources.list
 ### **Pin packages**
 
 {% hint style="info" %}
-Open** `/etc/apt/preferences`** file and enter the following content while replacing the codename of the system codename you aim to downgrade to.
+Open ** `/etc/apt/preferences`** file and enter the following content while replacing the codename of the system codename you aim to downgrade to.
 {% endhint %}
 
 {% code title="/etc/apt/preferences" %}

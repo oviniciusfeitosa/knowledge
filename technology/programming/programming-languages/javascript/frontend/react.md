@@ -37,7 +37,7 @@ Reference [here](http://en.wikibooks.org/wiki/JavaScript/Operators). And, as poi
 ## Recommended
 
 * ****[**How to Setup ESLint and Prettier for Your React Apps**](https://thomlom.dev/setup-eslint-prettier-react/)****
-* ****[**React examples**](https://reactjsexample.com)****
+* ****[**React examples**](https://reactjsexample.com/)****
 *   **REACT HOOKS VS REDUX**
 
     > **React Hooks** provides an easy way of handling the component behavior and share the component logic. Redux **should be used** in applications that have several features. With these features sharing chunks of the same information.
@@ -64,7 +64,7 @@ Reference [here](http://en.wikibooks.org/wiki/JavaScript/Operators). And, as poi
 
 
 
-    * ****[**DEMYSTIFYING REACT HOOKS VS REDUX**](https://www.imaginarycloud.com/blog/react-hooks-vs-redux/#:\~:text=If%20you're%20thinking%20about,handle%20the%20local%20component%20state.)****
+    * ****[**DEMYSTIFYING REACT HOOKS VS REDUX**](https://www.imaginarycloud.com/blog/react-hooks-vs-redux/)****
     * ****[**Do React Hooks Replace Redux**](https://medium.com/javascript-scene/do-react-hooks-replace-redux-210bab340672)****
 * ****[**Criando container personalizaveis em React**](https://blog.matheuscastiglioni.com.br/criando-containers-personalizaveis-em-react/)****
 * ****[**Build a financial dashboard with React**](https://www.telerik.com/blogs/lets-build-a-financial-dashboard-with-react)****

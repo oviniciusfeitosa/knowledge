@@ -114,9 +114,9 @@
   * [Tests](technology/stream/tests/README.md)
     * [Unit Tests](technology/stream/tests/unit-tests.md)
 * [Sites](technology/sites.md)
+* [Specs](technology/specs.md)
 * [Tools](technology/tools.md)
 
 ## Pessoal
 
 * [About me](pessoal/about-me.md)
-* [Specs](pessoal/specs.md)

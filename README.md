@@ -18,4 +18,4 @@ description: The focus of this space is to share knowledge and help solve proble
 ### Pessoal
 
 * ****[**About me**](pessoal/about-me.md)****
-* ****[**Specs**](pessoal/specs.md)****
+* ****[**Specs**](technology/specs.md)****

@@ -7,4 +7,4 @@
 
 ## Recommended
 
-* ****[**StreamIO**](https://www.stremio.com)****
+* ****[**StreamIO**](https://www.stremio.com/)****

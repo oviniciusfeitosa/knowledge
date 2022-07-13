@@ -136,7 +136,7 @@ networks:
 
 ## Docker Compose auto-scale
 
-To specify how many containers to scale using docker-compose use the command** `--scale service = {number}`**.&#x20;
+To specify how many containers to scale using docker-compose use the command ** `--scale service = {number}`**.&#x20;
 
 ```
 # This command sets 5 containers for redis-service

@@ -1,13 +1,13 @@
 # About me
 
-[![](https://raw.githubusercontent.com/jadilson12/jadilson12/master/assets/hi.gif)](https://raw.githubusercontent.com/jadilson12/jadilson12/master/assets/hi.gif)** Hi! I'm Vinicius Feitosa da Silva (@vinnyfs89)**
+[<img src="https://raw.githubusercontent.com/jadilson12/jadilson12/master/assets/hi.gif" alt="" data-size="line">](https://raw.githubusercontent.com/jadilson12/jadilson12/master/assets/hi.gif) **Hi! I'm Vinicius Feitosa da Silva (@vinnyfs89)**
 
 #### About me:
 
-* ![briefcase](https://github.githubassets.com/images/icons/emoji/unicode/1f4bc.png) I am currently working at [Coopersytem](https://www.coopersystem.com.br) acting as Solutions Architect, Full Stack Developer, and DevOps enthusiast
-* ![man\_technologist](https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f4bb.png) I work with technology since 2008
-* ![mortar\_board](https://github.githubassets.com/images/icons/emoji/unicode/1f393.png) Graduated in Information Systems with specialization in web systems development
-* ![brazil](https://github.githubassets.com/images/icons/emoji/unicode/1f1e7-1f1f7.png) Live in Brazil
+* <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bc.png" alt="briefcase" data-size="line"> I am currently working at [Coopersytem](https://www.coopersystem.com.br/) acting as Solutions Architect, Full Stack Developer, and DevOps enthusiast
+* <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f4bb.png" alt="man_technologist" data-size="line"> I work with technology since 2008
+* <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png" alt="mortar_board" data-size="line"> Graduated in Information Systems with specialization in web systems development
+* <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e7-1f1f7.png" alt="brazil" data-size="line"> Live in Brazil
 
 #### Meet me:
 

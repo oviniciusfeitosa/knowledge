@@ -38,7 +38,7 @@ xclip -sel clip < ~/.ssh/id_rsa.pub
 Shift + /
 ```
 
-## Github: Signing commits using GPG (Ubuntu/Mac) ![closed\_lock\_with\_key](https://github.githubassets.com/images/icons/emoji/unicode/1f510.png)
+## Github: Signing commits using GPG (Ubuntu/Mac) <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f510.png" alt="closed_lock_with_key" data-size="line">
 
 {% hint style="info" %}
 * Do you have a Github account?&#x20;
