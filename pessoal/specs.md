@@ -25,3 +25,23 @@ $ screenfetch
                    ````` +oo+++o\:     RAM: 2975MiB / 7907MiB
 
 ``````
+
+## Show memory information
+
+```
+$ sudo dmidecode -t 16      
+
+# dmidecode 3.3
+Getting SMBIOS data from sysfs.
+SMBIOS 3.2.0 present.
+
+Handle 0x0024, DMI type 16, 23 bytes
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 32 GB
+	Error Information Handle: No Error
+	Number Of Devices: 2
+
+```
