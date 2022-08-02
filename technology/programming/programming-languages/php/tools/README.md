@@ -12,3 +12,12 @@ composer global require phploc/phploc
 composer global require phpmd/phpmd
 composer global require squizlabs/php_codesniffer
 ```
+
+## VSCode - Double click select $var
+
+Add the code bellow in your VSCode settings:
+
+```
+"editor.wordSeparators": "`~!@#%^&*()-=+[{]}\|;:'",.<>/?"// Some code
+```
+
