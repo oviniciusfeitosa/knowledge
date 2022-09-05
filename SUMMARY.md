@@ -66,6 +66,7 @@
       * [How to](technology/programming/programming-languages/java/how-to.md)
       * [Spring Boot](technology/programming/programming-languages/java/spring-boot.md)
     * [Javascript](technology/programming/programming-languages/javascript/README.md)
+      * [Known issues](technology/programming/programming-languages/javascript/known-issues.md)
       * [Backend](technology/programming/programming-languages/javascript/backend/README.md)
         * [NestJS](technology/programming/programming-languages/javascript/backend/nestjs.md)
         * [NodeJS](technology/programming/programming-languages/javascript/backend/nodejs.md)
