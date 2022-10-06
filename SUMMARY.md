@@ -27,6 +27,7 @@
         * [Theming](technology/operational-systems/linux/desktop-environment/gnome/theming.md)
       * [Kde Plasma](technology/operational-systems/linux/desktop-environment/kde-plasma.md)
     * [How to](technology/operational-systems/linux/how-to/README.md)
+      * [Audio](technology/operational-systems/linux/how-to/audio.md)
       * [Proxy](technology/operational-systems/linux/how-to/proxy.md)
       * [SSH](technology/operational-systems/linux/how-to/ssh.md)
       * [ZSH](technology/operational-systems/linux/how-to/zsh.md)
