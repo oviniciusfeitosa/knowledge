@@ -11,7 +11,11 @@
 
 ```
 sudo apt install git vim dconf-cli uuid-runtime pulseaudio blueman pavucontrol \
-  pip3 install --user powerline-status;
+  pip3 install --user powerline-status
+```
+
+```
+flatpak update
 ```
 
 ## Systemd
