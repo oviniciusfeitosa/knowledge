@@ -38,8 +38,13 @@ sudo chown -R $(whoami): ~/.local/share/gnome-shell/extensions/
 
 ## Window adjustments
 
-### Open centralized window
+### Open new centralized window
 
 ```
 gsettings set org.gnome.mutter center-new-windows true 
 ```
+
+### Center current window
+
+* Install [this](https://extensions.gnome.org/extension/4375/bifocals/) Gnome Shell Extension
+* Press **CTRL + Window + M**
