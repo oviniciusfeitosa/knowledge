@@ -35,3 +35,11 @@ sudo chown -R $(whoami): ~/.local/share/gnome-shell/extensions/
 * Remove what you want
 
 ![](<../../../../../.gitbook/assets/image (5).png>)
+
+## Window adjustments
+
+### Open centralized window
+
+```
+gsettings set org.gnome.mutter center-new-windows true 
+```
