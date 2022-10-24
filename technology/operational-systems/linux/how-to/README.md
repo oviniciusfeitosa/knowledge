@@ -569,3 +569,8 @@ sudo usermod -aG sudo newuser
 ```bash
 sudo killall pulseaudio && sudo service bluetooth restart
 ```
+
+## Bash/Zsh undo (CTRL + Z)
+
+Type: `CTRL + /`
+
