@@ -63,6 +63,7 @@
     * [PHPStorm](technology/programming/ide\_text-editor/php-storm.md)
     * [VSCode](technology/programming/ide\_text-editor/vscode.md)
   * [Programming Languages](technology/programming/programming-languages/README.md)
+    * [Typescript](technology/programming/programming-languages/typescript.md)
     * [Java](technology/programming/programming-languages/java/README.md)
       * [How to](technology/programming/programming-languages/java/how-to.md)
       * [Spring Boot](technology/programming/programming-languages/java/spring-boot.md)
