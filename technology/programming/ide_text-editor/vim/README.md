@@ -73,3 +73,20 @@ dw  ---> Delete the word from your cursor to the end of the word
 diw ---> Delete inside word.
 daw ---> Delete all words from your cursor
 ```
+
+### [Move lines up or down](https://vim.fandom.com/wiki/Moving\_lines\_up\_or\_down#Move\_command)
+
+The following mappings in your [vimrc](https://vim.fandom.com/wiki/Vimrc) provide a quick way to move lines of text up or down. The mappings work in normal, insert and visual modes, allowing you to move the current line, or a selected block of lines.
+
+```
+nnoremap <A-j> :m .+1<CR>==
+nnoremap <A-k> :m .-2<CR>==
+inoremap <A-j> <Esc>:m .+1<CR>==gi
+inoremap <A-k> <Esc>:m .-2<CR>==gi
+vnoremap <A-j> :m '>+1<CR>gv=gv
+vnoremap <A-k> :m '<-2<CR>gv=gv
+```
+
+In normal mode or in insert mode, press Alt-j to move the current line down, or press Alt-k to move the current line up.
+
+After visually selecting a block of lines (for example, by pressing `V` then moving the cursor down), press Alt-j to move the whole block down, or press Alt-k to move the block up.
